@@ -2,11 +2,11 @@ baseurl: "https://www.runhangshu.com/"
 languageCode: "en-us"
 title: "Runhang Shu | 舒润航"
 theme: "hugo-ivy"
-disqusShortname: "yihui"
+disqusShortname = "https-www-runhangshu-com" 
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 hasCJKLanguage: true
 enableEmoji: true
-footnotereturnlinkcontents: "↩"
+footnotereturnlinkcontents: "↩" 
 rssLimit: 100
 
 permalinks:
@@ -90,24 +90,15 @@ params:
   logo:
     en:
       img: "/images/logo.jpg"
-      url: "/"
+      url: "/favicon.ico"
       alt: "Runhang Shu"
       tag: ""
-    knitr:
-      img: "/knitr/images/knit-logo.png"
-      url: "/knitr/"
-      alt: "knitr logo"
-      tag: "knitr: elegant, flexible, and fast dynamic report generation with R"
-    tinytex:
-      img: "/images/logo-tinytex.png"
-      url: "/tinytex/"
-      alt: "tinytex logo"
-      tag: "TinyTeX: A lightweight and easy-to-maintain LaTeX distribution"
+
 
   author:
     en: "Runhang Shu"
     cn: "舒润航"
-    animation: "Yihui Xie & Lijia Yu"
+    animation: ""
 
   lang:
     edit:
