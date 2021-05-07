@@ -42,12 +42,7 @@ menu:
     - name: "首页"
       url: "/"
       weight: 1
-    - name: "日志"
-      url: "/cn/"
-      weight: 2
-    - name: "English"
-      url: "/en/"
-      weight: 3
+
  
 
 params:
@@ -87,12 +82,9 @@ params:
     animation: ""
 
   lang:
-    edit:
-      cn: "编辑"
     license:
       cn: "版权"
-    subscribe:
-      cn: "订阅"
+
 
 blackfriday:
     extensionsmask: ["noIntraEmphasis"]
