@@ -85,7 +85,7 @@ fastq_quality_trimmer -i ENCFF000ESS.filtered.fastq -t 25 -l 50 -o ENCFFOOOESS.f
 <br />module load bowtie2
 # build the spliced index of human genome hg38.fa file in bowtie2
 <br />bowtie2-build /ufrc/mcb4325/share/Week12/hg38.fa hg38
-# use the index built by bowtie2 for mapping 
+*use the index built by bowtie2 for mapping*
 <br />module load tophat
 <br />tophat2 --no-coverage-search hg38 ENCFFOOOESM.f.t.fastq ENCFFOOOESS.f.t.fastq  
 *Results*:
