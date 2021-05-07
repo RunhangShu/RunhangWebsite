@@ -16,17 +16,21 @@ permalinks:
 menu:
   main:
     - name: "About"
-      url: "/en/about/"
+      url: "/about.md"
       weight: 1
-    - name: "Blog"
+    - name: "Bioinformatics"
       url: "/en/"
       weight: 2
-    - name: "关于"
-      url: "/cn/about/"
-      weight: 3
-    - name: "日志"
+    - name: "严肃扯谈"
       url: "/cn/"
+      weight: 3
+    - name: "CV"
+      url : "https://uflorida-my.sharepoint.com/:w:/g/personal/r_shu_ufl_edu/ESztl3T6QWJHuW6bke6BodEBaM05Gy3oLaK61wHJcEAAZQ" 
       weight: 4
+    - name: "TWITTER"
+    url : "https://twitter.com/Runhang1"
+    weight: 5
+    
   en:
     - name: "Home"
       url: "/"
@@ -34,12 +38,6 @@ menu:
     - name: "About"
       url: "/en/about/"
       weight: 2
-    - name: "Blog"
-      url: "/en/"
-      weight: 3
-    - name: "Vitae"
-      url: "/en/vitae/"
-      weight: 4
     - name: "中文"
       url: "/cn/"
       weight: 5
@@ -48,20 +46,14 @@ menu:
       url: "/"
       weight: 1
     - name: "关于"
-      url: "/cn/about/"
+      url: "/about.md"
       weight: 2
     - name: "日志"
       url: "/cn/"
       weight: 3
-    - name: "简历"
-      url: "/cn/vitae/"
-      weight: 4
-    - name: "菜谱"
-      url: "/cn/recipe/"
-      weight: 5
     - name: "English"
       url: "/en/"
-      weight: 6
+      weight: 4
  
 
 params:
