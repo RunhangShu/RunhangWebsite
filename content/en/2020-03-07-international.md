@@ -24,7 +24,7 @@ tags: []
 &emsp;&emsp;进一步探索我发现了ISSA,提供证书，培训健身教练我发现这个ISSA是认真的！因为我看到了这个：
 
 
-<img src="/post/pics/issa1.png" alt="" width="500px" height="300px"/>
+<img src="/en/pics/issa1.png" alt="" width="500px" height="300px"/>
 
 因为基因对表型对影响实在是太大，这个先做测序再进行训练的看起来比较吸引人啊。有意思，虽然是21世纪将会是测序的时代，全民关注健康的时代，但是客户基因信息的隐私得不到保障，这样的伦理问题也在阻碍者dna测序走向普通大众吧！
 
