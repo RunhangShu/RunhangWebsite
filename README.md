@@ -5,5 +5,5 @@ The Hugo template is licensed under MIT, and the content of all pages is license
 You can clone this repository with 
 
 ```
-git clone --recursive https://github.com/RunhangShu/Myweb.git
+git clone --recursive https://github.com/RunhangShu/RunhangWebsite.git
 ```
