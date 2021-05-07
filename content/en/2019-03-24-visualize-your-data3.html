@@ -1,0 +1,36 @@
+---
+title: Visualize Your Data(3)
+author: ''
+date: '2019-03-24'
+slug: visualize-your-data
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>z&lt;-cars
+plot(z$speed,z$dist,main=&quot;Firgue 1&quot;)
+lines(lowess(x=z$speed,y=z$dist),col=&quot;red&quot;,lwd=2)</code></pre>
+<p><img src="/r/2019-03-24-visualize-your-data3_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code>#make a smooth line of a scatter plot
+#lwd regulate width of line</code></pre>
+<div id="now-i-want-dots-size-correspond-to-their-values" class="section level1">
+<h1><font color=purple>Now, I want dots size correspond to their values</font></h1>
+<pre class="r"><code>z&lt;-cars
+plot(z$speed,z$dist,main=&quot;Firgue 2&quot;,cex=z$speed/3) 
+#Using cex to regulate dot size 
+lines(lowess(x=z$speed,y=z$dist),col=&quot;red&quot;,lwd=2)</code></pre>
+<p><img src="/r/2019-03-24-visualize-your-data3_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><font color=purple>Looks better! </br>Now, I want dot of speed over 18 become purple </font></p>
+<pre class="r"><code>z&lt;-cars
+z$speedcolor=&quot;black&quot;
+vec&lt;-z$speed&gt;18
+z[vec,&#39;speedcolor&#39;]=&quot;purple&quot;
+plot(z$speed,z$dist,main=&quot;Firgue 2&quot;,cex=z$speed/3
+     ,col=z$speedcolor,pch=1,xlab=&quot;Speed(mph)&quot;
+     ,ylab = &quot;Brake Distance(meter)&quot;)
+lines(lowess(x=z$speed,y=z$dist),col=6,lwd=2)
+legend(5,120,c(&#39;Overspeed&#39;,&#39;Not overspeed&#39;),col=c(&#39;purple&#39;,&#39;black&#39;),pch=1)</code></pre>
+<p><img src="/r/2019-03-24-visualize-your-data3_files/figure-html/unnamed-chunk-3-1.png" width="672" /> <strong>Usind legend function to explain the dots</strong></p>
+</div>

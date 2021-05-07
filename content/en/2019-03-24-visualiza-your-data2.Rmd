@@ -1,0 +1,52 @@
+---
+title: Visualiza Your Data(2)
+author: Runhang
+date: '2019-03-24'
+slug: visualiza-your-data
+categories: []
+tags: []
+---
+
+   ```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse=TRUE)
+```
+
+```{r}
+data<-read.csv("malaria.csv",as.is = T)
+o=table(data$occupation) 
+#look the occupation column
+o
+barplot(o) 
+## it does not look very nice
+name<-names(o) 
+# we want each bar has a corresponding text under it
+barplot(o, main="Occupation",names.arg = name, las=2, col="white",ylab="Number of people")
+```
+
+```{r}
+data<-read.csv("malaria.csv",as.is = T)
+par(mfrow=c(2,2),mar=c(7,2,1,1),oma=c(1,4,4,1))
+#mfrow show up multiple graphs in one plot; 
+#mar and oma can regulate plots distance
+#Besides, we want the x-axis be "female" and "male" rather than "0" and "1"
+data$gender1<-"male" ## make a new column by dollor sign $
+vector<-data$gender==0  
+# Create a logic vector, the results are either "FALSE" OR "TRUE"
+# "==" means if equal; 0 result in TRUE
+data[vector,'gender1']<-"female" 
+boxplot(age~gender1,data=data,ylab='')
+boxplot(age~occupation,data=data,las=2,ylab='') 
+#las=2 makes x-axis labels be displayed vertically
+boxplot(time_acrel~gender1,data=data,ylab='')
+boxplot(time_acrel~occupation,data=data,las=2,ylab='') 
+# las=2 makes x-axis labels be displayed vertically
+#Notice age is y-axis here. boxplot using "~", a little bit special
+
+# Now, we want to add a text at the left for both the two plots
+mtext(side=2,at=c(0.4,0.9),c('Time in Acrelandia(Years)','Age(years)'),outer=T,line = 2)
+# Now, we want to add a text at the top
+mtext(side=3,at=c(0.3,0.75),c('By gender','By occupation'),outer=T,line = 2)
+```
+
+
+

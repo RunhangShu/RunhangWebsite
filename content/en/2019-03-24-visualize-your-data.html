@@ -1,0 +1,47 @@
+---
+title: Visualize Your Data(1)
+author: 'Runhang'
+date: '2019-03-24'
+slug: visualize-your-data
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>data&lt;-read.csv(&quot;primates data.csv&quot;)
+data ## When we look at this data, we can see there are a lot of NA and we want to get rid of them
+##              Spp Bodywt Brainwt
+## 1   Potar monkey   10.0     115
+## 2        Gorilla  207.0     406
+## 3          Human   62.0    1320
+## 4  Rhesus monkey    6.8     179
+## 5          Chimp   52.2     440
+## 6                    NA      NA
+## 7                    NA      NA
+## 8                    NA      NA
+## 9                    NA      NA
+## 10                   NA      NA
+## 11                   NA      NA
+## 12                   NA      NA
+## 13                   NA      NA
+
+vec=is.na(data$Brainwt) ## create a vector to manipulate data-- it is very useful
+newdata&lt;-data[!vec,] ## the exclamatory mark &quot;!&quot;&quot; mean &quot;reverse&quot;, that means we do not want rows that contain NA. 
+newdata 
+##             Spp Bodywt Brainwt
+## 1  Potar monkey   10.0     115
+## 2       Gorilla  207.0     406
+## 3         Human   62.0    1320
+## 4 Rhesus monkey    6.8     179
+## 5         Chimp   52.2     440</code></pre>
+<div id="now-we-get-rid-of-the-data-we-do-not-want-and-let-us-plot-our-data" class="section level1">
+<h1><font color="green">Now, we get rid of the data we do not want and let us plot our data!</font></h1>
+<pre class="r"><code>plot(x=newdata$Bodywt,y=newdata$Brainwt,pch=19,xlab=&#39;Body weight(kg)&#39;,ylab=&#39;Brain weight(kg)&#39;,xlim=c(0,250))
+## pch is use for different type of dot, xlab set the x-axis text,xlim set the x-axis length
+## Now we want to add text alongside each dot 
+text(x=newdata$Bodywt,y=newdata$Brainwt,labels=newdata$Spp,pos=4)</code></pre>
+<p><img src="/r/2019-03-24-visualize-your-data_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<pre class="r"><code>
+## pos=4 means &quot;right&quot;, pos=1 means &quot;under&quot;</code></pre>
+</div>

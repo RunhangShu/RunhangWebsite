@@ -1,0 +1,202 @@
+---
+title: T-test & ANOVA In R
+author: ''
+date: '2019-04-02'
+slug: t-test-anova
+categories: []
+tags: []
+---
+
+
+
+<p><font color=purple size=8> <strong>One-sample t-test</strong></font></p>
+<p><font color=purple><strong>when do we run one-sample t-test?</strong></p>
+<p>  You have a <strong>continuous variables</strong>（连续变量）, and you want to know if the variables is significantly different from a certain number. In other word, you compare the <strong>mean</strong> of the continuous variable with another number. </font></p>
+<p>  <strong><em>For example, the instruction of a drug state this drug would not affect sleep, and you want to know if the company of this drug is cheating consumers.</em></strong></p>
+<p></br>  <font color=green><strong>we test 10 person extra sleep time after taking the drug. Thus, the we can develop a null hypothesis and an alternative hypothesis</strong></p>
+<p>   <strong>null hypothesis: “Extra sleep does not = 0”; </strong></p>
+<p>   <strong>alternative hypothesis: “Extra sleep = 0”</strong> </font></p>
+<pre class="r"><code>sleep # We use the dataset sleep in R, we assume group 1 is the drug
+##    extra group ID
+## 1    0.7     1  1
+## 2   -1.6     1  2
+## 3   -0.2     1  3
+## 4   -1.2     1  4
+## 5   -0.1     1  5
+## 6    3.4     1  6
+## 7    3.7     1  7
+## 8    0.8     1  8
+## 9    0.0     1  9
+## 10   2.0     1 10
+## 11   1.9     2  1
+## 12   0.8     2  2
+## 13   1.1     2  3
+## 14   0.1     2  4
+## 15  -0.1     2  5
+## 16   4.4     2  6
+## 17   5.5     2  7
+## 18   1.6     2  8
+## 19   4.6     2  9
+## 20   3.4     2 10
+vec&lt;-sleep$group==1 # Using a vector to extract group 1
+newdata&lt;-sleep[vec,&quot;extra&quot;] # Get rid of the group 2, extract &quot;extra&quot; column
+t.test(newdata,mu=0,alternative = &quot;two.sided&quot;)
+## 
+##  One Sample t-test
+## 
+## data:  newdata
+## t = 1.3257, df = 9, p-value = 0.2176
+## alternative hypothesis: true mean is not equal to 0
+## 95 percent confidence interval:
+##  -0.5297804  2.0297804
+## sample estimates:
+## mean of x 
+##      0.75</code></pre>
+<p>  As you can see from above, the R directly tell us “## alternative hypothesis: true mean is not equal to 0”, which means the company does lie. The R default significant level is 0.05. So, when we got p-value=0.02176, we fail to reject null hypothesis and thus extra sleep does not equal to 0.</p>
+<p>  Furthermore, instead of using “alternative=two.sides”, we can use “alternative=less” or “alternative=greater”</p>
+<p><font color=purple size=8> <strong>Two-sample t-test</strong></font></p>
+<p><font color=purple>   Rather than compare a bunch of continuous variable with a certain number, two-sample t-test compare two continuous variables and see if they are significantly different. </font></p>
+<p><strong>Example:</strong> </br><strong><em>Compare population ages between two countries; </em></strong> </br><strong><em>Compare the fertility/longivity of fruit fly under two treatments</em></strong></p>
+<p><strong>Again, we use the above “sleep” dataset for compare drug1 and drug2 effects on extra sleep time in R</strong></p>
+<pre class="r"><code>vec1&lt;-sleep$group==1 # Using a vector to extract group 1
+drug1&lt;-sleep[vec1,&quot;extra&quot;] # Get rid of the group 2, extract &quot;extra&quot; column
+vec2&lt;-sleep$group==2 # Using a vector to extract group 2
+drug2&lt;-sleep[vec2,&quot;extra&quot;] # Get rid of the group 1, extract &quot;extra&quot; column
+t.test(x=drug1,y=drug2,var.equal = T) #Here, we assume the two variable have the same variance 
+## 
+##  Two Sample t-test
+## 
+## data:  drug1 and drug2
+## t = -1.8608, df = 18, p-value = 0.07919
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  -3.363874  0.203874
+## sample estimates:
+## mean of x mean of y 
+##      0.75      2.33</code></pre>
+<p>  Hoestly, the result is a little upseting me. Even though the mean of drug1 extra sleeping time is 0.75 hours, and 2.33 hours for drug2, there is no significant difference between these two! (P-value=0.079)</p>
+<p>  This reminds me that just two weeks ago, in March 2019, <a href="https://www.nature.com/articles/d41586-019-00857-9">800 scientists rised up against statistic significance.</a>(<strong>I urge you to click the link and read the article</strong>) Indeed, this is a very controversial topic all the time. Thershold of 0.05 is so arbitray and why 0.051 is not statistic significance?</p>
+<p><font color=purple size=8> <strong>Paired t-test</strong></font> </br>  Actually, there is a very important prerequisite I deliberately conceal in the above two-sample t-test. The prerequisite we run a two-sample t-test is that we assume a group of 10 people consumed the drug1 and another group of 10 people consumed drug2.</p>
+<p>  BUT, <strong>what if one group is more sensitive to drugs than another group.</strong> Therefore, it would be better if we could somehow control the individual discrepency. That is to say <strong>we use the same group</strong> of people to test the effect of there two drugs <strong>instead of two groups</strong> test one of two drugs respectively.</p>
+<p>  So, a paired t-test is a way to go! What we need to do is change the “var.equal=T” to “paired=T”</p>
+<pre class="r"><code>vec1&lt;-sleep$group==1 
+drug1&lt;-sleep[vec1,&quot;extra&quot;] 
+vec2&lt;-sleep$group==2 
+drug2&lt;-sleep[vec2,&quot;extra&quot;]  
+t.test(x=drug1,y=drug2,paired = T) 
+## 
+##  Paired t-test
+## 
+## data:  drug1 and drug2
+## t = -4.0621, df = 9, p-value = 0.002833
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  -2.4598858 -0.7001142
+## sample estimates:
+## mean of the differences 
+##                   -1.58</code></pre>
+<p>Look! Now we have p-value=0.002833. It is safe to say the extra sleep time of comsuming drug2 is statisticly different from that of drug1.</p>
+<p>         <img src="/r/2019-04-02-t-test-anova_files/p0.05.jpeg" /></p>
+<p>  Paired t-test is frequently used in agricultural experiments. This is because field plots have different levels of natural soil fertility, and we could set several treatments in one plot with many plots for replicates. Likewise, some animals might naturally have a better immune system than others. It is better to apply treatments to the same unit of animals.</p>
+<p>  In short, for paired t-test, we designed the experiment by using one same sampling unit for controling inherent differences.</p>
+<p><font color=purple size=8> <strong>ANOVA</strong></font> <font color =purple></p>
+<p>  We can recall in the t-test, it either compare a bunch of continuous variables with a certain number or compare two continuous variables. However, in ANOVA, the predicator variables(X-axis ) are categorical and the response variable(Y-axis) is continuous. </font></p>
+<p>  <strong>For instance, in an insecticides experiment, the predicator variables could be insecticide1,insecticide2,insecticide3 and the response variable could be LC50</strong>(lethal dose if 50% population were killed).</p>
+<p>Now, I will use ToothGrowth dataset to run ANOVA in R</p>
+<pre class="r"><code>z&lt;-ToothGrowth
+library(dplyr) #load package dplyr
+## Warning: package &#39;dplyr&#39; was built under R version 3.5.2
+## 
+## Attaching package: &#39;dplyr&#39;
+## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+newdata&lt;-mutate(z,category=paste(z$supp,z$dose)) #use mutate() function conbine two columns 
+faccate&lt;-factor(newdata$category,c(&quot;VC 0.5&quot;,&quot;VC 1&quot;,&quot;VC 2&quot;,&quot;OJ 0.5&quot;,&quot;OJ 1&quot;,&quot;OJ 2&quot;)) 
+#Define each treatment as factor
+plot(faccate,newdata$len,col=&quot;magenta&quot;,xlab=&quot;Treatments&quot;, cex.lab=1.5
+     ,cex.axis=1,ylab=&quot;Length of Tooth&quot;) </code></pre>
+<p><img src="/r/2019-04-02-t-test-anova_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<pre class="r"><code>
+supp&lt;-factor(newdata$supp,c(&quot;VC&quot;,&quot;OJ&quot;))# Define Type of nutrition as factor
+dose&lt;-factor(newdata$dose,c(&quot;0.5&quot;,&quot;1&quot;,&quot;2&quot;)) # Define dose of nutrition as factor
+
+fit1&lt;-aov(newdata$len~supp) #Using aov function run ANOVA
+summary(fit1)
+##             Df Sum Sq Mean Sq F value Pr(&gt;F)  
+## supp         1    205  205.35   3.668 0.0604 .
+## Residuals   58   3247   55.98                 
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+fit2&lt;-aov(newdata$len~dose)
+summary(fit2)
+##             Df Sum Sq Mean Sq F value   Pr(&gt;F)    
+## dose         2   2426    1213   67.42 9.53e-16 ***
+## Residuals   57   1026      18                     
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+fit3&lt;-aov(newdata$len~supp+dose)
+summary(fit3) 
+##             Df Sum Sq Mean Sq F value   Pr(&gt;F)    
+## supp         1  205.4   205.4   14.02 0.000429 ***
+## dose         2 2426.4  1213.2   82.81  &lt; 2e-16 ***
+## Residuals   56  820.4    14.7                     
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+
+TukeyHSD(fit3) # Tukey&#39;s &quot;honestly significant difference&quot; (HSD) to compare all pairwise comparisons 
+##   Tukey multiple comparisons of means
+##     95% family-wise confidence level
+## 
+## Fit: aov(formula = newdata$len ~ supp + dose)
+## 
+## $supp
+##       diff      lwr      upr     p adj
+## OJ-VC  3.7 1.720238 5.679762 0.0004293
+## 
+## $dose
+##         diff       lwr       upr p adj
+## 1-0.5  9.130  6.215909 12.044091 0e+00
+## 2-0.5 15.495 12.580909 18.409091 0e+00
+## 2-1    6.365  3.450909  9.279091 7e-06
+
+fit4&lt;-aov(newdata$len~faccate)
+summary(fit4)
+##             Df Sum Sq Mean Sq F value Pr(&gt;F)    
+## faccate      5 2740.1   548.0   41.56 &lt;2e-16 ***
+## Residuals   54  712.1    13.2                   
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+TukeyHSD # Tukey&#39;s &quot;honestly significant difference&quot; (HSD) to compare all pairwise comparisons 
+## function (x, which, ordered = FALSE, conf.level = 0.95, ...) 
+## UseMethod(&quot;TukeyHSD&quot;)
+## &lt;bytecode: 0x7f9188161830&gt;
+## &lt;environment: namespace:stats&gt;</code></pre>
+<p><font color=magenta size=5> Last but not least, since both T-tests and ANOVA are linear models, so before conducting statistic test, we have to ensure following assumptions to be satisfied. </font></p>
+<p><font color=green size=5> 1.Testing Homogeneity of variance </font></p>
+<p><strong>For t-test</strong></p>
+<p><strong>None, You just run qqplot to see if each variable is normally distributed. </strong></p>
+<p><strong>For ANOVA</strong></p>
+<p>1 Run aov function </br>fit&lt;-aov(Y~X)</p>
+<p>2 Calculating a plotting residuals </br>predict&lt;-predict.lm(fit) </br>residuals&lt;-Y-predict</p>
+<p>3 Plot residuals vs. the predicted values </br>plot(predict,residuals) </br>abline(a=0,b=0,col=“red”,lwd=3,ity=“dashed”)</p>
+<p><strong>For simple regression</strong> </br> Use lm() to fit a linear model </br> reg&lt;- lm(Y~X) </br> predict&lt;-predict.lm(reg) </br> residuals&lt;- Y-predict </br> plot(predict,residuals) </br> abline(a=0,b=0,ity=“dashed”)</p>
+<p>—– or———</p>
+<p>reg&lt;-lim(Y~X) </br> plot(reg$fitted.values,reg$residuals) </br> abline=(h=0)</p>
+<p><font color=green size=5> 2.Testing for any given value of X, Y values have normally distributed errors </font> </br>1.Standardize each residual using function rstandard() </br>std&lt;-rstandard() </br>2.Using qq plot </br>qqnorm(std);qqline(std) </br>hist(std) # something we also creat a histgram to see if the Residuals is normal</p>
+<p><font color=green size=5> 3.Independence of observations </font> </br> This assumption can be satisfied when we sample. Sample should be random and no bais.</p>
+<p><font color=green size=5> A good predict vs. residual plot should be like the plot 1 (dots have a comparatively even distribution), if your plot like plot 2,3,4, then your data are required some transformation, such as log or squaetroot.</p>
+<div class="figure">
+<img src="/r/2019-04-02-t-test-anova_files/Residual-plots-for-four-type-datasets.png" />
+
+</div>
+<p><font color=green size=5> A good qq plot shoud be like the 3rd plot bellow:</p>
+<div class="figure">
+<img src="/r/2019-04-02-t-test-anova_files/ZXRkL.png" />
+
+</div>

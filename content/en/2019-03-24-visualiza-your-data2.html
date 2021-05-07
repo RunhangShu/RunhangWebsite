@@ -1,0 +1,54 @@
+---
+title: Visualiza Your Data(2)
+author: Runhang
+date: '2019-03-24'
+slug: visualiza-your-data
+categories: []
+tags: []
+---
+
+
+
+<pre class="r"><code>data&lt;-read.csv(&quot;malaria.csv&quot;,as.is = T)
+o=table(data$occupation) 
+#look the occupation column
+o
+## 
+##     chain sawyer            child           driver           farmer 
+##               18              171               14              483 
+##   flour producer general services     health agent       management 
+##                9               16               26               17 
+##           others          retired    stays at home          student 
+##               31               13              209              446 
+##          teacher           trader 
+##               43               12
+barplot(o) </code></pre>
+<p><img src="/r/2019-03-24-visualiza-your-data2_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code>## it does not look very nice
+name&lt;-names(o) 
+# we want each bar has a corresponding text under it
+barplot(o, main=&quot;Occupation&quot;,names.arg = name, las=2, col=&quot;white&quot;,ylab=&quot;Number of people&quot;)</code></pre>
+<p><img src="/r/2019-03-24-visualiza-your-data2_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
+<pre class="r"><code>data&lt;-read.csv(&quot;malaria.csv&quot;,as.is = T)
+par(mfrow=c(2,2),mar=c(7,2,1,1),oma=c(1,4,4,1))
+#mfrow show up multiple graphs in one plot; 
+#mar and oma can regulate plots distance
+#Besides, we want the x-axis be &quot;female&quot; and &quot;male&quot; rather than &quot;0&quot; and &quot;1&quot;
+data$gender1&lt;-&quot;male&quot; ## make a new column by dollor sign $
+vector&lt;-data$gender==0  
+# Create a logic vector, the results are either &quot;FALSE&quot; OR &quot;TRUE&quot;
+# &quot;==&quot; means if equal; 0 result in TRUE
+data[vector,&#39;gender1&#39;]&lt;-&quot;female&quot; 
+boxplot(age~gender1,data=data,ylab=&#39;&#39;)
+boxplot(age~occupation,data=data,las=2,ylab=&#39;&#39;) 
+#las=2 makes x-axis labels be displayed vertically
+boxplot(time_acrel~gender1,data=data,ylab=&#39;&#39;)
+boxplot(time_acrel~occupation,data=data,las=2,ylab=&#39;&#39;) 
+# las=2 makes x-axis labels be displayed vertically
+#Notice age is y-axis here. boxplot using &quot;~&quot;, a little bit special
+
+# Now, we want to add a text at the left for both the two plots
+mtext(side=2,at=c(0.4,0.9),c(&#39;Time in Acrelandia(Years)&#39;,&#39;Age(years)&#39;),outer=T,line = 2)
+# Now, we want to add a text at the top
+mtext(side=3,at=c(0.3,0.75),c(&#39;By gender&#39;,&#39;By occupation&#39;),outer=T,line = 2)</code></pre>
+<p><img src="/r/2019-03-24-visualiza-your-data2_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
