@@ -16,7 +16,7 @@ permalinks:
 menu:
   main:
     - name: "About"
-      url: "/cn-about.md"
+      url: "/en-about.md"
       weight: 1
     - name: "Bioinformatics"
       url: "/en/"
