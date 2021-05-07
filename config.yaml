@@ -82,7 +82,7 @@ params:
   logo:
     en:
       img: "/images/logo.jpg"
-      url: "/favicon.ico"
+      url: "/"
       alt: "Runhang Shu"
       tag: ""
 
