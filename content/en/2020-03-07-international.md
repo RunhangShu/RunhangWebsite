@@ -1,11 +1,13 @@
 ---
 title: To get a personal trainer certificate
 author: ''
-date: '2020-03-07'
+date: '2021-05-07'
 slug: international
 categories: []
 tags: []
 ---
+
+Date: 2020-03-07 
 
 [大致了解了一下，劝退。。。](https://www.zhihu.com/question/20983346/answer/24586181)
 
