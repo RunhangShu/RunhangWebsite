@@ -43,7 +43,7 @@ module load fastqc
 <br />Once completed, we will get html files containing basic info of the fastq file such as total reads, GC content, sequence length, and most importantly the per base sequence quality (see the figure below)
  
 
-<img src="/r/fastqc.png" alt="" width="500px" height="300px"/> 
+<img src="/en/fastqc.png" alt="" width="500px" height="300px"/> 
 
 
 An acceptable sequencing result should have at least 20 quality score (0.01 error rate) across all bases. Score 30 stand for 0.001 error rate. 
@@ -53,6 +53,7 @@ When it is near the end of the reads, the quality score is below 20, so the foll
 <br />**Tool**: fastx_toolkit 
 <br />cutadapt (process both pairs at the same time, which is better for paired-end data)
 <br />**Script**: 
+```{r}
 <br />module load fastx_toolkit/0.0.14
 <br />fastq_quality_filter -i ENCFF000ESM.fastq -q 20 –p 50 -o ENCFF000ESM.filtered.fastq 
 <br />fastq_quality_filter -i ENCFF000ESS.fastq -q 20 –p 50 -o ENCFF000ESS.filtered.fastq 
@@ -61,6 +62,8 @@ When it is near the end of the reads, the quality score is below 20, so the foll
 #get rid of reads for which 50% of the bases have quality lower that 20
 fastq_quality_trimmer -i ENCFF000ESM.filtered.fastq -t 25 -l 50 -o ENCFFOOOESM.f.t.fastq 
 fastq_quality_trimmer -i ENCFF000ESS.filtered.fastq -t 25 -l 50 -o ENCFFOOOESS.f.t.fastq 
+```
+
 #trim from the 3’ end until the quality score reach 25 and then remove reads that are shorter than 50 after trimming 
 <br />Then we run fastqc check the quality again 
 
@@ -78,7 +81,7 @@ fastq_quality_trimmer -i ENCFF000ESS.filtered.fastq -t 25 -l 50 -o ENCFFOOOESS.f
 -	Mapping against the Genome (Good option is only gene level quantification is needed)
 -	Mapping against the Transcriptome (Good option with will annotated species)
 
-<img src="/r/flow.png" alt="" width="400px" height="500px"/> 
+<img src="/en/flow.png" alt="" width="400px" height="500px"/> 
 
 <br />Tools: Bowtie2 and TopHat
 <br />**Script**:
@@ -203,7 +206,7 @@ myGCbias = dat(mydata, factor = "cond", norm = FALSE, type = "GCbias")
 <br />explo.plot(myGCbias, samples = 1)
 <br />explo.plot(myGCbias, samples = 1:8)
 
-<img src="/r/bias.png" alt="" width="800px" height="500px"/> 
+<img src="/en/bias.png" alt="" width="800px" height="500px"/> 
 
 ## RNA composition
 mycomp = dat(mydata, norm = FALSE, type = "cd")
@@ -252,7 +255,7 @@ explo.plot(myGCbias, samples = 1:8)
 
 
 ## Loading R libraries to be used
-
+```{r}
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install("DESeq2")
@@ -267,6 +270,7 @@ library(DESeq2)
 library(limma)
 library(maSigPro)
 library("edgeR")
+```
 
 ### edgeR to profile the differentially expressed genes ###
 ############################
@@ -295,6 +299,7 @@ myedgeR = DGEList(counts = mycounts[,cond2compare], group = mygroups)
 <br />Though there are thousands of variables(gene expression) in each treatments, with Principal coordinate analysis plot, we can appreciate the similarity between two or more samples. 
 
 **Script**
+```{r}
 <br />PCA<-princomp(normal_data,cor = TRUE)
 # create my PCA plot function
 my_PCA_plot<- function(x, main,col=rep(c(1:6),each=3)) {
@@ -323,11 +328,11 @@ my_PCA_plot<- function(x, main,col=rep(c(1:6),each=3)) {
 <br />PCA.c<-princomp(mydata.c,cor=TRUE)
 <br />my_PCA_plot(PCA.c, main="Drug doses effect on genes expression of mice")
 
-<img src="/r/pca.png" alt="" width="800px" height="500px"/> 
+<img src="/en/pca.png" alt="" width="800px" height="500px"/> 
 
 <br />Top10<- sort(abs(PCA.c$scores[,1]), decreasing= TRUE)[1:10]
 # Use scores ranking in PCA analysis as determinants for the top 10 differentially expressed genes.
-
+```
 
 <font size=6>Enrichment and Pathway Analysis</font>
 <br />Tool: PaintOmics3
@@ -393,7 +398,7 @@ mynoiseqbio.all = degenes(mynoiseqbio, q = 0)
 Upload expr.data and DE.data.txt files in PaintOmics 
  
 
-<img src="/r/paintomics.png" alt="" width="800px" height="500px"/> 
+<img src="/en/paintomics.png" alt="" width="800px" height="500px"/> 
 
 
 
