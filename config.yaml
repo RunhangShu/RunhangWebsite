@@ -18,7 +18,7 @@ menu:
     - name: "About"
       url: "/cn/about/"
       weight: 1
-    - name: "Bioinformatics"
+    - name: "Blog"
       url: "/en/"
       weight: 2
     - name: "严肃扯谈"
@@ -41,6 +41,12 @@ menu:
     - name: "首页"
       url: "/"
       weight: 1
+    - name: "日志"
+      url: "/cn/"
+      weight: 2
+    - name: "English"
+      url: "/en/"
+      weight: 3
 
  
 
@@ -81,8 +87,12 @@ params:
     animation: ""
 
   lang:
+      edit:
+      cn: "编辑"
     license:
       cn: "版权"
+    subscribe:
+      cn: "订阅"
 
 
 blackfriday:
