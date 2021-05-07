@@ -1,3 +1,8 @@
+---
+title: "About"
+slug: "cn/about"
+---
+
 Hey！🔥Welcome to Runhang's base🔥
 
 \
