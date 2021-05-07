@@ -43,7 +43,7 @@ module load fastqc
 <br />Once completed, we will get html files containing basic info of the fastq file such as total reads, GC content, sequence length, and most importantly the per base sequence quality (see the figure below)
  
 
-<img src="/r/fastqc.png" alt="" width="500px" height="300px"/> 
+<img src="/en/pics/fastqc.png" alt="" width="500px" height="300px"/> 
 
 
 An acceptable sequencing result should have at least 20 quality score (0.01 error rate) across all bases. Score 30 stand for 0.001 error rate. 
