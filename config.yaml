@@ -86,8 +86,8 @@ params:
     cn: "舒润航"
     animation: ""
 
-  lang:
-      edit:
+lang:
+    edit:
       cn: "编辑"
     license:
       cn: "版权"
