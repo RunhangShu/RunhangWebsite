@@ -1,0 +1,15 @@
+---
+title: "123"
+date: "2021-05-07"
+output: html_document
+slug: t2
+---
+
+
+```{r}
+c<-1:5
+c
+plot(c)
+
+
+```
