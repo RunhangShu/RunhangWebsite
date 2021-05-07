@@ -27,9 +27,9 @@ menu:
     - name: "CV"
       url : "https://uflorida-my.sharepoint.com/:w:/g/personal/r_shu_ufl_edu/ESztl3T6QWJHuW6bke6BodEBaM05Gy3oLaK61wHJcEAAZQ" 
       weight: 4
-    - name: "TWITTER"
-    url : "https://twitter.com/Runhang1"
-    weight: 5
+    - name: "Twitter"
+      url : "https://twitter.com/Runhang1"
+      weight: 5
     
   en:
     - name: "Home"
