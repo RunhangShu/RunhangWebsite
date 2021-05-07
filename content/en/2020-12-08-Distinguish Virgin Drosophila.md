@@ -14,20 +14,20 @@ In fly genetics or fly behavior study, we often need to sort virgin females. Her
 - Anesthetize flies with CO<sub>2</sub>, use a paintbrush to check flies' abdomen under a microscope. If there is black spot or "meconium" , then the flies are considered as newly emerged and unmated flies because meconium is the remains of their last meal before pupation. The figure below shows a male's meconium (left) and a female's meconium (right) of *Drosophila suzukii*. 
 
 <center>
-<img src="/post/pics/female_male.jpg" alt="Black spot on the abdomen" style="zoom:50%;" />
+<img src="/en/pics/female_male.jpg" alt="Black spot on the abdomen" style="zoom:50%;" />
 </center>
 #### **Step two: distinguish females from males**
 
 Continue to use *D. suzukii* (Spotted Wing Drosophila) as an example. After sexual maturation (normally takes two days), females and males are easy to identify in that male *D. suzukii* have a pair of black spots on the tip of the wings. However newly emerged female and male flies are relatively harder to distinguish. In this case, the most easiest way is to look carefully at the tip of the abdomen. For female, we can see the **serrated ovipositor composed of two symmetrical and sharp petals.** 
 
 <center>
-<img src="/post/pics/female.png" alt="female" style="zoom:30%;" />
+<img src="/en/pics/female.png" alt="female" style="zoom:30%;" />
 </center>
 
 For male, we can see instead of two petals closing up like in female, two sclerotized, dark, "canine teeth" openning up, which are the genital claspers of male. 
 
 <center>
-<img src="/post/pics/male.png" alt="male" style="zoom:33%;" />
+<img src="/en/pics/male.png" alt="male" style="zoom:33%;" />
 </center>
 
 
