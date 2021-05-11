@@ -6,7 +6,7 @@ disable_highlight: true
 ---
 
 
-# Recent publication:
+# Recent publications:
 
 # 2021
 
