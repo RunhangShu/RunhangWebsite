@@ -32,7 +32,7 @@ menu:
       weight: 5
     
   en:
-     - name: "About"
+    - name: "About"
       url: "/cn/about/"
       weight: 1
     - name: "Blog"
