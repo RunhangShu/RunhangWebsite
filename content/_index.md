@@ -16,24 +16,24 @@ disable_highlight: true
 
 
 
-*Men are born soft and supple; 
+*Men are born soft and supple; *
 
-*dead, they are stiff and hard.
+dead, they are stiff and hard.*
 
-*Plants are born tender and pliant;
+*Plants are born tender and pliant;*
  
-*dead, they are brittle and dry.
+*dead, they are brittle and dry.*
  
-*Thus whoever is stiff and inflexible
+*Thus whoever is stiff and inflexible*
  
-*is a disciple of death.
+*is a disciple of death.*
  
-*Whoever is soft and yielding
+*Whoever is soft and yielding*
  
-*is a disciple of life.
+*is a disciple of life.*
  
-*The hard and stiff will be broken.
+*The hard and stiff will be broken.*
  
-*The soft and supple will prevail.
+*The soft and supple will prevail.*
  
-*—LAO TZU
+*—LAO TZU*
