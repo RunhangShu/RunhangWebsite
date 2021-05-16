@@ -16,7 +16,7 @@ disable_highlight: true
 
 
 
-*Men are born soft and supple; *
+*Men are born soft and supple;*
 
 dead, they are stiff and hard.*
 
