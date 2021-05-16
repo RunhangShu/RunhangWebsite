@@ -16,6 +16,7 @@ disable_highlight: true
 
 
 <center>
+ <font size=1>
 *Men are born soft and supple;*
 
 *dead, they are stiff and hard.*
@@ -37,4 +38,5 @@ disable_highlight: true
 *The soft and supple will prevail.*
  
 *—LAO TZU*
+</font>
 </center>
