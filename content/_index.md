@@ -16,14 +16,24 @@ disable_highlight: true
 
 
 
-*Men are born soft and supple; 
-dead, they are stiff and hard.
- Plants are born tender and pliant;
- dead, they are brittle and dry.
- Thus whoever is stiff and inflexible
- is a disciple of death.
- Whoever is soft and yielding
- is a disciple of life.
- The hard and stiff will be broken.
- The soft and supple will prevail.
- —LAO TZU*
+## *Men are born soft and supple; 
+
+## dead, they are stiff and hard.
+
+## Plants are born tender and pliant;
+ 
+## dead, they are brittle and dry.
+ 
+##  Thus whoever is stiff and inflexible
+ 
+##  is a disciple of death.
+ 
+##  Whoever is soft and yielding
+ 
+##  is a disciple of life.
+ 
+##  The hard and stiff will be broken.
+ 
+##  The soft and supple will prevail.
+ 
+##  —LAO TZU*
