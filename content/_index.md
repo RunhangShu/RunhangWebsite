@@ -16,7 +16,7 @@ disable_highlight: true
 
 
 <center>
-<font size=8>
+<font size=6>
  
 *Men are born soft and supple;*
 
