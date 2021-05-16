@@ -15,10 +15,10 @@ disable_highlight: true
 **Shu, R.**, Hahn, D., Liburd, O., Yuval, B., Jurkevitch, E., Wong, A. Sex-dependent effects of microbiome on the locomotion and foraging of Drosophila suzukii. https://www.frontiersin.org/articles/10.3389/fmicb.2021.656406/full 
 
 
-
+<center>
 *Men are born soft and supple;*
 
-dead, they are stiff and hard.*
+*dead, they are stiff and hard.*
 
 *Plants are born tender and pliant;*
  
@@ -37,3 +37,4 @@ dead, they are stiff and hard.*
 *The soft and supple will prevail.*
  
 *—LAO TZU*
+</center>
