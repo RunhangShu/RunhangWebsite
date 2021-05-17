@@ -1,9 +1,10 @@
 ---
 title: Response of the microbiome–gut–brain axis in Drosophila to amino acid deficit
-author: Kim et al., 2021 Nature
+author: Runhang Shu
 date: "2021-05-17"
 ---
 
+# Kim et al., 2021 Nature
 In 2017, Leitao-Goncalves et al. (Carlos Ribeiro lab) reported, in [*Plos biology*](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2000862#sec002) journal, that *Drosophila melanogaster* deprived of any single eAAs showed strong craving for amino acid-rich food. This protein appetites elicited by eAA absence can be suppressed when supplemented the flies with a single or a combination of commensal bacterium. 
 <center>
 <img src="/en/pics/eAA-neAA.png" alt="22 types of animo acids" style="zoom:50%;" />
