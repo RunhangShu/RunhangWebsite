@@ -22,6 +22,10 @@ This earlier work on microbiome-dependent protein craving indicated essential am
   -  The most dramatic thing is that the neuropeptite CNMamide, which connect gut and brain as demonstrated by this paper, is also the gene we wanted to test. We have ordered the primer several months ago. See? this is the fun part of science: great mindd think alike (英雄所见略同), we also need to realized that more estabilished lab is likely targetting these genes a couple of years eariler than others. 
 
 # Rationale
+  - By doing two-choice foraging assay, they showed amino-acid-deprived flies prefer essential amoni acids (EAAs) not non-essential amino acids (NEAAs), and more specifically L-EAAs (can be metabolized, but are not synthezied internally) not D-EAAs (cannot be metabolized). This observations are certainly based on Leitao-Goncalves et al. (2017) Plos paper while also extended their findings. It is quite big that deprived-flies can distinguish EAAs from NEAAs. These results indicate that inadequate intake of dietary amino acids promotes a compensatory appetite for L-EAAs.
+  - To find the mechanism, they inactived a serius of genes and ruled out 1) ichemosensory ionotropic receptor *Ir76b*, which can modulate food preference and consumption; 2) *poxn*, for which the mutants' most taste cells had been transformed into other cell types; 2) *Dh44*-expressing neurons, which detect the nutritional value of sugar. 
+  - Neuropeptite CNMa, released from anterior midgut (R2 region, as labeled by GFP), was markedly higher in AA-deprived flies. They also validated the expression of CNMa protein in this region by anti-CNMa immunohistochemistry.
+  - What about other CNMa-expresion tissues? They also exmined this and find amino acid deficit did not elicit _CNMa expression_ in fat body or the brain. 
+  - They next asked that whether it is EAAs or NEAAs deprivation alone can trigger CNMa expression in the gut? They found the expression of _CNMa_ in the gut and the preference for EAAs were induced specifically by EAA deprviation, but not by NEAA deprivation. This EAA-dependent gene upregulation was further validated by using the calcium-dependent nuclear import of LexA (CaLexA) reporter system. 
+  - So far, they have domenstrated the _CNMa_-expressing enterocytes act as nutrient-sensing cells that repond specially to the lack of EAA ingestion.
   - 
-
-
