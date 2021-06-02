@@ -1,5 +1,5 @@
 ---
-title: An classic insect olfaction study 
+title: A classic insect olfaction study 
 author: 'Runhang'
 date: '2020-06-26'
 
