@@ -1,5 +1,5 @@
 ---
-title: Genetic approaches to study insect smell
+title: An classic insect olfaction study 
 author: 'Runhang'
 date: '2020-06-26'
 
@@ -22,11 +22,11 @@ insect olfaction study.
 1. First, they did a set of behavior assays and found out:
 - _D. suzukii_ prefer to lay eggs in ripe/fresh fruit over rotten fruit
 <center>
-<img src="/post/pics/SWD_fig1.png" alt="" width="500px" height="300px"/>
+<img src="/en/pics/SWD_fig1.png" alt="" width="500px" height="300px"/>
 </center>
 - _D.suzukii_ can tolerate stiffer oviposition site than other Drosophila species
 <center>
-<img src="/post/pics/SWD_fig2.png" alt="" width="500px" height="300px"/>
+<img src="/en/pics/SWD_fig2.png" alt="" width="500px" height="300px"/>
 </center>
 
 2. Have implied changes in mechanosensory of _D. suzukii_, they further examined the olfaction role in oviposition preference.
