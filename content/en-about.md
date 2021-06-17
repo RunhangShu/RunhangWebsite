@@ -63,9 +63,10 @@ analysis.
 \
  感谢🙏来访
 ----------
- 故科学者，神圣之光，照世界者也，可以遏末流而生感动。- 鲁迅
 
- 关于生物信息，我还在探索。后期我会多写写生物领域，宏基因组，微生物组的数据分析的小文章。敬请期待～
+&emsp&emsp故科学者，神圣之光，照世界者也，可以遏末流而生感动。- 鲁迅
+
+&emsp&emsp关于生物信息，我还在探索。后期我会多写写生物领域，宏基因组，微生物组的数据分析的小文章。敬请期待～
 
 [![Flag
 Counter](https://s11.flagcounter.com/count2/OAsj/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/)](http://s11.flagcounter.com/more/OAsj)
