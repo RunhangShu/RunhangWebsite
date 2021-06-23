@@ -5,4 +5,6 @@ date: 2021-06-23
 ---
 
 
-<img src="/en/pics/With_Dan_Wong.HEIC" alt="With_Dan_Adam" width="500px" height="500px"/>
+<img src="/en/pics/With_Dan_Wong.HEIC" alt="With Dan and Adam" width="500px" height="500px"/>
+
+<img src="/en/pics/Lab_Wong.HEIC" alt="In the lab" width="500px" height="500px"/>
