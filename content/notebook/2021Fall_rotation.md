@@ -16,7 +16,7 @@ Notebook for 2021 year. It'll log notes, ideas and inspirations from papers I re
 
 
 # Table of contents    
-* [Page 1: 2021-11-05](#id-section1). Yearly goals: recap from last year and this year's
+* [Page 1: 2021-11-05](#id-section1)
 
 
 
@@ -24,6 +24,7 @@ Notebook for 2021 year. It'll log notes, ideas and inspirations from papers I re
 ------
 
 <div id='id-section1'/>    
+
 ### Page 1:
 *2021 year goal**   
 
