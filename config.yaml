@@ -50,6 +50,9 @@ menu:
     - name: "Twitter"
       url : "https://twitter.com/Runhang1"
       weight: 5
+    - name : "Lab notebook"
+      url  : "/notebook/"
+      weight: 6
   cn:
     - name: "About"
       url: "/cn/about/"
@@ -66,7 +69,9 @@ menu:
     - name: "Twitter"
       url : "https://twitter.com/Runhang1"
       weight: 5
- 
+    - name : "Lab notebook"
+      url  : "/notebook/"
+      weight: 6
 
 params:
   description: "Personal website of Runhang Shu; 舒润航的个人网站"
