@@ -30,6 +30,9 @@ menu:
     - name: "Twitter"
       url : "https://twitter.com/Runhang1"
       weight: 5
+    - name : "Lab notebook"
+      url  : "/notebook/"
+      weight: 6
     
   en:
     - name: "About"
