@@ -28,3 +28,4 @@ Notebook for 2021 year. It'll log notes, ideas and inspirations from papers I re
 ### Page 1:
 *2021 year goal**   
 
+------
