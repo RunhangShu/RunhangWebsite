@@ -1,6 +1,5 @@
 ---
-title: 2021 Fall
-author: Runhang 
+title: Fall,2021
 date: 2021-11-05
 ---
 
@@ -17,7 +16,7 @@ date: 2021-11-05
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.    
 
 **Introduction:**    
-Notebook for 2021 year. It'll log notes, ideas and inspirations from papers I read; Save a copy of bioinformatic and statistical analysis I did for reproducible science!
+Notebook for rotation in Dr. Katrine White and Dr. Charles Glabe lab. It'll log notes, ideas and inspirations from papers I read; Save a copy of bioinformatic and statistical analysis I did for reproducible science!
 
 
 # Table of contents    
