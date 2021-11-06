@@ -30,6 +30,29 @@ Notebook for rotation in Dr. Katrine White and Dr. Charles Glabe lab. It'll log 
 <div id='id-section1'/>    
 
 ### Page 1:
+**Background**
+In mammals DMNT (DNA methyltransferases) methylaze while TET (Ten-Eleven translocation deoxygenases) demethylaze DNA. Despite these two processes are apparently antagonizing, a few studies shed the light on the jointed effects of these two players on tumorigenesis. 
+
+**Obstacles** (what need to be improved?)
+The DNA methylation level are usually assessed by "averaging" level or calculating the methylation heterogeneity/variation. Neither of these two approaches can delineate the degree of concurrence between active methylation and demethylation (unmethylated CpGs in partially methylated reads). Additionally, although a recent mathematical model takes methylation and demethylation into account for individual CpGs in stem cells, this model is not good enough in that it does not consider the spatial coupling of concurrence methylation at adjacent CpGs, which is critical for transcription factor and cancer gene regulation.
+
+
+**Objective**
+To test to what extend that the two players affect cancer gene regulations. 
+
+**Methods**
+Bisulfite sequencing of embryonic stem cells of mice
+
+**Key findings**
+- Methylation concurrence represents a better metrics than traditional average methylation level and methylation variation to predict gene expression.  
+- Using DMNT- and TET-knowout mice, the authors indicate that there might be hidden patterns unseen by simply using "average" methylation level. 
+-  
+
+
+
+
+
+
 
 
 ------
