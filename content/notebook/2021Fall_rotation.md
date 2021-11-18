@@ -63,7 +63,9 @@ Bisulfite sequencing of embryonic stem cells of mice
 ------
 
 <div id='id-section2'/> 
+
 ```
+
 #!/bin/bash
 
 #SBATCH --job-name=Bru      ## Name of the job.
