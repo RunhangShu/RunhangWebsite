@@ -64,7 +64,9 @@ Bisulfite sequencing of embryonic stem cells of mice
 
 <div id='id-section2'/> 
 
+### Page2:
 ```
+**Processed all fasta files (txt format) in HPC3 using a bash script**
 
 #!/bin/bash
 
@@ -87,6 +89,9 @@ Bisulfite sequencing of embryonic stem cells of mice
 
 ```
 
-
+* Tried different C% (the minimum number of frequency of each pattern)
+  1. C%=0.5% and 500 patterns 
+  2. C%=2% and 50 patterns 
+  
 
 
