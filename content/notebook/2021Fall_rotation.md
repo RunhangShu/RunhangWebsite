@@ -21,7 +21,7 @@ Notebook for rotation in Dr. Katrine White and Dr. Charles Glabe lab. It'll log 
 
 # Table of contents    
 * [Page 1: 2021-11-05](#id-section1) Literature review 1 - The concurrence of DNA methylation and demethylation is associated with transcription regulation
-
+* [Page 2: 2021-11-17](#id-section2) The Brucella data
 
 
 
@@ -61,3 +61,30 @@ Bisulfite sequencing of embryonic stem cells of mice
 * Methylation concurrence can see the unseen patterns in Undermethylated regions (UMRs) in relation to average methylation and methylation variation.
 
 ------
+
+<div id='id-section2'/> 
+```
+#!/bin/bash
+
+#SBATCH --job-name=Bru      ## Name of the job.
+#SBATCH -A CGLABE_LAB ## account to charge
+#SBATCH -p free ## partition/queue name  highmem,hugemem,maxmem
+#SBATCH --nodes=1            ## (-N) number of nodes to use
+#SBATCH --ntasks=1           ## (-n) number of tasks to launch
+#SBATCH --cpus-per-task=4    ## number of cores the job needs
+#SBATCH --error=slurm-%J.err ## error log file
+
+../pratt_package_500000/pratt fasta ./USA_naive/Bru1.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+../pratt_package_500000/pratt fasta ./USA_naive/Bru2.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+../pratt_package_500000/pratt fasta ./USA_naive/Bru3.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+../pratt_package_500000/pratt fasta ./USA_naive/Bru4.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+../pratt_package_500000/pratt fasta ./USA_naive/Bru6.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+../pratt_package_500000/pratt fasta ./USA_naive/Bru7.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+../pratt_package_500000/pratt fasta ./USA_naive/Bru8.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+../pratt_package_500000/pratt fasta ./USA_naive/Bru9.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+
+```
+
+
+
+
