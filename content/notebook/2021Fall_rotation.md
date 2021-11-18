@@ -65,9 +65,10 @@ Bisulfite sequencing of embryonic stem cells of mice
 <div id='id-section2'/> 
 
 ### Page2:
-```
+
 **Processed all fasta files (txt format) in HPC3 using a bash script**
 
+```
 #!/bin/bash
 
 #SBATCH --job-name=Bru      ## Name of the job.
@@ -90,8 +91,18 @@ Bisulfite sequencing of embryonic stem cells of mice
 ```
 
 * Tried different C% (the minimum number of frequency of each pattern)
-  1. C%=0.5% and 500 patterns 
-  2. C%=2% and 50 patterns 
-  
+  1. C%=0.5 and 500 patterns 
+  2. C%=2 and 50 patterns 
+  * C%=0.5 is clearly better than C%=2, becasue the fitness score is higher in the C%=0.5 output. Moreover, C%=2 gave too many patterns of only 2 amino acids 
+  * Idealy, we want to get some patterns having the lengths range between 4 to 5. 
+
+**Principal component analysis and Random Forest analysis in R**
+
+* Using the output from C%=0.5,I selected the top 500 patterns for each samples (81 samples in total), the occurance of each pattern was divided by the total number of sequences. For exaple, pattern P-L-S is found in 100 different 12-nt peptides in sample 1, which has 10,000 sequences. Then, 100/10,000=0.01 is computed and the resulting matrix (81 samples x ~2000 patterns) is used to run PCA. The figure below indicates the four groups are rather similar. 
 
 
+<center>
+<img src="/notebook/website_pics/Fig2_0.5pct_500patterns_77samples.png" alt="PCA plot" style="zoom:50%;" />
+</center>
+
+* Neverthelss, it is important to note that I did not take the number of each sequence into account. Using P-L-S as an example again, there are 100 unique sequences that have this pattern. 100/10,000 does not precisely reflect the real percentage of that pattern because each unique sequence may be sequenced multiple times during the Illumina sequencing. For example, in the USA sample (B9_Bru__peptide_2_5257 ), PLPP pattern from the 12-nt peptide grPLPPnphfr has been sequenced 5257 times! But this pattern is not even ranked as at the top nor does it have a higher fitness score. Also need to note that having doubled sequences for one pattern does not mean the concentration of the antibody for that epitope pattern is also doubled. 
