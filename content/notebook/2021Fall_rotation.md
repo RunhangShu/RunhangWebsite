@@ -79,23 +79,26 @@ Bisulfite sequencing of embryonic stem cells of mice
 #SBATCH --cpus-per-task=4    ## number of cores the job needs
 #SBATCH --error=slurm-%J.err ## error log file
 
-
 ../pratt_package_500000/pratt fasta ./USA_naive/Bru14.txt -C% 0.5 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 500
 ../pratt_package_500000/pratt fasta ./USA_naive/Bru15.txt -C% 0.5 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 500
 ../pratt_package_500000/pratt fasta ./USA_naive/Bru16.txt -C% 0.5 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 500
 ../pratt_package_500000/pratt fasta ./USA_naive/Bru17.txt -C% 0.5 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 500
 ../pratt_package_500000/pratt fasta ./USA_naive/Bru18.txt -C% 0.5 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 500
+.
+.
+.
+../pratt_package_500000/pratt fasta ./USA_naive/Bru50.txt -C% 0.5 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 500
 ```
 
 * Tried different C% (the minimum number of frequency of each pattern)
-  1. C%=0.5 and 500 patterns 
-  2. C%=2 and 50 patterns 
+  * C%=0.5 and 500 patterns 
+  * C%=2 and 50 patterns 
   * C%=0.5 is clearly better than C%=2, becasue the fitness score is higher in the C%=0.5 output. Moreover, C%=2 gave too many patterns of only 2 amino acids 
   * Idealy, we want to get some patterns having the lengths range between 4 to 5. 
 
 **Principal component analysis**
 
-* Using the output from C%=0.5,I selected the top 500 patterns for each samples (81 samples in total), the occurance of each pattern was divided by the total number of sequences. For exaple, pattern P-L-S is found in 100 different 12-nt peptides in sample 1, which has 10,000 sequences. Then, 100/10,000=0.01 is computed and the resulting matrix (81 samples x ~2000 patterns) is used to run PCA. The figure below indicates the four groups are rather similar. 
+* Using the output from C%=0.5, I selected the top 500 patterns for each samples (81 samples in total), the occurance of each pattern was divided by the total number of sequences. For exaple, pattern P-L-S is found in 100 different 12-nt peptides in sample 1, which has 10,000 sequences. Then, 100/10,000=0.01 is computed and the resulting matrix (81 samples x ~2000 patterns) is used to run PCA. The figure below indicates the four groups are rather similar. 
 
 
 <center>
@@ -106,4 +109,6 @@ Bisulfite sequencing of embryonic stem cells of mice
 
 **Random Forest analysis**
 
-* Again, using the p
+* Again, using the matrix of C%=0.5 with 500 patterns. 9 samples of C-S-, 14 samples of C-S+, 16 samples of C+S+, 42 samples of USA native.
+* Out of bag rate is quite high (30%) when I am trying to classify four of the each group.
+* Out of bag rate is low (~3%) when I made the response virable as binary (YES vs. NO) by grouping USA native with C-S- as negative, and grouping C+S+ and C-S+ as positive. 
