@@ -103,7 +103,7 @@ Bisulfite sequencing of embryonic stem cells of mice
 
 
 <center>
-<img src="/website_pics/Fig2_0.5pct_500patterns_77samples.png" alt="PCA plot" style="zoom:50%;" />
+<img src="/content/website_pics/Fig2_0.5pct_500patterns_77samples.png" alt="PCA plot" style="zoom:50%;" />
 </center>
 
 * Neverthelss, it is important to note that I did not take the number of each sequence into account. Using P-L-S as an example again, there are 100 unique sequences that have this pattern. 100/10,000 does not precisely reflect the real percentage of that pattern because each unique sequence may be sequenced multiple times during the Illumina sequencing. For example, in the C+S+ sample (B9_Bru__peptide_2_5257 ), PLPP pattern from the 12-nt peptide grPLPPnphfr has been sequenced 5257 times! But this pattern is not even ranked as at the top nor does it have a higher fitness score. Also need to note that having doubled sequences for one pattern does not mean the concentration of the antibody for that epitope pattern is also doubled. 
@@ -129,7 +129,7 @@ Bisulfite sequencing of embryonic stem cells of mice
 *Below is the output*
 
  <center>
-<img src="../figures/Brucella_duplicates.png" alt="PCA plot" style="zoom:50%;" />
+<img src="/content/website_pics/Brucella_duplicates.png" alt="PCA plot" style="zoom:50%;" />
 </center>
 
 It looks like 2% is too low, so that each pattern makes up by identical duplicated sequences. Just because this sequences have the most abundant reads does not mean the antibody is at high conc. for this epitope. Another antibody could bind to many low-abundance sequences so that the sum of all the sequences is even greater the top1 sequence: IQRESHPPHYW. So, my next instinct is to increase the C% and see if the top pattern consists of many unique sequences instead of one. Ideally, we want the length of pattern range between 4-5 or 6-mer. 
@@ -151,7 +151,7 @@ Oppus, did not look good at all... 2-mer can be found in any random sequences. O
 **Now, decrease C% to 6**
 
  <center>
-<img src="../figures/Brucella_duplicates3.png" alt="PCA plot" style="zoom:50%;" />
+<img src="/content/website_pics/Brucella_duplicates3.png" alt="PCA plot" style="zoom:50%;" />
 </center>
 
 Still did not have any signal.
