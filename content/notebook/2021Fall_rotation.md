@@ -114,4 +114,10 @@ Bisulfite sequencing of embryonic stem cells of mice
 * Out of bag rate is quite high (30%) when I am trying to classify four of the each group.
 * Out of bag rate is low (~3%) when I made the response virable as binary (YES vs. NO) by grouping USA native with C-S- as negative, and grouping C+S+ and C-S+ as positive. 
 
----
+-----
+
+<div id='id-section3/'>
+
+### Page3:
+ 
+ 
