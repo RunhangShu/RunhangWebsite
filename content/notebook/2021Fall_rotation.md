@@ -116,8 +116,18 @@ Bisulfite sequencing of embryonic stem cells of mice
 
 -----
 
-<div id='id-section3/'>
+<div id='id-section3'/>
 
 ### Page3:
- 
- 
+
+**Search pattern with duplicated sequences**
+../pratt_package_500000/pratt fasta ./USA\ Naive/1_S98_complete_for_RF.txt -C% 2 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
+
+*Below is the output*
+
+ <center>
+<img src="/notebook/website_pics/Brucella_duplicates.png" alt="PCA plot" style="zoom:50%;" />
+</center>
+
+It looks like 2% is too low, so that each pattern makes up by identical duplicated sequences. Just because this sequences have the most abundant reads does not mean the antibody is at high conc. for this epitope. Another antibody could bind to many low-abundance sequences so that the sum of all the sequences is even greater the top1 sequence: IQRESHPPHYW. So, my next instinct is to increase the C% and see if the top pattern consists of many unique sequences instead of one. Ideally, we want the length of pattern range between 4-5 or 6-mer. 
+
