@@ -153,3 +153,5 @@ Oppus, did not look good at all... 2-mer can be found in any random sequences. O
  <center>
 <img src="/notebook/website_pics/Brucella_duplicates6%.png" alt="PCA plot" style="zoom:50%;" />
 </center>
+
+Still did not have any signal.
