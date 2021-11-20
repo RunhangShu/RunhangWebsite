@@ -154,4 +154,11 @@ Oppus, did not look good at all... 2-mer can be found in any random sequences. O
 <img src="/notebook/website_pics/Brucella_duplicates3.png" alt="PCA plot" style="zoom:50%;" />
 </center>
 
-Still did not have any signal.
+Still did not have any signal. Decrease to 4%, the top pattern is like this P-A-V-P-A-L-L-Y-R-H-Q. Then increase to 5%, it suddenly becomes like this: A-L-[LP].
+Therefore, we should adjust the PL (Pattern Length). 
+
+
+**Reduce PL to 6, looks better**
+ <center>
+<img src="/notebook/website_pics/Brucella_duplicates4.png" alt="PCA plot" style="zoom:50%;" />
+</center>
