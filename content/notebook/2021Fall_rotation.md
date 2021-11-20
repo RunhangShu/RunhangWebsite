@@ -103,7 +103,7 @@ Bisulfite sequencing of embryonic stem cells of mice
 
 
 <center>
-<img src="/content/web_figures/Fig2_0.5pct_500patterns_77samples.png" alt="PCA plot" style="zoom:50%;" />
+<img src="/web_figures/Fig2_0.5pct_500patterns_77samples.png" alt="PCA plot" style="zoom:50%;" />
 </center>
 
 * Neverthelss, it is important to note that I did not take the number of each sequence into account. Using P-L-S as an example again, there are 100 unique sequences that have this pattern. 100/10,000 does not precisely reflect the real percentage of that pattern because each unique sequence may be sequenced multiple times during the Illumina sequencing. For example, in the C+S+ sample (B9_Bru__peptide_2_5257 ), PLPP pattern from the 12-nt peptide grPLPPnphfr has been sequenced 5257 times! But this pattern is not even ranked as at the top nor does it have a higher fitness score. Also need to note that having doubled sequences for one pattern does not mean the concentration of the antibody for that epitope pattern is also doubled. 
