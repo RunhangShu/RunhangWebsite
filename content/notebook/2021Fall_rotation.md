@@ -11,7 +11,7 @@ date: 2021-11-05
 ### Contact: darsonshu@gmail.com
 
 ### Date started: 2021-11-05
-### Date end (last modified): 2021-11-05
+### Date end (last modified): 2021-11-20
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.    
 
@@ -21,7 +21,8 @@ Notebook for rotation in Dr. Katrine White and Dr. Charles Glabe lab. It'll log 
 
 # Table of contents    
 * [Page 1: 2021-11-05](#id-section1) Literature review 1 - The concurrence of DNA methylation and demethylation is associated with transcription regulation
-* [Page 2: 2021-11-17](#id-section2) The Brucella data
+* [Page 2: 2021-11-17](#id-section2) The Brucella data (1) - use non-duplicate unique 12-mer peptide sequences to search pattersn
+* [Page 3: 2021-11-20](#id-section3) The Brucella data (2) - use duplicated 12-mer peptide sequences to search pattersn
 
 
 
@@ -112,3 +113,5 @@ Bisulfite sequencing of embryonic stem cells of mice
 * Again, using the matrix of C%=0.5 with 500 patterns. 9 samples of C-S-, 14 samples of C-S+, 16 samples of C+S+, 42 samples of USA native.
 * Out of bag rate is quite high (30%) when I am trying to classify four of the each group.
 * Out of bag rate is low (~3%) when I made the response virable as binary (YES vs. NO) by grouping USA native with C-S- as negative, and grouping C+S+ and C-S+ as positive. 
+
+---
