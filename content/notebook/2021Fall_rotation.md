@@ -141,7 +141,7 @@ It looks like 2% is too low, so that each pattern makes up by identical duplicat
 ../pratt_package_500000/pratt fasta ./USA\ Naive/1_S98_complete_for_RF.txt -C% 10 -PL 11 -PX 1 -E 0 -FN 0 -FL 1 -ON 50
 ```
  <center>
-<img src="./web_figures/Brucella_duplicates2.png" alt="PCA plot" style="zoom:50%;" />
+<img src="./website_pics/Brucella_duplicates2.png" alt="PCA plot" style="zoom:50%;" />
 </center>
 
 Oppus, did not look good at all... 2-mer can be found in any random sequences. One thing I learned from the result, at least, is that amino acids **SPLAT** are more abundant than the others. Why? 1) Random phage library is baised 2) sequencing baise? very interesting!  
