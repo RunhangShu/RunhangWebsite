@@ -173,4 +173,4 @@ However, the top3 patterns are exactly from the identify 12-mer peptides...
 -C% 0.3 -PL 4 -PX 1 -E 0 -FN 0 -FL 1 -ON 200
 ```
 
-**Or should I just focus on the top50 from [Brucella (1)](div id='id-section3'/), calculate the frequency of each pattern?**
+**Or should I just focus on the top50 from [Brucella (1)!](div id='id-section3'/), calculate the frequency of each pattern?**
