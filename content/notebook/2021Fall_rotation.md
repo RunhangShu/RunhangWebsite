@@ -162,3 +162,15 @@ Therefore, we should adjust the PL (Pattern Length).
  <center>
 <img src="/notebook/website_pics/Brucella_duplicates4.png" alt="PCA plot" style="zoom:50%;" />
 </center>
+
+However, the top3 patterns are exactly from the identify 12-mer peptides...
+
+**The question is which pattern is the real pattern: the pattern with 100 unique peptides vs. a pttern with 95 duplicates of one peptide and 5 unique peptides?**
+
+**After multiple tries, I decide to use the following parameters**
+
+```
+-C% 0.3 -PL 4 -PX 1 -E 0 -FN 0 -FL 1 -ON 200
+```
+
+**Or should I just focus on the top50 from [Brucella (1)](div id='id-section3'/), calculate the frequency of each pattern?**
