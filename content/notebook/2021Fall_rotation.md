@@ -195,10 +195,12 @@ Based on the 200 patterns from each samples, the PCA plot indicates that USA and
 
 I build a RF model with 500 trees and 100 permutation using R package rfPermute (v2.5). 
 
+```
        Negative Positve pct.correct LCI_0.95 UCI_0.95
 Negative       45       6       88.24   76.132     95.6
 Positve        31       2        6.06    0.743     20.2
 Overall        NA      NA       55.95   44.695     66.8
+```
 
 The out of bag rate is very high for positive group. 
 
@@ -217,10 +219,12 @@ This is probably because that there are 8389 patterns across 84 samples. With th
 
 **To shorten the dataset and make the samples more comparable, I will only keep the top 1000 abundant patterns**
 
+```
          Negative Positive pct.correct LCI_0.95 UCI_0.95
 Negative       45        6        88.2     76.1     95.6
 Positive        9       24        72.7     54.5     86.7
 Overall        NA       NA        82.1     72.3     89.6
+```
 
 Now, the RF model looks better.
 
@@ -228,16 +232,20 @@ Now, the RF model looks better.
 
 There are 5488 patterns lefe after filtering. 
 
-
+```
            USA_native C+S+ C-S+ C-S- pct.correct LCI_0.95 UCI_0.95
 USA_native         42    0    0    0      100.00   91.592    100.0
 C+S+               13    1    2    0        6.25    0.158     30.2
 C-S+                9    1    7    0       41.18   18.444     67.1
 C-S-                7    1    1    0        0.00    0.000     33.6
 Overall            NA   NA   NA   NA       59.52   48.253     70.1
+```
 
-
+```
          Negative Positive pct.correct LCI_0.95 UCI_0.95
 Negative       46        5        90.2     78.6     96.7
 Positive       23       10        30.3     15.6     48.7
 Overall        NA       NA        66.7     55.5     76.6
+```
+
+-------
