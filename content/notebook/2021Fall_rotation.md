@@ -23,6 +23,7 @@ Notebook for rotation in Dr. Katrine White and Dr. Charles Glabe lab. It'll log 
 * [Page 1: 2021-11-05](#id-section1) Literature review 1 - The concurrence of DNA methylation and demethylation is associated with transcription regulation
 * [Page 2: 2021-11-17](#id-section2) The Brucella data (1) - use non-duplicate unique 12-mer peptide sequences to search pattersn
 * [Page 3: 2021-11-20](#id-section3) The Brucella data (2) - use duplicated 12-mer peptide sequences to search pattersn
+* [Page 4: 2021-11-20](#id-section4) The Brucella data (2) - analyze in R
 
 
 
@@ -173,4 +174,19 @@ However, the top3 patterns are exactly from the identify 12-mer peptides...
 -C% 0.3 -PL 4 -PX 1 -E 0 -FN 0 -FL 1 -ON 200
 ```
 
-**Or should I just focus on the top50 from [Brucella (1)!](div id='id-section3'/), calculate the frequency of each pattern?**
+**Or should I just focus on the top50 from [Brucella (1)!]<div id='id-section2'/>, calculate the frequency of each pattern?**
+
+-------
+
+<div id='id-section4'/>    
+
+### Page4:
+
+**PCA analysis**
+
+Based on the 200 patterns from each samples, the PCA plot indicates that USA and C-S- groups have very small variations while C-S+ and C+S+ have larger variations.
+
+ <center>
+<img src="/notebook/website_pics/PCA_200pattern.png" alt="PCA plot" style="zoom:50%;" />
+</center>
+
