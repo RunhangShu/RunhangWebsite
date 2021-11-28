@@ -226,7 +226,7 @@ Positive        9       24        72.7     54.5     86.7
 Overall        NA       NA        82.1     72.3     89.6
 ```
 
-Now, the RF model looks better.
+Now, the RF model looks better. 
 
 
 ```
@@ -235,6 +235,21 @@ Peru      41   1        97.6     87.4     99.9
 USA        2  40        95.2     83.8     99.4
 Overall   NA  NA        96.4     89.9     99.3
 ```
+
+Also >95% accurately predict Peru from USA samples. Below is the 20 patterns based on the RF models. 
+
+```
+[1] "F-H-A-S" "S-L-P-A" "S-S-S-L" "S-S-A-P" "H-A-A-H" "G-H-L-S" "L-P-P-E" "A-S-T-S" "P-E-R-G" "E-R-G-H"
+[11] "V-P-P-S" "L-S-W-I" "N-L-P-P" "A-S-A-S" "P-P-E-R" "P-S-x-H" "T-S-S-P" "H-L-S-W" "Q-H-T-N" "L-G-L-R"
+```
+
+**Plot it with prevalance and Giniscore
+
+ <center>
+<img src="/notebook/website_pics/rf2.png" alt="PCA plot" style="zoom:50%;" />
+</center>
+
+
 
 **To shorten the dataset and make the samples more comparable, I will delete patterns that having bracket (e.g., A-T-[S-T-A])**
 
