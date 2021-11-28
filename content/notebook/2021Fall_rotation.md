@@ -236,11 +236,11 @@ USA        2  40        95.2     83.8     99.4
 Overall   NA  NA        96.4     89.9     99.3
 ```
 
-Also >95% accurately predict Peru from USA samples. Below is the 20 patterns based on the RF models. 
+Also >95% accurately predict Peru from USA samples. Below is the 20 patterns based on the RF models. 1o out of 20 patterns only found in Peru but not USA samples. 
 
 ```
-[1] "F-H-A-S" "S-L-P-A" "S-S-S-L" "S-S-A-P" **"H-A-A-H"** **"G-H-L-S" "L-P-P-E" "A-S-T-S" "P-E-R-G" "E-R-G-H"
-[11] "V-P-P-S" "L-S-W-I" "N-L-P-P" "A-S-A-S" "P-P-E-R" "P-S-x-H" "T-S-S-P" "H-L-S-W" "Q-H-T-N" "L-G-L-R"
+[1] "F-H-A-S" "S-L-P-A" "S-S-S-L" "S-S-A-P" *"H-A-A-H" *"G-H-L-S" *"L-P-P-E" "A-S-T-S" *"P-E-R-G" *"E-R-G-H"
+[11] *"V-P-P-S" *"L-S-W-I" "N-L-P-P" "A-S-A-S" *"P-P-E-R" "P-S-x-H" "T-S-S-P" *"H-L-S-W" *"Q-H-T-N" "L-G-L-R"
 ```
 
 **Plot it with prevalance and Giniscore
