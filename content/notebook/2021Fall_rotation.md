@@ -228,6 +228,14 @@ Overall        NA       NA        82.1     72.3     89.6
 
 Now, the RF model looks better.
 
+
+```
+        Peru USA pct.correct LCI_0.95 UCI_0.95
+Peru      41   1        97.6     87.4     99.9
+USA        2  40        95.2     83.8     99.4
+Overall   NA  NA        96.4     89.9     99.3
+```
+
 **To shorten the dataset and make the samples more comparable, I will delete patterns that having bracket (e.g., A-T-[S-T-A])**
 
 There are 5488 patterns lefe after filtering. 
