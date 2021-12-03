@@ -6,8 +6,9 @@ slug: "cn/about"
 Hey！🔥Welcome to Runhang's base🔥
 
 \
-   I am currently a master student at [Wong
-lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/)
+   I obtained my M.S. focusing #insect#microbe#nutrtion#behavior at the Univ. of Florida at [Wong
+lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/) Now, I am a 1st-year Ph.D student at [UCI CMB program.](https://cmb.uci.edu/) I am co-advised by Katrine Whiteson and Charles Glabe for the Fall 2021. 
+
 
 **Research interests**
 
