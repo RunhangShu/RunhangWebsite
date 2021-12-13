@@ -357,7 +357,7 @@ abline(0, 1)
 rarecurve(df3, step = 20, sample = raremax, col = "blue", cex = 0.6)
 ```
  <center>
-<img src="/notebook/website_pics/rarefaction.tiff" alt="rarefaction" style="zoom:50%;" />
+<img src="/notebook/website_pics/rarefaction.png" alt="rarefaction" style="zoom:50%;" />
 </center>
 
 ---
