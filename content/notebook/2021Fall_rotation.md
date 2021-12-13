@@ -356,6 +356,9 @@ plot(S, Srare, xlab = "Observed No. of Species", ylab = "Rarefied No. of Species
 abline(0, 1)
 rarecurve(df3, step = 20, sample = raremax, col = "blue", cex = 0.6)
 ```
+ <center>
+<img src="/notebook/website_pics/rarefaction.png" alt="PCA plot" style="zoom:50%;" />
+</center>
 
 ---
 
