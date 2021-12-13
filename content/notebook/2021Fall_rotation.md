@@ -283,7 +283,7 @@ Overall        NA       NA        66.7     55.5     76.6
 In the past two weeks, I drafted the rotation report and gave a talk in the mini-symposium. I realized it takes me a chunck of time to go through all the literature again and 
 starts thinking hard about the objetives and hypotheses of my rotation project. I regreted that I did not read enough relavent papers at the beginning of this rotation. I learned that I have to be 100% clear about the objective before diving into any data. 
 
-One day, I came across a *Scicence* [paper](https://doi.org/10.1126/science.aan6619), demonstrating IgA antibodies coat on microbial surface glycans in the mice gut with a very little specificity. After reading this paper, I realized the advantages of the random phage peptide display technique in my project.
+One day, I came across a *Science* [paper](https://doi.org/10.1126/science.aan6619), demonstrating IgA antibodies coat on microbial surface glycans in the mice gut with a very little specificity. After reading this paper, I realized the advantages of the random phage peptide display technique in my project.
 
 1. It is very high-throughput compared to the monocloning of each antibody from a single cell. In a single run, this technique can potentially identidy epitopes that are targeted hundreds or thousands of antibodies in given samples. 
 2. It is studying the peptide level instead of the cell(bacterium) level. By sequencing Phage DNA, we will know the actual dodecapeptides that were bound by antibodies. In this way, not only we can identidy epitopes but also quantitatively measure the **envenness and richness of these epitopes**. 
