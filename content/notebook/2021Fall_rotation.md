@@ -11,7 +11,7 @@ date: 2021-11-05
 ### Contact: darsonshu@gmail.com
 
 ### Date started: 2021-11-05
-### Date end (last modified): 2021-11-28
+### Date end (last modified): 2021-12-13
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.    
 
@@ -24,6 +24,7 @@ Notebook for rotation in Dr. Katrine White and Dr. Charles Glabe lab. It'll log 
 * [Page 2: 2021-11-17](#id-section2) The Brucella data (1) - use non-duplicate unique 12-mer peptide sequences to search pattersn
 * [Page 3: 2021-11-20](#id-section3) The Brucella data (2) - use duplicated 12-mer peptide sequences to search pattersn
 * [Page 4: 2021-11-20](#id-section4) The Brucella data (2) - analyze in R
+* [Page 5: 2021-12-13](#id-section5) Generate rarefraction curve for the random phage peptide data
 
 
 
@@ -243,7 +244,7 @@ Also >95% accurately predict Peru from USA samples. Below is the 20 patterns bas
 [11] *"V-P-P-S" *"L-S-W-I" "N-L-P-P" "A-S-A-S" *"P-P-E-R" "P-S-x-H" "T-S-S-P" *"H-L-S-W" *"Q-H-T-N" "L-G-L-R"
 ```
 
-**Plot it with prevalance and Giniscore
+**Plot it with prevalance and Giniscore**
 
  <center>
 <img src="/notebook/website_pics/rf2.png" alt="PCA plot" style="zoom:50%;" />
@@ -272,3 +273,94 @@ Overall        NA       NA        66.7     55.5     76.6
 ```
 
 -------
+
+<div id='id-section5'/>  
+
+### Page5:
+
+**Rotation (Fall) summary**
+
+In the past two weeks, I drafted the rotation report and gave a talk in the mini-symposium. I realized it takes me a chunck of time to go through all the literature again and 
+starts thinking hard about the objetives and hypotheses of my rotation project. I regreted that I did not read enough relavent papers at the beginning of this rotation. I learned that I have to be 100% clear about the objective before diving into any data. 
+
+One day, I came across a *Scicence* [paper](https://doi.org/10.1126/science.aan6619), demonstrating IgA antibodies coat on microbial surface glycans in the mice gut with a very little specificity. After reading this paper, I realized the advantages of the random phage peptide display technique in my project.
+
+1. It is very high-throughput compared to the monocloning of each antibody from a single cell. In a single run, this technique can potentially identidy epitopes that are targeted hundreds or thousands of antibodies in given samples. 
+2. It is studying the peptide level instead of the cell(bacterium) level. By sequencing Phage DNA, we will know the actual dodecapeptides that were bound by antibodies. In this way, not only we can identidy epitopes but also quantitatively measure the **envenness and richness of these epitopes**. 
+
+**An idea of analysis always comes from a deeper understanding about your project**
+**Now, I focus on richness and evenness of the epitopes.**
+
+**Rarefaction Curve**
+Rarefaction curve is a plot displaying sample depth by species (epitope) identified.
+
+An extreme case for the greatest evenness would be that every dodecapeptide is unique, indicating no specificity (no preference when antibodies bind on epitopes).
+In contrast, an extreme case for the greatest richness would be that all reads are the same dodecapeptide, indicating high affinity and specificity (antibodies have preference for a specific epitope).
+
+
+```
+library(plry)  #### for counting the number of duplicates
+library("vegan") #### plot rarefaction curve
+library(tidyverse) #### organize dataframe
+
+getwd()
+setwd("C:/Users/darsonshu/Documents/Fall_rotation/raw_fasta/Brucella_duplicates/C+S+_2/")
+
+temp1<-list.files(pattern = "*.txt")
+
+myfile1<-lapply(temp1, read.fasta)  #### read all files from the folder
+
+df<-data.frame(matrix(ncol = 2))
+
+#### A loop function to place all sequences into one BIG data frame: 1,000,000 rows!
+for (r in 1:length(temp1)) {
+        sample=myfile1[[r]]
+        b[r]=length(sample)
+        
+        for (c in (sum(b)-b[r]+1):sum(b)) {
+          
+          df[c,1]<-paste(sample[[sum(b)-c+1]][1:12],collapse = "")
+          df[c,2]<-substr(temp1[r],1,5)
+        }
+
+}
+
+df$X2<-as.factor(df$X2)
+df$X1<-as.factor(df$X1)
+
+
+df2 <- count(df,vars=c("X1","X2")) #### only keep unique reads and the counts 
+
+df3<-df2 %>% pivot_wider(names_from = X1, values_from = freq, values_fill = 0) #### convert the df from long to wide
+df3<-as.data.frame(df3)
+rownames(df3)<-df3$X2
+
+df3<-df3[,-1]
+df4<-df3[,order(-colSums(df3))]  #### see which read is the most abundant across samples
+
+
+S <- specnumber(df3) # observed number of species
+
+S_df<-as.data.frame(S)
+S_df$sample<-rownames(S_df)
+
+S_df$sample<-factor(S_df$sample)
+
+boxplot(S_df$S)
+
+(raremax <- min(rowSums(df3)))
+
+dim(df3)
+Srare <- rarefy(df3, raremax)
+plot(S, Srare, xlab = "Observed No. of Species", ylab = "Rarefied No. of Species")
+abline(0, 1)
+rarecurve(df3, step = 20, sample = raremax, col = "blue", cex = 0.6)
+```
+
+---
+
+
+
+
+
+
