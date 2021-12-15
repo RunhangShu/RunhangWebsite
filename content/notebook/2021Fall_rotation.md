@@ -360,6 +360,9 @@ rarecurve(df3, step = 20, sample = raremax, col = "blue", cex = 0.6)
 <img src="/notebook/website_pics/rarefaction.png" alt="rarefaction" style="zoom:50%;" />
 </center>
 
+#### None of the sample reaches a plateau. Therefore, it does not make sense to scale the data by sequencing depth. 
+#### Similar, we are not able to compare the richness/evenness (e.g., Shannon index) between the samples. 
+
 ---
 
 
