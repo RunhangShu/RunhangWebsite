@@ -10,6 +10,8 @@ disable_highlight: true
 
 # 2021
 
+**Shu, R**, Laurice Uy, Adam Chun-Nin Wong, Nutritional phenotype underlines the performance trade-offs of Drosophila suzukii on different fruit diets,Current Research in Insect Science,2021,100026,ISSN 2666-5158. https://doi.org/10.1016/j.cris.2021.100026.
+
 **Shu, R.** and Wong, A. C. N. (2021). Hybrid Nanopore-Illumina Genome Assembly of a Drosophila suzukii Gut Bacterial Symbiont, Gluconobacter cerinus FLW-1. Microbiol. Resour. Announc. 10,. https://mra.asm.org/content/10/16/e00190-21 
 
 **Shu, R.**, Hahn, D., Liburd, O., Yuval, B., Jurkevitch, E., Wong, A. Sex-dependent effects of microbiome on the locomotion and foraging of Drosophila suzukii. https://www.frontiersin.org/articles/10.3389/fmicb.2021.656406/full 
