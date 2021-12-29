@@ -98,7 +98,7 @@ params:
 
   logo:
     en:
-      img: "/images/logo.jpg"
+      img: "/images/website.jpg"
       url: "/"
       alt: "Runhang Shu"
       tag: ""
