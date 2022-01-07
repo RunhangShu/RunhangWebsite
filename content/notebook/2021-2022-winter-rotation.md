@@ -1,6 +1,6 @@
 ---
 title: WL lab winter rotation
-data: '2022-01-06'
+date: '2022-01-06'
 ---
 
 
