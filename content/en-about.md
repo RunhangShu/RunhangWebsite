@@ -7,12 +7,13 @@ Hey！🔥Welcome to Runhang's base🔥
 
 \
    I obtained my M.S. focusing #insect#microbe#nutrtion#behavior at the Univ. of Florida at [Wong
-lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/) Now, I am a 1st-year Ph.D student at [UCI CMB program.](https://cmb.uci.edu/) I am co-advised by Katrine Whiteson and Charles Glabe for the Fall 2021. 
+lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/) Now, I am a 1st-year Ph.D student at [UCI CMB program.](https://cmb.uci.edu/) I was co-advised by Katrine Whiteson and Charles Glabe for the Fall 2021. I am rotating in Wei Li lab for the Winter 2021. 
 
 
 **Research interests**
 
-  We are living a microbial world where all animals are intimately
+***Do microbe modulate our behavior?*** 
+We are living a microbial world where all animals are intimately
 associated with microbes. The animal hosts have co-evolved with the
 microbes inhabiting in their body (i.e. gut). While human genome is hard
 to edit, the gut microbial community and its collective genetic
@@ -24,6 +25,7 @@ goal is to use *Drosophila* model to illunimate the underlying
 mechanisms of microbiome-mediated host physiology (e.g. nutritional
 state and appetite).
 
+***Microbiome ecology***
    To translate the study of experimental models into clinical practice
 (Lactobacillus represents a good example), we have to study microbiome
 ecology! Our understanding of microbiome ecology is extremely limited
@@ -42,6 +44,9 @@ clinic trails, I believe, mathematical modeling and simulation can
 provide great insights about designing a personalized microbial cocktail
 for human health.
 
+***Microbiome and host epigenome***
+Microbe and human share very similar langugae in the epigenetic modifications. Besides, many of microbiome-derived metabolites are involved in the biological process of epigenetic programming. The role of the cross-kingdom communication in driving many diseases including cancer has been unfolding. My goal is to apply computational tools to identify microbiome-associated links between epigenetic markers and diseases. These epigenetic markers and microbiome signature provide both cancer early diagosis and potential microbiome-based treatments. 
+
 **Advocation**
 
 -   "Understanding how microbes affect health and the biosphere requires
@@ -57,8 +62,7 @@ science. Importantly, we should also TALK about science, SHARE ideas,
 and keep CRITICIZing.
 
 \
-  Here, I will write more R code for data visualization and omics data
-analysis.
+  Here, I will log my thoughts on general science and my research field. The website will witness my personal progress and development in the research philosophy as well as life philosophy.
 
 \
 \
@@ -67,7 +71,7 @@ analysis.
 
 &emsp;&emsp;故科学者，神圣之光，照世界者也，可以遏末流而生感动。- 鲁迅
 
-&emsp;&emsp;关于生物信息，我还在探索。后期我会多写写生物领域，宏基因组，微生物组的数据分析的小文章。敬请期待～
+&emsp;&emsp;关于生物信息，我还在探索。后期我会多分析关于生信的小文章。敬请期待～
 
 [![Flag
 Counter](https://s11.flagcounter.com/count2/OAsj/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/)](http://s11.flagcounter.com/more/OAsj)
