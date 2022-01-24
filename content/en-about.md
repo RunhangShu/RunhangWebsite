@@ -25,8 +25,8 @@ goal is to use *Drosophila* model to illunimate the underlying
 mechanisms of microbiome-mediated host physiology (e.g. nutritional
 state and appetite).
 
-***Microbiome ecology***
-   To translate the study of experimental models into clinical practice
+***Microbiome ecology.*** 
+To translate the study of experimental models into clinical practice
 (Lactobacillus represents a good example), we have to study microbiome
 ecology! Our understanding of microbiome ecology is extremely limited
 such as gut microbial community is composed of \>1000 bacterial taxa
@@ -44,7 +44,7 @@ clinic trails, I believe, mathematical modeling and simulation can
 provide great insights about designing a personalized microbial cocktail
 for human health.
 
-***Microbiome and host epigenome***
+***Microbiome and host epigenome.*** 
 Microbe and human share very similar langugae in the epigenetic modifications. Besides, many of microbiome-derived metabolites are involved in the biological process of epigenetic programming. The role of the cross-kingdom communication in driving many diseases including cancer has been unfolding. My goal is to apply computational tools to identify microbiome-associated links between epigenetic markers and diseases. These epigenetic markers and microbiome signature provide both cancer early diagosis and potential microbiome-based treatments. 
 
 **Advocation**
@@ -62,7 +62,7 @@ science. Importantly, we should also TALK about science, SHARE ideas,
 and keep CRITICIZing.
 
 \
-  Here, I will log my thoughts on general science and my research field. The website will witness my personal progress and development in the research philosophy as well as life philosophy.
+  Here, I will log my thoughts on general science and my research field. The website will witness my personal progress and the development of my own research philosophy and life philosophy.
 
 \
 \
