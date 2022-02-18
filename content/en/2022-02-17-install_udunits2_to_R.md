@@ -40,3 +40,6 @@ conda install -c conda-forge udunits2 ### I do not know why installing udnits pa
 
 ####
 
+
+#### install "sf", which requires gdal 
+conda install -c conda-forge gdal. ### many conda packages need to be installed during the R package installation...
