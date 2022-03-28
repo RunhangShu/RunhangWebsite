@@ -1,7 +1,6 @@
 ---
-
-title:Siryaporn's lab rotation 
-author:Runhang 
+title: Siryaporn's lab rotation 
+author: Runhang 
 date: 2022-03-28
 ---
 
