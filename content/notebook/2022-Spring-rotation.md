@@ -29,16 +29,20 @@ Notebook for rotation in Dr. Albert Siryaporn lab. It'll log notes, ideas and in
 
 <div id='id-section1'/>    
 
-### Page 1: Purify Bacterial mRNA
+### Page 1: Purify Bacterial mRNA 
 
+**Siryaporn lab protocol**
 
 1. Using [Hot-Phenol protocol](http://128.200.44.3/web/protocols%20and%20recipes/RNA_prep_hotphenol.pdf) for nucleic acids extraction from bacterial cells (Day1)
 2. [DNase digest and RiboZero](http://128.200.44.3/web/protocols%20and%20recipes/RNAseq_NEBNext.pdf) (remove DNA and rRNA from Day1 prep) (Day2)
 3. NEBNext kit - ligate adapters, generate cDNA, and add index tags (Day3,4)
-    - note: there is an upgraded NEBNext kit E7760 in replace of E7420 in the old protocol. 
+    - note: there is an upgraded NEBNext kit E7760 in replace of E7420 in the old protocol. The total RNA input has broad range between 5 nanograms to 1 microgram. 
     - Thermo Fisher has a MICROBExpress bacterial mRNA enrichment [kit](https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rna-isolation/tech-notes/purify-bacterial-mrna.html). It will be like RiboZero rRNA depleting kit.
     - Ongoing issue with RiboZero kit: ribozero probes can get incorporated into sequencing pipeline. Use reagents stochiometrically to avoid this. 
 
+**Reviewed the paper:[EMBR-seq](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07134-4)**
+
+- 
 ------
 
 <div id='id-section2'/> 
