@@ -1,5 +1,5 @@
 ---
-title: Differences in studying mouse and human - using C. albicans as an example
+title: Differences in mouse and human study - using *C. albicans* as an example
 date: 2022-04-24
 ---
 
@@ -24,6 +24,7 @@ Mechanistically, a consensus has not been made regarding the neutrophil receptor
 It is argued that human neutrophils use the lectin-binding integrin Complement receptor 3 (CR3) for Candida uptake and killing, in line with another study showing CR3 and not dectin-1 is the major receptor for β-glucan recognition by human neutrophils (Gazendam et al., 2014). The differences in β-glucan recognition in human and mouse neutrophils could be true because dectin-1-mutant patients showed normal killing of C. albicans by neutrophils. In the mouse study, in contrast, dectin-1 is essential for Glut1 transcription and phosphorylation in neutrophils to meet the metabolic needs for antifungal activities. Moreover, another study on the mouse showed that dectin-1 is required to activate CR3 for the cytotoxic response to C. albicans (Li et al., 2011). It is important to note that the human clinic study showed dectin-1 is required for β-glucan recognition in monocytes and macrophages. Deficiency in β-glucan recognition leads to defects in cytokine response. However, human neutrophils, serve as redundant innate immunity in phagocytosis, can probably use alternatively dectin-1-independent mechanism to protein against invasive fungal infection. 
 
 **References**
+
 Ferwerda, B., Ferwerda, G., Plantinga, T.S., Willment, J.A., van Spriel, A.B., Venselaar, H., Elbers, C.C., Johnson, M.D., Cambi, A., Huysamen, C., et al. (2009). Human Dectin-1 Deficiency and Mucocutaneous Fungal Infections. New England Journal of Medicine 361, 1760–1767. https://doi.org/10.1056/NEJMoa0901053.
 Gazendam, R.P., van Hamme, J.L., Tool, AntonT.J., van Houdt, M., Verkuijlen, PaulJ.J.H., Herbst, M., Liese, J.G., van de Veerdonk, F.L., Roos, D., van den Berg, T.K., et al. (2014). Two independent killing mechanisms of Candida albicans by human neutrophils: evidence from innate immunity defects. Blood 124, 590–597. https://doi.org/10.1182/blood-2014-01-551473.
 Li, D.-D., Jawale, C.V., Zhou, C., Lin, L., Trevejo-Nunez, G.J., Rahman, S.A., Mullet, S.J., Das, J., Wendell, S.G., Delgoffe, G.M., et al. (2022). Fungal sensing enhances neutrophil metabolic fitness by regulating antifungal Glut1 activity. Cell Host & Microbe 30, 530-544.e6. https://doi.org/10.1016/j.chom.2022.02.017.
