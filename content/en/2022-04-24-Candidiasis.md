@@ -1,6 +1,6 @@
 ---
 title: Differences in studying mouse and human - using C. albicans as an example
-date:2022-04-24
+date: 2022-04-24
 ---
 
 **Pathogen: Candida albicans**
