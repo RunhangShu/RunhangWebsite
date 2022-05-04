@@ -1,5 +1,5 @@
 ---
-title: Differences in mouse and human study - using *C. albicans* as an example
+title: Differences in mouse and human study - using C. albicans as an example
 date: 2022-04-24
 ---
 
