@@ -52,7 +52,10 @@ All sequences from the paper were deposited in NCBI SRA: [PA14 BioProject:PRJNA4
   <img src="https://github.com/RunhangShu/RunhangWebsite/blob/main/content/web_figures/NCBI1.png" alt="NCBI-SRR numbers"/>
 </p>
 
-##### Download sratoolkit binaries [here](https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit) into your operating system . Run you downloaded Accession_list file with the following command using a bash file. Bash file (.sh) is a powerful file store all scripts and can be read by the Linux system, [check how to use nano to create a bash file](https://www.tomshardware.com/how-to/write-bash-scripts-linux). 
+### Download sratoolkit binaries [here](https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit) into your operating system . 
+
+### Run you downloaded Accession_list file with the following command using a bash file. 
+Bash file (.sh) is a powerful file store all scripts and can be read by the Linux system. [See how to use nano to create a bash file](https://www.tomshardware.com/how-to/write-bash-scripts-linux). 
 
 ```
 #! /bin/bash
@@ -61,7 +64,7 @@ export PATH=$PATH:/mnt/c/Users/darsonshu/Documents/Siryaporn_lab/tools/sratoolki
 prefetch --option-file Accession_list.txt
 for i in $(cat Accession_list.txt); do echo $i; date; fasterq-dump -S $i/$i.sra -O output_dir; done
 ```
-3) This step downloaded the two fastq files (Illumina paired-reads) for each sample in your "output_dir" folder
+This step downloaded the two fastq files (Illumina paired-reads) for each sample in your "output_dir" folder
 
 ## 2. Quality check, trimming, and filtering 
 
