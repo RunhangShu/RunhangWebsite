@@ -8,6 +8,13 @@ date: 2022-07-29
 
 
 ### System information:
-  SPAdes version: 3.15.4
+
   Python version: 3.9.12
   OS: Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.31
+  Memory limit (in Gb): 16
+  CPU: i7-7700k (4 core)
+
+
+### Tools 
+  SPAdes version: 3.15.4
+ 
