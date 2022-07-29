@@ -4,7 +4,7 @@ author: Runhang
 date: 2022-07-28  
 ---
 
-## Title: Rampant prophage movement among transient competitors drives adaptation during infection 
+**Title: Rampant prophage movement among transient competitors drives adaptation during infection**
 **Marshall et al 2021**
 
 #### Background 
@@ -17,5 +17,7 @@ However, the majority of RSCVs show no point mutations or gene insertion/deletio
 The author reasons that there could be horizontal gene transfer which is masked by the reference-based mutation calling. Using a different method, the author mapped the homologous regions between the reference and the variant genome. They identified some evidence of mobile genetic elements (exogenous DNA), primarily prophage, swap from the later undetectable strains to near all PA01 strains.
 
 #### Combine long reads with Illumina data
-Identified not only mutation in retS but also prophage insertion at retS that inactivate the function of retS, leading to RSCV phenotype. 
+Identified not only mutation in retS but also prophage insertion at retS that inactivate the function of retS, leading to RSCV phenotype. Reintroducing wild type retS allele in trans restore the ancestral phenotype. 
 
+#### Acquisition of new prophages provides immunity to phage reinfection
+Prophage-bearing RSCVs, all have aquired phages and inserted into key genes, are immune to the phage infection whereas the non-RSCVs (some have aquired phages but not affect gene expression), are immune to phage infection in a lysogeny-dependent fasion. 
