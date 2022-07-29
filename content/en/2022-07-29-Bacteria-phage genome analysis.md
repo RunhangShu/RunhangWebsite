@@ -136,7 +136,9 @@ Make sure you select **show sequence** in the "customize view" and click "update
 <p align="center">
   <img src="https://github.com/RunhangShu/RunhangWebsite/blob/main/content/web_figures/reference.png" alt="NCBI-SRR numbers"/>
 </p>
+
 ### Run the following command
+
 ```
 #! /bin/bash
 for file in spades_output*;
@@ -154,9 +156,11 @@ done
 
 ### Explore the output HTML file
 Breseq's output summary file is an interactive HTML file contains a lot of information. The figure below is a screenshot of the output. It lists all genetic mutations of the inquiry genome in relation to the reference genome. 
+
 <p align="center">
   <img src="https://github.com/RunhangShu/RunhangWebsite/blob/main/content/web_figures/breseq1.png" alt="NCBI-SRR numbers"/>
 </p>
+
 **I repeated the discovery shown in the paper that PA01 isolate 41 (SRR11809631) has one point mutation in retS gene**. This SNP leads to redish colony morphologies and hyperbiofilm-forming of PA01.  
 <p align="center">
   <img src="https://github.com/RunhangShu/RunhangWebsite/blob/main/content/web_figures/breseq2.png" alt="NCBI-SRR numbers"/>
