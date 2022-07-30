@@ -62,7 +62,8 @@ This step downloaded the two fastq files (Illumina paired-reads) for each sample
 ### Run fastqc to check the sequence quality  
 ```
 mkdir fastqc_output ### create a new folder for fastqc results
-fastqc ./output_dir/* -o fastqc_output/ ### I assume you current working directory is not the fastq "output_dir". The star sign means you want the program to take every file in that folder.
+fastqc ./output_dir/* -o fastqc_output/ ### I assume you current working directory is not the fastq "output_dir". 
+### The star sign means you want the program to take every file in that folder.
 ```
 
 <p align="center">
