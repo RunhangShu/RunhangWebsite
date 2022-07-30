@@ -12,6 +12,13 @@ date: 2022-07-29
 
 ---
 
+<div align="center">
+
+## [A case study from a published paper](https://www.science.org/doi/10.1126/sciadv.abh1489). 
+  [Here](https://github.com/RunhangShu/RunhangWebsite/edit/main/content/en/2022-07-28-Prophage%20analysis.md) is a summary and rationale of this paper in my another post. 
+
+</div>
+
 ### System information:
 
 - OS: Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.31 (I used Windows Subsystem for Linux - Ubuntu in Mobaxterm in a Window 10 PC)
@@ -33,14 +40,8 @@ date: 2022-07-29
 
 ---
 
-<div align="center">
 
-  ## [A case study from a published paper](https://www.science.org/doi/10.1126/sciadv.abh1489). 
-  [Here](https://github.com/RunhangShu/RunhangWebsite/edit/main/content/en/2022-07-28-Prophage%20analysis.md) is a summary and rationale of this paper in my another post. 
 
-</div>
-
----
 
 
 ## 1. Directly download sequence data of *Pseudomonas aeruginosa* in NCBI. 
