@@ -1,5 +1,5 @@
 ---
-title: 'Bacteria-phage genome analysis : A case study from a published paper'
+title: 'Bacteria-phage genome analysis: A case study from a published paper'
 author: Runhang
 date: 2022-07-29
 ---
