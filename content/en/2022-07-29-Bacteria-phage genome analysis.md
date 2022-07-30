@@ -4,20 +4,18 @@ author: Runhang
 date: 2022-07-29
 ---
 
-**Author: Runhang Shu**
-
 **Start: 2022-07-29**
 
 **Last update: 2022-07-29**
 
 ---
 
-<div align="center">
+<center>
 
 ## [A case study from a published paper](https://www.science.org/doi/10.1126/sciadv.abh1489). 
   [Here](https://github.com/RunhangShu/RunhangWebsite/edit/main/content/en/2022-07-28-Prophage%20analysis.md) is a summary and rationale of this paper in my another post. 
 
-</div>
+</center>
 
 ### System information:
 
