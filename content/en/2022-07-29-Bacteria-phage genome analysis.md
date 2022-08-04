@@ -174,3 +174,7 @@ Breseq's output summary file is an interactive HTML file contains a lot of infor
 </center>
 
 If you run multiple strains and want to put all summaries into one table, use [gdtools of breseq](https://barricklab.org/twiki/pub/Lab/ToolsBacterialGenomeResequencing/documentation/gd_usage.html). 
+
+### Detect Mobile genetic elements (MGE) using MGEfinder
+
+According to the paper: "All of the sequenced PAO1 RSCV isolates, and 50% of the PAO1 non-RSCV isolates, also acquired a putative conjugative plasmid from the strain S54485". Therefore, I downloaded the S54485 (urinary track infection isolate, [NZ_KI519256.1](https://www.ncbi.nlm.nih.gov/nuccore/NZ_KI519256)) fasta from NCBI and trying to use this as a reference genome to identify mobile elements that acquired by PA01 RSCV variants (60 isolates in total). 
