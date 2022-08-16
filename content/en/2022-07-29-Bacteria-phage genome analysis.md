@@ -6,7 +6,7 @@ date: 2022-07-29
 
 **Start: 2022-07-29**
 
-**Last update: 2022-07-29**
+**Last update: 2022-08-16**
 
 ---
 
@@ -175,6 +175,25 @@ Breseq's output summary file is an interactive HTML file contains a lot of infor
 
 If you run multiple strains and want to put all summaries into one table, use [gdtools of breseq](https://barricklab.org/twiki/pub/Lab/ToolsBacterialGenomeResequencing/documentation/gd_usage.html). 
 
-### Detect Mobile genetic elements (MGE) using MGEfinder
+## 5. Detect Mobile genetic elements (MGE) using MGEfinder
 
-According to the paper: "All of the sequenced PAO1 RSCV isolates, and 50% of the PAO1 non-RSCV isolates, also acquired a putative conjugative plasmid from the strain S54485". Therefore, I downloaded the S54485 (urinary track infection isolate, [NZ_KI519256.1](https://www.ncbi.nlm.nih.gov/nuccore/NZ_KI519256)) fasta from NCBI and trying to use this as a reference genome to identify mobile elements that acquired by PA01 RSCV variants (60 isolates in total). 
+According to the paper: "All of the sequenced PAO1 RSCV isolates, and 50% of the PAO1 non-RSCV isolates, also acquired a putative conjugative plasmid from the strain S54485". Therefore, I downloaded the S54485 (urinary track infection isolate, [NZ_KI519256.1](https://www.ncbi.nlm.nih.gov/nuccore/NZ_KI519256)) fasta from NCBI and trying to use this as a reference genome to identify mobile elements that acquired by PA01 RSCV variants (60 isolates in total). This is proved to be not working because the mgefinder could not identify any insertion among the 48 PA01 isolates I tested. After I digged more into their metadata/sequencing info from NCBI, I noticed that, indeed, the authors have sequenced the S53385 and B23 ancestor strains with both Illumina and Nanopore sequencing, and used the relatively high-resolution assemblies as their reference genomes.
+
+### Download HTStream in Bioconda, deduplicate fastq 
+
+```
+#Add channels for bioconda
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+
+#Install HTStream
+conda install htstream
+
+#Following command is to deduplicate fastq file using SuperDeduper in the HTStream toolset. 
+for i in $(cat ../SRR_Acc_PA01.txt); do echo $i; 
+hts_SuperDeduper -1 fasta/"$i"_1.fastq -2 fasta/"$i"_2.fastq -f fasta/"$i"_nodup
+```
+
+
+
