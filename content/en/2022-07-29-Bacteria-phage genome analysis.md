@@ -195,5 +195,41 @@ for i in $(cat ../SRR_Acc_PA01.txt); do echo $i;
 hts_SuperDeduper -1 fasta/"$i"_1.fastq -2 fasta/"$i"_2.fastq -f fasta/"$i"_nodup
 ```
 
+### Trimming and filtering 
+```
+#install binary trim_galore beforehand in your system 
+#if you do not have cutadapt, it will give error. Need to install it in conda: conda install cutadapt
+/mnt/d/Siryaporn_lab/tools/TrimGalore-0.6.6/trim_galore --fastqc -j 1 -e 0.1 -q 20 --length 36 --paired fasta/"$i"_nodup_R1.fastq.gz fasta/"$i"_nodup_R2.fastq.gz -o fasta
+```
+### assemble the genome 
+```
+export PATH=$PATH:/mnt/d/Siryaporn_lab/Pseudomonas_Sci_Advan/SPAdes-3.15.4-Linux/bin
+spades.py --isolate -1 fasta/"$i"_nodup_R1_val_1.fq.gz -2 fasta/"$i"_nodup_R2_val_2.fq.gz -o fasta/"$i"_assembly
+#move all assembled genome into the assembly folder
+mv fasta/"$i"_assembly/contigs.fasta workdir/00.assembly/"$i".fasta
+#move reference genome into the genome folder 
+mv /mnt/c/Users/darsonshu/Documents/Siryaporn_lab/tools/PA01_reference_genome.fasta workdir/00.genome 
+```
+### Index fastq with reference genome
+
+```
+bwa mem /mnt/d/Siryaporn_lab/tools/reference_genome.fasta fasta/"$i"_nodup_R1_val_1.fq.gz fasta/"$i"_nodup_R2_val_2.fq.gz > workdir/00.bam/"$i".reference_genome.sam
+#convert sam file to bam file, as required by mgefinder 
+mgefinder formatbam workdir/00.bam/"$i".reference_genome.sam workdir/00.bam/"$i".reference_genome.bam
+#move the output fasta and reference genome into corresponding directory 
+mv fasta/"$i"_assembly/contigs.fasta workdir/00.assembly/"$i".fasta
+mv /mnt/d/Siryaporn_lab/tools/PA01_reference_genome.fasta workdir/00.genome 
+```
+Now, your working directory should look like this
+
+```
+
+```
+
+### Analyze the dataset using mgefinder workflow
+
+```
+mgefinder workflow denovo test_workdir/
+```
 
 
