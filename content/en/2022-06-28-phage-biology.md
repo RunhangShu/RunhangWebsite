@@ -80,14 +80,21 @@ During lysis process, phages compete resources for DNA replication. During lysog
 **Isolating phage from bacteria**
 To isolate phages from the culture, the bacterial cells from the overnight culture were lysed by the addition of a few drops of chloroform and subsequent shaking at 37C for 30 minutes. Cellular debris was collected by centrifugation at 15000 x g for 10 minutes. The phage lysate was stored at 4C with a few drops of chloroform to keep it sterile (Shah et al., 2021).
  
- **Plaquing assay**
+**Plaquing assay**
 To assess the sensitivity of bacteria to various phages, serial dilutions of phages were spotted onto lawns of bacteria in the plaquing assay. To create a lawn of bacteria, 150 mL of overnight bacterial culture was added to 3 mL of 0.7% molten top agar and poured atop 1.5% LB agar plates. Both the top agar and bottom plate were supplemented with 10 mM MgSO4 and 50 mg/ml of gentamicin and0.1%L-arabinosewhererequired.2mLof10-foldserialdilutions of phageswere spottedontothebacterial lawns, andthe plates were incubated at 30C overnight (Shah et al., 2021).
   
 - temperal phage will form turbid plaque on the bacterial lawn. 
-- lytic phage will form clear plaque on the bacterial lawm. **Why**
+- lytic phage will form clear plaque on the bacterial lawm. 
 
+**Why?**. There is a good question and answers in this [Researchgate thread](https://www.researchgate.net/post/How-to-explain-the-turbid-and-halo-plaques-formed-by-some-bacteriophages#:~:text=Turbid%20plaques%20are%20usually%20produced,plaque%20will%20look%20'turbid'.). 
 
+```
 For the clear plaques, I can understand it's a complete lysis, no bacteria are growing in that aera any more. But how to explain the turbid plaques? Is it the phage lysed some of the bacteria, but the rest got resistant to the phage, which led to a incomplete lysis? And how about the halo plaques?
 And why the plaques have certain size, but cannot enlarge limitless?
+```
+
+**Answer** by Alejandro Martin: It depends a bit on the life cycle of the specific phage you are dealing with. Turbid plaques are usually produced by lysogenic phage such as lambda. In some of the cells the phage may lysogenize instead of continuing the lytic cycle, and if this happens with high enough frequency the plaque will look 'turbid'. Other times (I am guessing this is what you call 'halo plaques') phage replication does not lyse the cell, but slows their growth noticeably enough that you can distinguish a plaque in solid medium; a typical example are filamentous phages. As for why phage plaques do not grow to lyse the entire plate, one of the reasons is that most phages cannot productively infect stationary phase cells, so once the bacterial lawn reaches that stage it's game over for the phage.
+
+*Apart from using morphology to roughly determine if the phage is lytic or lysogenic (temperal), how does sequencing work?*
 
 
