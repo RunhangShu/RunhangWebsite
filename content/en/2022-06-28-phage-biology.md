@@ -57,6 +57,11 @@ An understudied field of research has gained increasing attentions recently afte
 
 3. Hoyland-kroghsbo et al. (2013) revealed that N-acyl-l-homoserine lactone (AHL), a quorum-sensing signal, supresses λ receptors on the cell surface (measured by SDS-page). As a result, the AHL-induced quorum-sensing activates host immune defense to phage superinfection. (DOI:https://doi.org/10.1128/mBio.00362-12)
 
+**Bacteria employ multiple mechanims to defense against phage infection**
+
+1. Down-regulating phage receptor.
+2. At high cell density, Pseudomonas QS activates cas3 expression. The QS-mediated CRISPR-cas immune system serves as a second line of defense when phage enters into cytoplasm ([Nina et al., 2017](https://www.pnas.org/doi/epdf/10.1073/pnas.1617415113)). 
+
 **Factors affect phage-mediated cell fate ([Zheng et al., 2011](https://doi.org/10.1016/j.cell.2010.03.034))** 
 
 1. The presence of absence of prophage. The lysogeny is immune to the phage infection. 
@@ -104,3 +109,4 @@ And why the plaques have certain size, but cannot enlarge limitless?
 
 For instance, the turbidity might arise also from spontaneous mutation or antigenic phase variation of the initial receptor used for phage attachment/entry, but these are less frequent events.
 
+**How to generate phage-free strain from a lysogen**
