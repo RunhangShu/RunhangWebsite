@@ -59,8 +59,15 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Bacteria employ multiple mechanims to defense against phage infection**
 
-1. Down-regulating phage receptor.
-2. At high cell density, Pseudomonas QS activates cas3 expression. The QS-mediated CRISPR-cas immune system serves as a second line of defense when phage enters into cytoplasm ([Nina et al., 2017](https://www.pnas.org/doi/epdf/10.1073/pnas.1617415113)). 
+1. CRISPR-Cas immune system. 
+2. Down-regulating phage receptor.
+3. At high cell density, Pseudomonas QS activates cas3 expression. The QS-mediated CRISPR-cas immune system serves as a second line of defense when phage enters into cytoplasm ([Nina et al., 2017](https://www.pnas.org/doi/epdf/10.1073/pnas.1617415113)). 
+
+**Some phages suppress host QS-mediated defense**
+
+1. Phage DMS3 encodes a quorum-sensing anti-activator protein, Aqs1, that inhibits LasR ([Shah et al., 2021](https://doi.org/10.1016/j.molcel.2020.12.011))
+
+
 
 **Factors affect phage-mediated cell fate ([Zheng et al., 2011](https://doi.org/10.1016/j.cell.2010.03.034))** 
 
@@ -86,7 +93,7 @@ During lysis process, phages compete resources for DNA replication. During lysog
 To isolate phages from the culture, the bacterial cells from the overnight culture were lysed by the addition of a few drops of chloroform and subsequent shaking at 37C for 30 minutes. Cellular debris was collected by centrifugation at 15000 x g for 10 minutes. The phage lysate was stored at 4C with a few drops of chloroform to keep it sterile (Shah et al., 2021).
  
 **Plaquing assay**
-To assess the sensitivity of bacteria to various phages, serial dilutions of phages were spotted onto lawns of bacteria in the plaquing assay. To create a lawn of bacteria, 150 mL of overnight bacterial culture was added to 3 mL of 0.7% molten top agar and poured atop 1.5% LB agar plates. Both the top agar and bottom plate were supplemented with 10 mM MgSO4 and 50 mg/ml of gentamicin and0.1%L-arabinosewhererequired.2mLof10-foldserialdilutions of phageswere spottedontothebacterial lawns, andthe plates were incubated at 30C overnight (Shah et al., 2021).
+To assess the sensitivity of bacteria to various phages, serial dilutions of phages were spotted onto lawns of bacteria in the plaquing assay. To create a lawn of bacteria, 150 uL of overnight bacterial culture was added to 3 mL of 0.7% molten top agar and poured atop 1.5% LB agar plates. Both the top agar and bottom plate were supplemented with 10 mM MgSO4 and 50 mg/ml of gentamicin and 0.1% L-arabinose where required. 2mL of 10-fold serial dilutions of phages were spotted on to the bacterial lawns, and the plates were incubated at 30C overnight (Shah et al., 2021).
   
 - temperal phage will form turbid plaque on the bacterial lawn. 
 - lytic phage will form clear plaque on the bacterial lawm. 
