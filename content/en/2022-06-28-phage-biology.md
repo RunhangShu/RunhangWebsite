@@ -59,7 +59,7 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Bacteria employ multiple mechanims to defense against phage infection**
 
-1. CRISPR-Cas immune system. 
+1. CRISPR-Cas immune system. Only 50% bacteria have this mechanism in their genome. ([Goldberg et al., 2018](https://www.nature.com/articles/s41467-017-02557-2))
 2. Down-regulating phage receptor.
 3. At high cell density, Pseudomonas QS activates cas3 expression. The QS-mediated CRISPR-cas immune system serves as a second line of defense when phage enters into cytoplasm ([Nina et al., 2017](https://www.pnas.org/doi/epdf/10.1073/pnas.1617415113)). 
 
