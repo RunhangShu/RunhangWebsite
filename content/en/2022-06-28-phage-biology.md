@@ -117,3 +117,11 @@ And why the plaques have certain size, but cannot enlarge limitless?
 For instance, the turbidity might arise also from spontaneous mutation or antigenic phase variation of the initial receptor used for phage attachment/entry, but these are less frequent events.
 
 **How to generate phage-free strain from a lysogen**
+
+
+**Research directions in phage study**
+
+1. the role of phage in host bacterial pathogen short-term adaptation 
+2. phage therapy (phage cocktail to treat ARB)
+3. microbial and phage communities 
+4. phage pathogenesis: promote host virulence 
