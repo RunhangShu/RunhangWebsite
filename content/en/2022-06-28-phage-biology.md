@@ -59,13 +59,14 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Bacteria employ multiple mechanims to defense against phage infection**
 
-1. CRISPR-Cas immune system. Only 50% bacteria have this mechanism in their genome. ([Goldberg et al., 2018](https://www.nature.com/articles/s41467-017-02557-2))
-2. Down-regulating phage receptor.
-3. At high cell density, Pseudomonas QS activates cas3 expression. The QS-mediated CRISPR-cas immune system serves as a second line of defense when phage enters into cytoplasm ([Nina et al., 2017](https://www.pnas.org/doi/epdf/10.1073/pnas.1617415113)). 
+1. CRISPR-Cas immune system. Only 50% bacteria have this mechanism in their genome. ([Goldberg et al., 2018](https://www.nature.com/articles/s41467-017-02557-2)) How does CRISPR differenciate the "non-self" prophage from "non-self" lytic phage? The CRISPR-cas has a transcription-dependent DNA targeting mechanism that recognizes the lytic cycle-related transcripts but permits lysogenization by temperal phages. The so called "conditional tolerance" of temperal phage is resumed upon lytic induction ([Goldberg et al., 2014](https://www.nature.com/articles/nature13637)). 
+2. Down-regulating phage receptor. Serve as a first line of defense. 
+3. At high cell density, Pseudomonas QS activates cas3 expression. The QS-mediated CRISPR-cas immune system serves as a second line of defense after phages have entered into cytoplasm ([Nina et al., 2017](https://www.pnas.org/doi/epdf/10.1073/pnas.1617415113)). 
 
 **Some phages suppress host QS-mediated defense**
 
-1. Phage DMS3 encodes a quorum-sensing anti-activator protein, Aqs1, that inhibits LasR ([Shah et al., 2021](https://doi.org/10.1016/j.molcel.2020.12.011))
+1. Phage DMS3 encodes a quorum-sensing anti-activator protein, Aqs1, that inhibits LasR ([Shah et al., 2021](https://doi.org/10.1016/j.molcel.2020.12.011)). The supressed QS allows higher rates of lysogenization. 
+2. Other than host defense mechanism, a prophage can produce superinfection exclusion protein to prevent being replaced by same or closely related phages. 
 
 
 
