@@ -15,6 +15,8 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Superinfection exclusion** is an outcome of lysogeny, where the prophage makes the host immune aginst infection by closely related or unrelated phages. 
 
+**Lysogenic to lytic conversion** can be achieved under certain stresses where the prophage repressor is inactivated via the SOS-response. For instance, Genotoxic agens like mitomycin C triggers SOS-response through DNA damage, resulting in upregulated gene encoding repair pathways. 
+
 **Phage can direct the metabolism of its host**
 
 1. The phage genome bears many AMGs (Auxiliary metabolic genes) that can participate in host metabolic pathways. 
