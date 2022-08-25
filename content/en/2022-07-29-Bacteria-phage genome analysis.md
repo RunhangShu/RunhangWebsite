@@ -35,6 +35,7 @@ date: 2022-07-29
 - Read alignment: Bowtie2 v2.4.5 (require to run Breseq)
 - R v4.0.3 (required to run Breseq)
 - Mobile genetic element mapping: [MGEFinder](https://github.com/bhattlab/MGEfinder)
+- anvio-7.1
 
 ---
 
@@ -248,3 +249,23 @@ mgefinder workflow denovo workdir/
 ```
 
 
+## 6. Install anvio in conda 
+
+I encountered a problem when trying to download anvio from anaconda. This might be due to me using virtural Linux system in a Win10 PC. 
+
+```
+CondaHTTPError: HTTP 000 CONNECTION FAILED for url https://conda.anaconda.org/anaconda/linux-64/repodata.json
+Elapsed: -
+
+An HTTP error occurred when trying to retrieve this URL.
+HTTP errors are often intermittent, and a simple retry will get you on your way.
+SSLError(SSLError("Can't connect to HTTPS URL because the SSL module is not available.",),)
+```
+
+This is a SSL error. For windows 10, there is already OpenSSL. I solved this issue by adding following directories into user environment path in windows (go to **Search box** and type in: **View Advanced System Settings**, then select **Environmental Variables**: then select Path and click Edit: finally you can click **New** and add a path):
+
+C:\your_directory_to_anaconda3\Anaconda3\Scripts
+
+C:\your_directory_to_anaconda3\Anaconda3\
+
+C:\your_directory_to_anaconda3\Anaconda3\Library\bin -- This is the directory for openssl
