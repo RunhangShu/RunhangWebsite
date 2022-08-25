@@ -6,7 +6,7 @@ date: 2022-07-29
 
 **Start: 2022-07-29**
 
-**Last update: 2022-08-16**
+**Last update: 2022-08-25**
 
 ---
 
@@ -269,3 +269,6 @@ C:\your_directory_to_anaconda3\Anaconda3\Scripts
 C:\your_directory_to_anaconda3\Anaconda3\
 
 C:\your_directory_to_anaconda3\Anaconda3\Library\bin -- This is the directory for openssl
+
+There will be another issue about opening the interactive interface in Chrome as illustrated in this (post)[https://merenlab.org/2018/03/07/working-with-remote-interative/]. "When you are using a virtual Python environment, Python first looks for modules inside the active virtual environment before looking at other locations. So first, we will create a new webbrowser module in our virtual environment on the server side". After setting this, you should be able to open http://localhost:port
+
