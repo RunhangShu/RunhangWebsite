@@ -8,12 +8,35 @@ date: 2022-08-29
 
 ## 1. Measure cell wrinkling 
 
-**Add 200 x 200 grid to the picture, and measure the cell membrane length within a random square containing 4 grid.** 
+**Add 200 x 200 grid to the picture, and measure the cell membrane length within a random square containing four grids (Fig. 2).** 
 
 <p align="center">
   <img src="./pics/wrinkle_fig1.jpg" width="500" title="200 x 200 grid">
 </p>
 
+
+<p align="center">
+  <img src="./pics/wrinkle_fig2.jpg" width="500" title="Length within four grids">
+</p>
+
+
+Aftet measuring 10 pictures, I found out that the variation within one picture is way too large. Depending on position of the cell, the readout can be longer when the cell just has a right-angle to the grid edge, or it can be shorter sometimes. This will mask the "real" differences in cell wrinkledness.   
+ 
+ 
+ **Add 100 x 100 grid to the picture, and measure the cell membrane length within a random grid (Fig. 3).** 
+
+ 
+ <p align="center">
+  <img src="./pics/stepsize100_fig2.jpg" width="500" title="100 x 100 grid">
+</p>
+
+ 
+ 
+ 
+ 
+ 
+ 
+## Matlab Script  
 
 ```
 cd D:\Collaboration\Leora\PH2_24_untreated_ecoli\
