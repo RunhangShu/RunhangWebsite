@@ -10,7 +10,7 @@ data: 2022-08-29
 
 **Add 200 x 200 grid to the picture, and measure the cell membrane length within a random square containing 4 grid.** 
 
-![200 x 200 grid](https://github.com/pic/wrinkle_fig1.jpg)
+![200 x 200 grid](.pics/wrinkle_fig1.jpg)
 
 ```
 cd D:\Collaboration\Leora\PH2_24_untreated_ecoli\
