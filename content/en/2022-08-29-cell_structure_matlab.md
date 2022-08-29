@@ -30,9 +30,14 @@ Aftet measuring 10 pictures, I found out that the variation within one picture i
   <img src="./pics/stepsize100_fig2.jpg" width="500" title="100 x 100 grid">
 </p>
 
- 
- 
- 
+
+<p align="center">
+  <img src="./pics/stepsize100_fig1.jpg" width="500" title="Measure membrane length inside one grid">
+</p>
+
+***Note that two lines must lie on the opposite sides of the square. Including adjecent sides will increase the variations***
+
+
  
  
  
