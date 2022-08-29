@@ -1,7 +1,7 @@
 ---
 title: Cell structure analysis in Matlab
 author: Runhang
-data: 2022-08-29
+date: 2022-08-29
 ---
 
 ## last update: 2022-08-29 
@@ -10,11 +10,8 @@ data: 2022-08-29
 
 **Add 200 x 200 grid to the picture, and measure the cell membrane length within a random square containing 4 grid.** 
 
-![200 x 200 grid](./pics/wrinkle_fig1.jpg)
-
-
 <p align="center">
-  <img src="./pics/wrinkle_fig1.jpg" width="350" title="200 x 200 grid">
+  <img src="./pics/wrinkle_fig1.jpg" width="500" title="200 x 200 grid">
 </p>
 
 
