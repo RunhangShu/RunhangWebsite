@@ -80,12 +80,12 @@ An understudied field of research has gained increasing attentions recently afte
 4. Location (pole, mid-cell, which contains key protein such as ManY for DNA injection)
 5. Lysogeny requires that all infecting phages choose lysogeny. The logic of the cellular decision can be thought of as a simple “AND” gate, such that only if all inputs are “1” (i.e., lysogeny) will this be the cellular output.
 
-The reason for the inadequacy of single-cell resolution is that the cell-fate decision is achieved through a hierarchy of decisions at the sub-cellular level. 
+The reason for the inadequacy of single-cell resolution is that the cell-fate decision is achieved through a hierarchy of decisions at the sub-cellular level. *Bacillus subtillis* SPβ phage (strain phi3T) encodes AimP, which processed into six amoni acids (aa) peptides for downstreading decision of either lysogenic or lytic cycle. This 6-aa communication system is also known as arbitrium system first described by Dr. Rotem Sorek at Weizmann institute, which is essential for phage to communicate and decide to "break" the cell or "hide" in the cell. For example, if the abundance of 6-aa is too high, the phages would interpret that they are running low on uninfected cells and thus the circuit will regulate phage from lytic to lysogenic cycle. Therefore, bacterial hosts will not be completely depleted.  
 
 **Teachniques of determining whether cells are going through lysis or lysogenic process.([Trinh et al., 2017](https://doi.org/10.1038/ncomms14341))**
 
 
-1. Label phage with YFP by fusing YFP with wild-type head-stabilization protein gpD located at viral capsid (gpD-YFP). Therefore, if cells are lysed, we will see yellow fluoresence under a microscope. On the other hand, the lysogenic pathway is indicated by the production of mCherry fused with P<sub>RE</sub> promoter. Lytic pathway does not exhibit P<sub>RE</sub> activity. Likewise, there are certain host genes participate in lytic pathway. For example, lambda replication is severely inhibited in dnaJ mutants of E. coli. 
+1. Label phage with YFP by fusing YFP with wild-type head-stabilization protein gpD located at viral capsid (gpD-YFP). Therefore, if cells are lysed, we will see yellow fluoresence under a microscope. On the other hand, the lysogenic pathway is indicated by the production of mCherry fused with P<sub>RE</sub> promoter. Lytic pathway does not exhibit P<sub>RE</sub> activity. Likewise, there are certain host genes participate in lytic pathway. For example, lambda replication is severely inhibited in dnaJ mutants of *E. coli*. 
 2. Additionally, lysogenic reporters can be constructed by transcriptionally fusing mKO2 (yellow) and mKate2 (red) to the phage lytic repressor gene, cI. 
 During lysis process, phages compete resources for DNA replication. During lysogenic process, phages cooperate to propagate for integration. 
  
