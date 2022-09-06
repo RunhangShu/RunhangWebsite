@@ -272,3 +272,22 @@ C:\your_directory_to_anaconda3\Anaconda3\Library\bin -- This is the directory fo
 
 There will be another issue about opening the interactive interface in Chrome as illustrated in this (post)[https://merenlab.org/2018/03/07/working-with-remote-interative/]. "When you are using a virtual Python environment, Python first looks for modules inside the active virtual environment before looking at other locations. So first, we will create a new webbrowser module in our virtual environment on the server side". After setting this, you should be able to open http://localhost:port (i.e., 127.0.0.1:8081)
 
+### create contig database from fasta files
+
+```
+anvi-gen-contigs-database -f contigs-fasta -o contigs-db                     
+```
+
+### create anvi'o genome storage 
+
+```
+anvi-gen-genomes-storage -e external-genomes.txt -o PROCHLORO-GENOMES.db       
+
+## the external-genemes.txt is TAB-delimited file contain the path of the dabase we just created in last step 
+name	contigs_db_path
+Name_01	/path/to/contigs-01.db
+Name_02	/path/to/contigs-02.db
+Name_03	/path/to/contigs-03.db
+(…)	(…)
+```
+
