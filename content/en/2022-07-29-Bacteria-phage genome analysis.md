@@ -291,3 +291,31 @@ Name_03	/path/to/contigs-03.db
 (…)	(…)
 ```
 
+### run a pangenome analysis 
+
+```
+anvi-pan-genome -g pa01-GENOMES.db \
+                --project-name "pa01_Pan" \
+                --output-dir PA01 \
+                --num-threads 6 \
+                --minbit 0.5 \
+                --mcl-inflation 10 \
+                --use-ncbi-blast
+```
+
+### display on the server
+
+```
+anvi-display-pan -g pa01-GENOMES.db -p PA01/pa01_Pan-PAN.db
+```
+
+### show bins and their sequences in a project
+
+```
+anvi-show-collections-and-bins -p PA01/pa01_Pan-PAN.db
+### get the full sequences of a pre-defined bin in the interactive server 
+anvi-get-sequences-for-gene-clusters -g pa01-GENOMES.db -p PA01/pa01_Pan-PAN.db -o genes-fasta -C default -b Bin_7 --concatenate-gene-clusters -o var32_mobile.fa
+```
+
+
+
