@@ -314,7 +314,10 @@ anvi-display-pan -g pa01-GENOMES.db -p PA01/pa01_Pan-PAN.db
 ```
 anvi-show-collections-and-bins -p PA01/pa01_Pan-PAN.db
 ### get the full sequences of a pre-defined bin in the interactive server 
-anvi-get-sequences-for-gene-clusters -g pa01-GENOMES.db -p PA01/pa01_Pan-PAN.db -o genes-fasta -C default -b Bin_7 --concatenate-gene-clusters -o var32_mobile.fa
+anvi-get-sequences-for-gene-clusters -g pa01-GENOMES.db -p PA01/pa01_Pan-PAN.db -C default -b Bin_7 --concatenate-gene-clusters -o var32_mobile.fa
+
+### To get the DNA sequences instead, just add --report-DNA-sequences.
+
 ```
 
 
