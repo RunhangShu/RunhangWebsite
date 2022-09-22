@@ -3,6 +3,9 @@ title: Phages Biology
 date: 2022-06-28
 author: Runhang
 ---
+
+### Last up date: 09-22-2022
+
 An understudied field of research has gained increasing attentions recently after scientists saw numerous viral particals in the soil, ocean, bacterial cells and ,etc by using fluorescence electron microscope or transmission electron microscope. The virues that infect bacteria are called bacterialphages or phages, mean "to eat" in Latin. It is now recognized as the most abundant biological entities (not an organism but a molecular machine) on the planet. So, the article will introduce what do we know about them, and what remains mysterious? 
 
 **Lysogeny** is the phage genome nested in bacterial host chromosomes. One copy of phage genome will be made during each replication of a bacterium. Lysogeny phage, or prophage, is usually temperate phage that have a long-term relationship with bacteria. 
@@ -135,3 +138,8 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 2. Some phage genes antagonize host serum killing, degrade host antibidies (IgG), disrupt host immune reaction chain, and are thus ineffective in clearing the bacterial infection. 
 3. Some phages help the bacteria evade host cell recognition by acetylating the O-antigen of bacterial lipopolysaccharide. 
 
+
+
+### Ecological dynamics of microbiome and bacteriophage
+
+1. Bacteria-phage interactions can be quite different in human-associated microbiome with phages from the interactions between environmental microbiome and its-associated phage. Many assumptions are originally drawn from marine virome research ([Shkoporov et al., 2022](https://www.nature.com/articles/s41579-022-00755-4)). 
