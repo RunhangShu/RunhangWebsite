@@ -142,4 +142,12 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 
 ### Ecological dynamics of microbiome and bacteriophage
 
-1. Bacteria-phage interactions can be quite different depending on the context. Many assumptions about human microbiome-phage interactions are originally drawn from marine virome research ([Shkoporov et al., 2022](https://www.nature.com/articles/s41579-022-00755-4)). This leads to increasing studies on investigating the possibility of leveraging phages to kill pathogenic bacteria. Is their relationship so simple? Is mutualistic relationship common in the context of human gut microbiome-phages? I guess the big question is how permissive that a bacterium allow the phage to take advantage from it. How does bacterium balance the lytic process (sacriface for a good outcome) and lysogenic process (keep the phage genes for a potential cost). 
+1. Bacteria-phage interactions can be quite different depending on the context. Many assumptions about human microbiome-phage interactions are originally drawn from marine virome research ([Shkoporov et al., 2022](https://www.nature.com/articles/s41579-022-00755-4)). This leads to increasing studies on investigating the possibility of leveraging phages to kill pathogenic bacteria. Is their relationship so simple? Is mutualistic relationship common in the context of human gut microbiome-phages? I guess the big question is how permissive that a bacterium allow the phage to take advantage from it. How does bacterium balance the lytic process (sacriface for a good outcome) and lysogenic process ("uneasy truce", keep the phage genes for a potential cost). 
+
+2. Taking a snapshot of phagenome or virome in human gut is a taxonomically difficult job. Sequencing reads show that 85%-99% of viruies are novel without any classification and host information. 
+- **Huge VARIATION**: The interpersonal variations are dramatic that very few viruses shared between unrelated individuals. 
+- **High STABILITY**: longitudinal metagenomics data showed that 80% virual clusters (grouped by 90% identity 90% sequence identity over 90% of contig length) is still present even after 2.5 years. 
+
+3. A large fraction of the gut virome is composed of virulent or lytic phage. So, the stability is not majorly due to integrated viral genome.
+4. Phage might play a minor role in serving as a vehicle in HGT. For instance, ARGs (antibiotic resistant genes) are rarely found in the phagenome. 
+
