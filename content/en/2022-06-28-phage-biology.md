@@ -20,13 +20,15 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Lysogenic to lytic conversion** can be achieved under certain stresses where the prophage repressor is inactivated via the SOS-response. For instance, Genotoxic agens like mitomycin C triggers SOS-response through DNA damage, resulting in upregulated gene encoding repair pathways. 
 
-**Phage can direct the metabolism of its host**
+**Phage can directly modulate host bacterial physiology or direct bacterial fate**
 
 1. The phage genome bears many AMGs (Auxiliary metabolic genes) that can participate in host metabolic pathways. 
 
 2. The interplay between nutrient demand and availability and the plasticity of the metabolic state of "virocell" may influence the lysis-lysogeny decision. For example, during spring-summer seasonal transitions, temperate virues switch from lysogeny to lytic replication as bacterial production increases (Brum et al., 2016). 
 
 3. Virus-encoded tRNA can also serve to enrich the level of tRNAs that match the viral codon usage. 
+4. One of the most famous example is CTXphi phage makes _Vibrio cholerae_ produce cholera toxin (2005). 
+5. Some PA14 strains lysogenized by DMS3 are unable to form a biofilm or undergo swimming mobility. 
 
 **Phage infections lower the global transcription but not protein abundances of bacterial cells** (https://www.nature.com/articles/s41396-019-0580-z). 
 
@@ -150,4 +152,9 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 
 3. A large fraction of the gut virome is composed of virulent or lytic phage. So, the stability is not majorly due to integrated viral genome.
 4. Phage might play a minor role in serving as a vehicle in HGT. For instance, ARGs (antibiotic resistant genes) are rarely found in the phagenome. 
+
+
+## Are phages inserted into bacterial genome randomly? Do they have a preferred insertion site?
+
+
 
