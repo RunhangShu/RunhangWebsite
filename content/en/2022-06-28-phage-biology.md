@@ -4,7 +4,7 @@ date: 2022-06-28
 author: Runhang
 ---
 
-### Last up date: 09-22-2022
+### Last up date: 10-09-2022
 
 An understudied field of research has gained increasing attentions recently after scientists saw numerous viral particals in the soil, ocean, bacterial cells and ,etc by using fluorescence electron microscope or transmission electron microscope. The virues that infect bacteria are called bacterialphages or phages, mean "to eat" in Latin. It is now recognized as the most abundant biological entities (not an organism but a molecular machine) on the planet. So, the article will introduce what do we know about them, and what remains mysterious? 
 
@@ -155,6 +155,20 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 
 
 ## Are phages inserted into bacterial genome randomly? Do they have a preferred insertion site?
+
+1. The DMS3 phage in *P. aeruginosa* does not have a preferred insertion site. The DMS3 genome was found in multiple loci in *P. aeruginosa*. 
+
+
+
+
+
+## Ideas of my own project
+
+1. When does a lysogen decide to lyse or to main the status quo? Or, I guess, it is more appropriate that we think this question from the perspective of phage; when does the prophage promote induction? 
+- when the surrouding nutrition is low - bacterial host is starving
+- when there is target-rich environment
+
+2. What are the molecular mechanisms underlying such delicate regulations of lytic and lysogenic pathways? 
 
 
 
