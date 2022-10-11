@@ -169,7 +169,7 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 - when there is target-rich environment
 
 2. What are the molecular mechanisms underlying such delicate regulations of lytic and lysogenic pathways? 
-3. Pf phages are recently repored to directly impede mammalian phagocytosis by targeting both neutrophils and macrophages ([SWEERE et al., 2019](DOI: 10.1126/science.aat9691)), allowing its bacterial host to survive. Understanding the mechanisms of phage-mediated mammalian immune system. 
+3. Pf phages are recently repored to directly impede mammalian phagocytosis by targeting both neutrophils and macrophages ([SWEERE et al., 2019](https://www.science.org/doi/full/10.1126/science.aat9691)), allowing its bacterial host to survive. Understanding the mechanisms of phage-mediated mammalian immune system. 
 4. 
 
 
