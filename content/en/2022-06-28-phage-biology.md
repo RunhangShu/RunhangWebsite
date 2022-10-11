@@ -4,7 +4,7 @@ date: 2022-06-28
 author: Runhang
 ---
 
-### Last up date: 10-09-2022
+### Last up date: 10-11-2022
 
 An understudied field of research has gained increasing attentions recently after scientists saw numerous viral particals in the soil, ocean, bacterial cells and ,etc by using fluorescence electron microscope or transmission electron microscope. The virues that infect bacteria are called bacterialphages or phages, mean "to eat" in Latin. It is now recognized as the most abundant biological entities (not an organism but a molecular machine) on the planet. So, the article will introduce what do we know about them, and what remains mysterious? 
 
@@ -169,6 +169,8 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 - when there is target-rich environment
 
 2. What are the molecular mechanisms underlying such delicate regulations of lytic and lysogenic pathways? 
+3. Pf phages are recently repored to directly impede mammalian phagocytosis by targeting both neutrophils and macrophages ([SWEERE et al., 2019](DOI: 10.1126/science.aat9691)), allowing its bacterial host to survive. Understanding the mechanisms of phage-mediated mammalian immune system. 
+4. 
 
 
 
