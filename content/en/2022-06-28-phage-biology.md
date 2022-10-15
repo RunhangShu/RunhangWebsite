@@ -172,5 +172,8 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 3. Pf phages are recently repored to directly impede mammalian phagocytosis by targeting both neutrophils and macrophages ([SWEERE et al., 2019](https://www.science.org/doi/full/10.1126/science.aat9691)), allowing its bacterial host to survive. Understanding the mechanisms of phage-mediated mammalian immune system. 
 4. 
 
+## Professors in phage study 
 
+1. Carey Nadell @ Dartmouth. [Recent talk in 2022](https://www.youtube.com/watch?v=Z6HvLuzZuMY&t=1232s)
+2. 
 
