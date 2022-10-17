@@ -174,6 +174,7 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 
 ## Professors in phage study 
 
-1. Carey Nadell @ Dartmouth. [Recent talk in 2022](https://www.youtube.com/watch?v=Z6HvLuzZuMY&t=1232s)
-2. 
+1. Carey Nadell @Dartmouth. [Recent talk in 2022](https://www.youtube.com/watch?v=Z6HvLuzZuMY&t=1232s)
+2. George O'toole @Dartmouth.
+3. Paul Turner @Yale 
 
