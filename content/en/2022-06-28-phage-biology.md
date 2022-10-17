@@ -177,4 +177,6 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 1. Carey Nadell @Dartmouth. [Recent talk in 2022](https://www.youtube.com/watch?v=Z6HvLuzZuMY&t=1232s)
 2. George O'toole @Dartmouth.
 3. Paul Turner @Yale 
+4. Joe Bondy-Denomy @UCSF
+5. Alan Davidson @Univ. of Toronto
 
