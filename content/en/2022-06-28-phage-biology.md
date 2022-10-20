@@ -113,19 +113,22 @@ And why the plaques have certain size, but cannot enlarge limitless?
 
 **Answer** by Alejandro Martin: It depends a bit on the life cycle of the specific phage you are dealing with. Turbid plaques are usually produced by lysogenic phage such as lambda. In some of the cells the phage may lysogenize instead of continuing the lytic cycle, and if this happens with high enough frequency the plaque will look 'turbid'. Other times (I am guessing this is what you call 'halo plaques') phage replication does not lyse the cell, but slows their growth noticeably enough that you can distinguish a plaque in solid medium; a typical example are filamentous phages. As for why phage plaques do not grow to lyse the entire plate, one of the reasons is that most phages cannot productively infect stationary phase cells, so once the bacterial lawn reaches that stage it's game over for the phage.
 
-**Check if the bacterium is a lysogen**. Isolate cells (by limiting dilution, streaking or whatever) from the turbid area of the plaque and check them for resistance to infection and for phage production. A lysogen is immune to the same phage so that the phage will not form plaques. 
-
+**Check if the bacterium is a lysogen**. Isolate cells (by limiting dilution, streaking or whatever) from the turbid area of the plaque and check them for 1)resistance to infection by cross-steaking assay ;2) check the presence of phage in the lysate; 3) check integrated phage genome by PCR. A lysogen is immune to the same phage so that the phage will not form plaques. 
+ 
 *Apart from using morphology to roughly determine if the phage is lytic or lysogenic (temperal), how does sequencing work?*
 
-- We can design phage primers to run a PCR. Need to restreak a few times and to make sure you don't have any contaminating phage along for the ride that would also give you PCR product.
-- But if we do not know the phage sequence at the beginning, we can do a whole genome sequencing. 
+- We can design phage primers to run a PCR. Need to re-streak a few times and to make sure you don't have any contaminating phage along for the ride that would also give you PCR product.
+- But if we do not know the phage sequence or want to know where does it insert at the beginning, we can do a whole genome sequencing. 
 
 **There is exceptions of forming turbid plaques, which is independent on lysogen**
 
 For instance, the turbidity might arise also from spontaneous mutation or antigenic phase variation of the initial receptor used for phage attachment/entry, but these are less frequent events.
 
-**How to generate phage-free strain from a lysogen**
+**When filamentous phage virions (pf phages) are produced, they are generally extruded without bacterial lysis **
 
+**How to generate phage-free strain from a lysogen?**
+
+Rice et al., (2009) knocked out the entire filamentous Pf4 prophage from PAO1 using suicide a vector with a plasmid. (https://www.nature.com/articles/ismej201679#Sec1) 
 
 **Research directions in phage study**
 
@@ -158,8 +161,10 @@ For instance, the turbidity might arise also from spontaneous mutation or antige
 
 1. The DMS3 phage in *P. aeruginosa* does not have a preferred insertion site. The DMS3 genome was found in multiple loci in *P. aeruginosa*. 
 
+## Phages in the context of a microbial community
 
-
+1. While many temperal phages are integrated into bacterial genome, many are found as free phage virions embedded within the mucus layer and have been proposed to function to maintain the intestinal barrier by controlling invasive bacterial populations (Barr et al., PNAS 2013). 
+2. The most notable change is an increase in the order of bacteriophages, Caudovirales, within the intestine of individuals with Crohn’s disease (CD) and ulcerative colitis (UC). 
 
 
 ## Ideas of my own project
