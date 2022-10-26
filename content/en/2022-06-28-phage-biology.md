@@ -18,6 +18,9 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Superinfection exclusion** is an outcome of lysogeny, where the prophage makes the host immune aginst infection by closely related or unrelated phages. 
 
+1. The mechanisms underlying superinfection exclusion are diverse. First, it can be a modifications of surface receptor (i.e., type IV pilus and O-antigen) before the virus entering the cell. Moreover, they can be functioning inside the cell. 
+2. In PA14, 
+
 **Lysogenic to lytic conversion** can be achieved under certain stresses where the prophage repressor is inactivated via the SOS-response. For instance, Genotoxic agens like mitomycin C triggers SOS-response through DNA damage, resulting in upregulated gene encoding repair pathways. 
 
 **Phage can directly modulate host bacterial physiology or direct bacterial fate**
@@ -184,4 +187,7 @@ Rice et al., (2009) knocked out the entire filamentous Pf4 prophage from PAO1 us
 3. Paul Turner @Yale 
 4. Joe Bondy-Denomy @UCSF
 5. Alan Davidson @Univ. of Toronto
+6. Karen L Maxwell @Univ. of Toroto 
+7. Paul Bollyky @Standford. https://www.science.org/doi/full/10.1126/science.aat9691. 
+8. 
 
