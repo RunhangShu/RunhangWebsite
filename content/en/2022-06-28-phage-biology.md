@@ -19,7 +19,7 @@ An understudied field of research has gained increasing attentions recently afte
 **Superinfection exclusion** is an outcome of lysogeny, where the prophage makes the host immune aginst infection by closely related or unrelated phages. 
 
 1. The mechanisms underlying superinfection exclusion are diverse. First, it can be a modifications of surface receptor (i.e., type IV pilus and O-antigen) before the virus entering the cell. Moreover, they can be functioning inside the cell. 
-2. In PA14, 
+2. In PA14, it is an aditive effect that bearing multiple phages usually leads to more broad immunity to different phages. 
 
 **Lysogenic to lytic conversion** can be achieved under certain stresses where the prophage repressor is inactivated via the SOS-response. For instance, Genotoxic agens like mitomycin C triggers SOS-response through DNA damage, resulting in upregulated gene encoding repair pathways. 
 
