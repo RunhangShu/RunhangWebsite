@@ -68,7 +68,7 @@ An understudied field of research has gained increasing attentions recently afte
 
 3. Hoyland-kroghsbo et al. (2013) revealed that N-acyl-l-homoserine lactone (AHL), a quorum-sensing signal, supresses λ receptors on the cell surface (measured by SDS-page). As a result, the AHL-induced quorum-sensing activates host immune defense to phage superinfection. (DOI:https://doi.org/10.1128/mBio.00362-12)
 
-**Bacteria employ multiple mechanims to defense against phage infection**
+**Bacteria employ multiple mechanisms to defense against phage infection**
 
 1. CRISPR-Cas immune system. Only 50% bacteria have this mechanism in their genome. ([Goldberg et al., 2018](https://www.nature.com/articles/s41467-017-02557-2)) How does CRISPR differenciate the "non-self" prophage from "non-self" lytic phage? The CRISPR-cas has a transcription-dependent DNA targeting mechanism that recognizes the lytic cycle-related transcripts but permits lysogenization by temperal phages. The so called "conditional tolerance" of temperal phage is resumed upon lytic induction ([Goldberg et al., 2014](https://www.nature.com/articles/nature13637)). 
 2. Down-regulating phage receptor. Serve as a first line of defense. 
