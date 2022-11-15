@@ -44,7 +44,7 @@ An understudied field of research has gained increasing attentions recently afte
 
 4. Phages with little complementarity need to reprogram cellular metabolism prior to lysis. The burst size is smaller than a phage that has greater complementarility with host. That is to say the later one is putatively "temperate" and can co-exist with host for a relatively longer time before burst. Alternatively, it can become a prophage via lysogeny. 
 
-**Counting viral particles is not equivalent to counting virues**
+**Counting viral particles is not equivalent to counting virues - Patrick Forterre**
 
 1. Therefore, a commonly wrong statement is that viruses outnumber cells in the environment by 10 times. How can virocell (the phage-infected cells)  are more abundant than visible cells when they are physiologically a subpopulation of cells in the enviroment. 
 
@@ -77,8 +77,8 @@ An understudied field of research has gained increasing attentions recently afte
 **Bacteria-virus have been co-evolving for billions of years, so prophages/phages have acquired a collection of strategies to defend against superinfection and bacterial innate immunity 
 
 1. Bacteriophages cooperate to deploy anti-CRISPR protein to suppress CRISPR-Cas3 and Cas9 immunity. (https://www.cell.com/cell/pdf/S0092-8674(18)30738-4.pdf)
-2. [Surface modification.](https://www.nature.com/articles/ismej201679#Sec1)
-3. 
+2. [Surface modification](https://www.nature.com/articles/ismej201679#Sec1) is very common in *P. aeruginosa*, where the prophage affects T4P and O-antigen to resist superinfection. Because phage predation is a major threat to bacterial survival, this mechanism allows losogenized PA14 to resist multuple different phages in addition to the self phages. 
+3. Classic repressor-mediated immunity. 
 
 **Some phages suppress host QS-mediated defense**
 
