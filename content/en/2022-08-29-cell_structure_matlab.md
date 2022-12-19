@@ -16,12 +16,12 @@ date: 2022-08-29
 **Add 200 x 200 grid to the picture, and measure the cell membrane length within a random square containing four grids (Fig. 2).** 
 
 <p align="center">
-  <img src="./pics/wrinkle_fig1.jpg" width="500" title="200 x 200 grid">
+  <img src="/en/pics/wrinkle_fig1.jpg" width="500" title="200 x 200 grid">
 </p>
 
 
 <p align="center">
-  <img src="./pics/wrinkle_fig2.jpg" width="500" title="Length within four grids">
+  <img src="/en/pics/wrinkle_fig2.jpg" width="500" title="Length within four grids">
 </p>
 
 
@@ -32,12 +32,12 @@ Aftet measuring 10 pictures, I found out that the variation within one picture i
 
  
  <p align="center">
-  <img src="./pics/stepsize100_fig2.jpg" width="500" title="100 x 100 grid">
+  <img src="/en/pics/stepsize100_fig2.jpg" width="500" title="100 x 100 grid">
 </p>
 
 
 <p align="center">
-  <img src="./pics/stepsize100_fig1.jpg" width="500" title="Measure membrane length inside one grid">
+  <img src="/en/pics/stepsize100_fig1.jpg" width="500" title="Measure membrane length inside one grid">
 </p>
 
 ***Note that two lines must lie on the opposite sides of the square. Including adjecent sides will increase the variations***
