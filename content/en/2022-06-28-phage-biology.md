@@ -205,6 +205,13 @@ This method was first applied in the mid 1980s, and read more [here.](https://do
 
 ### 3. Plamid-dependent phages, Sian Owan 
 
+### 4. Phage regulatory switch (phage-RS) system: Both DNA and protein sequences suggest they are remnants of temperate phages 
+
+In *B. subtilis skin*-interventing DNA element, which is a 48kb remnant of an ancestral phage. It can not produce infective viral particles, but it retained its ability to excise itself to restore an intact functional gene flanking to this element. This step is achieved by specific recombinase and other accessory proteins inside the phage-RS element. This gene rearrangement gives increased fitness to the bugs under special conditions (Sato et al., Plos genetics, 2014). 
+Another example about phage-RS is in S. pyogenes, where the SpyCIM1 is maintained as an episome floating around in the cytosol. Under stress, however, the phage will insert right in the middle of mutsL, which render the mismatch repair (MMR) system non-functional, leading to over 100-fold increase in mutation rate.  
+Different from DMS3/Mu phage, each phage-RS element is inserted in the same location within its cognate gene. 
+
+
 ## Professors in phage study 
 
 1. Carey Nadell @Dartmouth. [Recent talk in 2022](https://www.youtube.com/watch?v=Z6HvLuzZuMY&t=1232s)
