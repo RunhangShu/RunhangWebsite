@@ -70,15 +70,18 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Bacteria employ multiple mechanisms to defense against phage infection**
 
+We can broardly divide bacterial defense mechanisms into two aspects. One is constitutive defense (always active) such as the  the surface receptor modidfication/masking. Another is inducible defenses (inducible by virus) such as CRISPR. Cell surface is probably one of the most important mechanisms because phages will exert damage to the bacterial cell once entered despite a timely recruitment of CRISPR. The constitutive defense is often energetic costly when there is no phage around while the adaptative CRISPR immunity might be more dynamic to adjust how many spacer the genome wants to keep. 
+
 1. CRISPR-Cas immune system. Only 50% bacteria have this mechanism in their genome. ([Goldberg et al., 2018](https://www.nature.com/articles/s41467-017-02557-2)) How does CRISPR differenciate the "non-self" prophage from "non-self" lytic phage? The CRISPR-cas has a transcription-dependent DNA targeting mechanism that recognizes the lytic cycle-related transcripts but permits lysogenization by temperal phages. The so called "conditional tolerance" of temperal phage is resumed upon lytic induction ([Goldberg et al., 2014](https://www.nature.com/articles/nature13637)). 
 2. Down-regulating phage receptor. Serve as a first line of defense. 
 3. At high cell density, Pseudomonas QS activates cas3 expression. The QS-mediated CRISPR-cas immune system serves as a second line of defense after phages have entered into cytoplasm ([Nina et al., 2017](https://www.pnas.org/doi/epdf/10.1073/pnas.1617415113)). 
+4. Joseph at UCSF recently published some noval phage defense mechanisms on P. aeruginosa. 
 
 **Bacteria-virus have been co-evolving for billions of years, so prophages/phages have acquired a collection of strategies to defend against superinfection and bacterial innate immunity 
 
 1. Bacteriophages cooperate to deploy anti-CRISPR protein to suppress CRISPR-Cas3 and Cas9 immunity. (https://www.cell.com/cell/pdf/S0092-8674(18)30738-4.pdf)
 2. [Surface modification](https://www.nature.com/articles/ismej201679#Sec1) is very common in *P. aeruginosa*, where the prophage affects T4P and O-antigen to resist superinfection. Because phage predation is a major threat to bacterial survival, this mechanism allows losogenized PA14 to resist multuple different phages in addition to the self phages. 
-3. Classic repressor-mediated immunity. 
+
 
 **Some phages suppress host QS-mediated defense**
 
@@ -171,7 +174,7 @@ This method was first applied in the mid 1980s, and read more [here.](https://do
 
 ## Are phages inserted into bacterial genome randomly? Do they have a preferred insertion site?
 
-1. The DMS3 phage in *P. aeruginosa* does not have a preferred insertion site. The DMS3 genome was found in multiple loci in *P. aeruginosa*. 
+1. The DMS3 phage in *P. aeruginosa* does not have a preferred insertion site. The DMS3 genome was found in multiple loci in *P. aeruginosa*. This is same as the Mu phage of E. coli.  
 
 ## Phages in the context of a microbial community
 
@@ -188,6 +191,19 @@ This method was first applied in the mid 1980s, and read more [here.](https://do
 2. What are the molecular mechanisms underlying such delicate regulations of lytic and lysogenic pathways? 
 3. Pf phages are recently repored to directly impede mammalian phagocytosis by targeting both neutrophils and macrophages ([SWEERE et al., 2019](https://www.science.org/doi/full/10.1126/science.aat9691)), allowing its bacterial host to survive. Understanding the mechanisms of phage-mediated mammalian immune system is critical for the advance in phage therapy. 
 4. 
+
+## What are more than lytic/temperate phages? How about other genetic elements stem from phage? 
+
+### 1. Phage-related chromosome islands (PRCIs) have been found in Gram-positive bacteria such as Staphylococcus aureus.
+
+- It is a phage-related mobile genetic elements, which could evolved from a prophage. 
+- Usually quiescent and requires a helper phage to abolish the repressor Stl.
+- It can hijack the helper phage's capsid to propogate. 
+- High-frequency transfer of SaPIs (S.aureus pathogenicity islands) was demonstrated. 
+### 2. Transposable element 
+- I feel like TEs is basically temperate phages which lost structure genes?
+
+### 3. Plamid-dependent phages, Sian Owan 
 
 ## Professors in phage study 
 
