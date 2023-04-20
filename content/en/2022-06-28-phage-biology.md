@@ -211,6 +211,12 @@ In *B. subtilis skin*-interventing DNA element, which is a 48kb remnant of an an
 Another example about phage-RS is in S. pyogenes, where the SpyCIM1 is maintained as an episome floating around in the cytosol. Under stress, however, the phage will insert right in the middle of mutsL, which render the mismatch repair (MMR) system non-functional, leading to over 100-fold increase in mutation rate.  
 Different from DMS3/Mu phage, each phage-RS element is inserted in the same location within its cognate gene. 
 
+## Phage serves as a mutator
+
+### Mu phage
+- Mu phage was discovered in late 1950s. It inserts into bacterial genome randomly, which resembles the "controlling elements" of maize more closely than any other bacterial episome
+- On rare cases, it will excise itself from the genome to restore orginal function of the operon at that inserting site. However, it also copies itselft and inserted into a new site without leaving its original location. (It is worth to see if our lysogens have mutiple DMS3 prophages) Therefore, it is a transposible phages using the replicative transposition strategy. 
+- The very early identified transposition mechanisms for Mu is known as Shapiro model, which is the first example of non-homologous, strands joining, yet somewhat site-specific recombination. It has been 30 years after this first model, many more mechanisms of transposition have been revealed. 
 
 ## Professors in phage study 
 
@@ -221,5 +227,5 @@ Different from DMS3/Mu phage, each phage-RS element is inserted in the same loca
 5. Alan Davidson @Univ. of Toronto
 6. Karen L Maxwell @Univ. of Toroto 
 7. Paul Bollyky @Standford. https://www.science.org/doi/full/10.1126/science.aat9691. 
-8. 
+8. Breck Duerkop @University of Colorado (enterococcus resistance to phage)
 
