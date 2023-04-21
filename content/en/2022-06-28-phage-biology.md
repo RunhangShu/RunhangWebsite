@@ -4,7 +4,7 @@ date: 2022-06-28
 author: Runhang
 ---
 
-### Last up date: 10-11-2022
+### Last up date: 04-21-2023
 
 An understudied field of research has gained increasing attentions recently after scientists saw numerous viral particals in the soil, ocean, bacterial cells and ,etc by using fluorescence electron microscope or transmission electron microscope. The virues that infect bacteria are called bacterialphages or phages, mean "to eat" in Latin. It is now recognized as the most abundant biological entities (not an organism but a molecular machine) on the planet. So, the article will introduce what do we know about them, and what remains mysterious? 
 
@@ -18,8 +18,8 @@ An understudied field of research has gained increasing attentions recently afte
 
 **Superinfection exclusion** is an outcome of lysogeny, where the prophage makes the host immune aginst infection by closely related or unrelated phages. 
 
-1. The mechanisms underlying superinfection exclusion are diverse. First, it can be a modifications of surface receptor (i.e., type IV pilus and O-antigen) before the virus entering the cell. Moreover, the phage-resistant mechanisms of lysogen could occur intracellularly after the phage DNA is injected into the cell. 
-2. In PA14, it is an aditive effect that bearing multiple phages usually leads to more broad immunity to different phages. 
+1. The mechanisms underlying superinfection exclusion are diverse. First, it can be modifications of the surface receptor (i.e., type IV pilus and O-antigen) before the virus entering the cell. Moreover, the phage-resistant mechanisms of lysogen could occur intracellularly after the phage DNA is injected into the cell. 
+2. In PA14, it is an addictive effect that bearing multiple phages usually leads to more broad immunity to different phages. 
 3. In PA14, another study showed that prophage-encoded protein, *Tip*, blocks the activity of bacterial-encoded PilB, rendering superinfection exclusion and defects in twitching motility ([Chung et al., 2014](https://www.pnas.org/doi/abs/10.1073/pnas.1403537111)). 
 
 **Lysogenic to lytic conversion** can be achieved under certain stresses where the prophage repressor is inactivated via the SOS-response. For instance, Genotoxic agens like mitomycin C triggers SOS-response through DNA damage, resulting in upregulated gene encoding repair pathways. 
@@ -228,4 +228,7 @@ Different from DMS3/Mu phage, each phage-RS element is inserted in the same loca
 6. Karen L Maxwell @Univ. of Toroto 
 7. Paul Bollyky @Standford. https://www.science.org/doi/full/10.1126/science.aat9691. 
 8. Breck Duerkop @University of Colorado (enterococcus resistance to phage)
+9. Rasika M Harshey @University of Texas at Austin (Mu phage, transposition, Esi.coli swarming)
+10. Jeffrey Gordan @WUSTL
+11. Forest Rohwer @SDSU
 
