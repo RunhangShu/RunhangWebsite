@@ -28,7 +28,7 @@ An understudied field of research has gained increasing attentions recently afte
 
 1. The phage genome bears many AMGs (Auxiliary metabolic genes) that can participate in host metabolic pathways. 
 
-2. The interplay between nutrient demand and availability and the plasticity of the metabolic state of "virocell" may influence the lysis-lysogeny decision. For example, during spring-summer seasonal transitions, temperate virues switch from lysogeny to lytic replication as bacterial production increases (Brum et al., 2016). 
+2. The interplay between nutrient demand and availability and the plasticity of the metabolic state of "virocell" may influence the lysis-lysogeny decision. For example, during spring-summer seasonal transitions in Southern Ocean, temperate virues switch from lysogeny to lytic replication as bacterial production increases (Brum et al., 2016). However, the virus to bacterium ratio remained largely unchanged. Generally, oceans are "prokaryotic" world with virus outnumbering bacterium by 10:1, indicating a high rate of lysis, whereas a "eukaryotic" world such as human gut has virus to bacterium ratio of 1:1, indicating many phages exist as an inducible prophage form (Reyes et al., 2012). 
 
 3. Virus-encoded tRNA can also serve to enrich the level of tRNAs that match the viral codon usage. 
 4. One of the most famous example is CTXphi phage makes _Vibrio cholerae_ produce cholera toxin (2005). 
