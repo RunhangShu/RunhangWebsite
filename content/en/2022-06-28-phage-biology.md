@@ -22,7 +22,9 @@ An understudied field of research has gained increasing attentions recently afte
 2. In PA14, it is an addictive effect that bearing multiple phages usually leads to more broad immunity to different phages. 
 3. In PA14, another study showed that prophage-encoded protein, *Tip*, blocks the activity of bacterial-encoded PilB, rendering superinfection exclusion and defects in twitching motility ([Chung et al., 2014](https://www.pnas.org/doi/abs/10.1073/pnas.1403537111)). 
 
-**Lysogenic to lytic conversion** can be achieved under certain stresses where the prophage repressor is inactivated via the SOS-response. For instance, Genotoxic agens like mitomycin C triggers SOS-response through DNA damage, resulting in upregulated gene encoding repair pathways. 
+**Lysogenic to lytic conversion** can be achieved under certain stresses (DNA damage, py)when CI or CI-like repressor protein is inactivated via the SOS-response (in the case of E. coli lamda phage). For instance, Genotoxic agens like mitomycin C triggers E. coli SOS-response through DNA damage, resulting in upregulated recombinase gene expression such as RecA. The will lead to clevage of CI repressor and activate lytic pathway. The first step in lytic induction is prophage excision, which requires both phage-encoded integrase and excisionase. The lysogenic conversion only requires integrase. 
+
+In the rare case such as Mu phage, it might not be excised during induction. Instead, the Mu prophage can get duplicated and moved to a new location during induction. It acts like a transposable element or we could call it transposable phage. 
 
 **Phage can directly modulate host bacterial physiology or direct bacterial fate**
 
@@ -228,8 +230,9 @@ Different from DMS3/Mu phage, each phage-RS element is inserted in the same loca
 6. Karen L Maxwell @Univ. of Toroto 
 7. Paul Bollyky @Standford. https://www.science.org/doi/full/10.1126/science.aat9691. 
 8. Breck Duerkop @University of Colorado (enterococcus resistance to phage)
-9. Rasika M Harshey @University of Texas at Austin (Mu phage, transposition, Esi.coli swarming)
+9. Rasika M Harshey @University of Texas at Austin (Mu phage, transposition, Esi.coli swarming) https://sites.cns.utexas.edu/harsheylab/bacteriophage-mu
 10. Jeffrey Gordan @WUSTL
 11. Forest Rohwer @SDSU
 12. Jilian F.Banfield @UC, Berkeley ([CRISPR could be less common that previously reported](https://www.nature.com/articles/ncomms10613))
+13. 
 
