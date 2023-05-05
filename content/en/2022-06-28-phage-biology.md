@@ -233,6 +233,7 @@ Different from DMS3/Mu phage, each phage-RS element is inserted in the same loca
 9. Rasika M Harshey @University of Texas at Austin (Mu phage, transposition, Esi.coli swarming) https://sites.cns.utexas.edu/harsheylab/bacteriophage-mu
 10. Jeffrey Gordan @WUSTL
 11. Forest Rohwer @SDSU
-12. Jilian F.Banfield @UC, Berkeley ([CRISPR could be less common that previously reported](https://www.nature.com/articles/ncomms10613))
+12. Jilian F.Banfield @UC, Berkeley ([CRISPR could be less common that previously reported](https://www.nature.com/articles/ncomms10613); sequenced and found hundreds of gigantic, CRISPR-Cas system-carrying phages with lengths of more than 200 kb (https://www.nature.com/articles/s41586-020-2007-4) across different ecosystems. 
 13. 
+14. 
 
