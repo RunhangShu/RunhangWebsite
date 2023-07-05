@@ -13,4 +13,5 @@ date: 2023-02-12
 7. 富甲美国 （Sam Walton: Made in America). Rate: 6. A real book with simple words, illustrating how Sam started his business with only $15k, and his work-and-life philosophy.
 8. 什么也别说 Say Nothing: A True Story of Murder and Memory in North Ireland - Patrick Radden Keefe. Get to understand the religious conflicts in Ireland and the UK - The dilemma for Northern Ireland people.
 9. 富兰克林自传 - Benjamin Franklin. Rate： 9. 兴商、办学、立刊、城市规划和消防、医疗和纳税系统、发放国债、创办公益、富兰克林是一个不折不扣的政治家、经济学家、科学家奇才。Philadelphia的冬天比较冷，他弄出了富兰克林壁炉。他对电学颇有研究，发明了避雷针，也是少数支持克里斯蒂安·惠更斯光波论的科学家。他参与起草了《独立宣言》。他有著名的13条道德明目值得后人学习：节制、节言、秩序、决心、节俭、勤劳、诚实、正直、中庸、整洁、宁静、贞洁、谦虚。 此自传其实并未完成，由于突然病逝，时间线停止在了1757年，后半生包括了1776年的独立宣言和1790病逝前的辉煌灿烂并没有记录。
-10. 量子物理史话 - 
+10. 量子物理史话 -
+11. 东京梦华录 - 孟元老。记录了北宋首都汴梁城，如今河南开封市的商业繁荣景象。
