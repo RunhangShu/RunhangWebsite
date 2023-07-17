@@ -33,8 +33,56 @@ So you may want to create a new conda environment with osx-64 plateform. After a
   conda install python
 ```
 
-### sort out the barcoded samples 
+### Sort out the barcoded samples 
 ```
-cutadapt -e 0 -g ^file:../barcodes.fasta -o "trimmed-{name}.fastq.gz" nR289-L1-G4-P025-CGTACTAG-ATTAGACG-READ1-Sequences.txt
+cutadapt -e 0 -g ^file:../barcodes.fasta -o "OUTPUT-{name}.fastq.gz" INPUT_file
+```
+**the barcodes.fasta file is formated like this**
+
+```
+>bar1
+TTTGCGTC
+>bar2
+GGTCGCGC
+>bar3
+...
 ```
 
+### Quantify "built-in" barcode frquency
+
+In each of my sample, I haev "built-in" barcoded bacterial strain, and I want to know what are their distributions in the community.
+
+```
+
+#!/bin/bash
+  
+# Array of input file paths
+input_files=("...01.fastq" "...02.fastq" "...03.fastq" "...04.fastq")
+
+# Array of barcode sequences
+barcodes=(
+    "TTTGCGTC"
+    "GGTCGCGC"
+    "TCTCTCTT"
+    "GTCCTGTA"
+    "TGCTGTGG"
+    "GTTCCCTT"
+    "........"
+    "........"
+    "........" 
+)
+
+# Iterate over input files
+for input_file in "${input_files[@]}"; do
+    echo "Input file: $input_file"
+    echo "-------------------"
+    
+    # Iterate over barcodes
+    for barcode in "${barcodes[@]}"; do
+        count=$("$input_file" | grep -c "$barcode")
+        echo "Barcode: $barcode Count: $count"
+    done
+    
+    echo "==================="
+done
+```
