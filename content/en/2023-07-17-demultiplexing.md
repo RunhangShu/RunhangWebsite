@@ -15,6 +15,26 @@ This usually involves two rounds of PCR. During the first PCR, you use customize
 
 ## How to cut the budget?
 
-If you are studying a single bacterial strain and not necessary need such a high-throughput like metagenomic studies do, you can pool all your samples together and send them as like **THERE IS ONLY ONE SAMPLE LOL**. But how? how do you distinguish among your samples after getting the reads from illumina sequencing. Well, you can use barcoded primers for the first round of PCR. Including a barcode in between the overhang and site-specific sequences, for instance, you will design 10 primers if you have 10 samples. The illumina index help distinguish your samples from others' samples, your barcoded primer help distinguish among your samples. 
+If you are studying a single bacterial strain and not necessary need such a high-throughput like metagenomic studies do, you can pool all your samples together and send them as like **THERE IS ONLY ONE SAMPLE LOL**. But how? how do you distinguish among your samples after getting the reads from illumina sequencing. Well, you can use barcoded primers for the first round of PCR. Including a barcode in between the overhang and site-specific sequences, for instance, you will design 10 primers if you have 10 samples. The illumina index help distinguish your samples from others' samples, your barcoded primer help differentiate among your samples. In short, you tricked the sequencing company becuase asking them to add individual barcode in each of your sample will be so imaginable costly.
 
-In short, you tricked the sequencing company becuase asking them to add individual barcode in each of your sample will be so imaginable costly.
+## Demultiplexing
+
+The sequencing company first demultiple your "ONE sample" from others, and send to you. You start with the raw data and demultiple them again by recognizing each barcode that you manually inserted into each of you sample during the first PCR. 
+
+I used cutadapt in this process. I am using Mac M2. The annoying part is that the new macbook is built on the Apple Silicon chip, which uses AArch64 (aka. ARM64) architecture, in contrast to the macbook before 2021 build on intel 64-bit CPU and therefore x86_64 architecture. In conda, you can see cutadapt is only supports osx-64. 
+<img width="521" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/f295a028-d2aa-4829-b145-08f89b415416">
+
+So you may want to create a new conda environment with osx-64 plateform. After a lot of husle, I finally managed to install cutadapt 4.4 through miniforge. 
+
+```
+  conda create -n intel_env
+  conda activate intel_env
+  conda config --env --set subdir osx-64
+  conda install python
+```
+
+### sort out the barcoded samples 
+```
+cutadapt -e 0 -g ^file:../barcodes.fasta -o "trimmed-{name}.fastq.gz" nR289-L1-G4-P025-CGTACTAG-ATTAGACG-READ1-Sequences.txt
+```
+
