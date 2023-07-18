@@ -15,3 +15,5 @@ date: 2023-02-12
 9. 富兰克林自传 - Benjamin Franklin. Rate： 9. 兴商、办学、立刊、城市规划和消防、医疗和纳税系统、发放国债、创办公益、富兰克林是一个不折不扣的政治家、经济学家、科学家奇才。Philadelphia的冬天比较冷，他弄出了富兰克林壁炉。他对电学颇有研究，发明了避雷针，也是少数支持克里斯蒂安·惠更斯光波论的科学家。他参与起草了《独立宣言》。他有著名的13条道德明目值得后人学习：节制、节言、秩序、决心、节俭、勤劳、诚实、正直、中庸、整洁、宁静、贞洁、谦虚。 此自传其实并未完成，由于突然病逝，时间线停止在了1757年，后半生包括了1776年的独立宣言和1790病逝前的辉煌灿烂并没有记录。
 10. 量子物理史话 - 曹天元(Capo). Rate: 10. 这在中文科普书里面算是神一样的存在了。曹的写作风格幽默细腻，深入浅出的把量子力学从100多年前的萌芽到21世纪各个理论涌现出来，讲的非常通透，可谓是百家争鸣。我看过很多关于量子的视频，很多都给我越讲越晕。但在这本书从我打开第一页，读到其对麦克斯韦的家乡的描写，这像是文科生的文笔，已然深深的吸引了读者。可能是我也喜欢八卦的缘故，书中大量对著名科学家的成长环境、私生活、家庭的描写令我感受到科学家们的亲切和接地气。此话，本书充分反映了作为一个作家，博学多才、学贯中西的重要性，曹在枯燥的物理实验和波粒大战的故事穿插了大量气势磅礴的语句深深的刻画出科学发展史上的激烈征讨。无论是趣味性上还是科普上，这都是一本难得的奇书。
 11. 东京梦华录 - 孟元老。记录了北宋首都汴梁城，如今河南开封市的商业繁荣景象。
+12. Where the water goes - David Owen. Rate: 8. People live in Southern california like me probably rarely think about where does our daily water, that we take for granted, coming from? In desert areas like Los angeles and Los vegas, we need to know our water resources and safety! This book will give you answers and deep thoughts. I start to have behavioral change after knowing more about the real water situation in the world.
+
