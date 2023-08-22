@@ -171,12 +171,12 @@ Phages typically reply on their integrase to mediate a recombination event betwe
 Do temperate phages tend to have a smaller genome as they have to streamline their genome as they integrated into the bacterial chromosome, in contrast to lytic (virulent) phages? On the other hand, we conceptualize temperate phages as USB drivers, that transfer information between bacterial kin. Therefore, one can argue, temperate phages should have a larger genome size than lytic phages. Let's take a look into some public datasets and dig this out!  
 
 ![Refseq_phages](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/9d62b771-0e48-4757-a04b-b1c6b9b03fe7)
-I analyzed all phage genomes curated by NCBI-RefSeq and found virulent phages have a medium size of ~80kbp, followed by 53kb of temperate phages. Finally, chronic phages such as Pseudomonas filamentous phage pf5, recently characterized as a standalone lifestyle differ from lytic/lysis as these "chronic phages" replicate in host cells and extrude out without causing cell lysis, 
+I analyzed all phage genomes curated by NCBI-RefSeq and found virulent phages have a medium size of ~80kbp, followed by 53kb of temperate phages. Finally, chronic phages such as Pseudomonas filamentous phage pf5, recently characterized as a standalone lifestyle differ from lytic/lysis as these "chronic phages" replicate in host cells and extrude out without causing cell lysis. 
 
 
 ![across_genus](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/31c7902a-ffbe-45b2-bb6f-4d5e0ba755fe)
 
-The data used to generate the figure above is from phage.ai. 
+The data used to generate the figure above is from app.phage.ai
 
 ### Ecological dynamics of microbiome and bacteriophage
 
