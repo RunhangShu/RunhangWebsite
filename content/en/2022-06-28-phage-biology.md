@@ -176,7 +176,7 @@ I analyzed all phage genomes curated by NCBI-RefSeq and found virulent phages ha
 
 ![across_genus](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/31c7902a-ffbe-45b2-bb6f-4d5e0ba755fe)
 
-The data used to generate the figure above is from app.phage.ai
+The dataset used to generate the figure above is [.from PhageAI](app.phage.ai)
 
 ### Ecological dynamics of microbiome and bacteriophage
 
@@ -184,10 +184,10 @@ The data used to generate the figure above is from app.phage.ai
 
 2. Taking a snapshot of phagenome or virome in human gut is a taxonomically difficult job. Sequencing reads show that 85%-99% of viruies are novel without any classification and host information. 
 - **Huge VARIATION**: The interpersonal variations are dramatic that very few viruses shared between unrelated individuals. 
-- **High STABILITY**: longitudinal metagenomics data showed that 80% virual clusters (grouped by 90% identity 90% sequence identity over 90% of contig length) is still present even after 2.5 years. 
+- **High STABILITY**: longitudinal metagenomics data showed that 80% of viral clusters (grouped by 90% identity and 90% sequence identity over 90% of contig length) are still present even after 2.5 years. 
 
-3. A large fraction of the gut virome is composed of virulent or lytic phage. So, the stability is not majorly due to integrated viral genome.
-4. Phage might play a minor role in serving as a vehicle in HGT. For instance, ARGs (antibiotic resistant genes) are rarely found in the phagenome. 
+3. A large fraction of the gut virome is composed of virulent or lytic phage. So, the stability is not majorly due to the integrated viral genome.
+4. Phage might play a minor role in serving as a vehicle in HGT. For instance, ARGs (antibiotic-resistant genes) are rarely found in the phagenome. 
 
 
 ## Are phages inserted into bacterial genome randomly? Do they have a preferred insertion site?
@@ -196,7 +196,7 @@ The data used to generate the figure above is from app.phage.ai
 
 ## Phages in the context of a microbial community
 
-1. While many temperal phages are integrated into bacterial genome, many are found as free phage virions embedded within the mucus layer and have been proposed to function to maintain the intestinal barrier by controlling invasive bacterial populations (Barr et al., PNAS 2013). 
+1. While many temperate phages are integrated into the bacterial genome, many are found as free phage virions embedded within the mucus layer and have been proposed to function to maintain the intestinal barrier by controlling invasive bacterial populations (Barr et al., PNAS 2013). 
 2. The most notable change is an increase in the order of bacteriophages, Caudovirales, within the intestine of individuals with Crohn’s disease (CD) and ulcerative colitis (UC). 
 
 
@@ -232,8 +232,8 @@ Different from DMS3/Mu phage, each phage-RS element is inserted in the same loca
 ## Phage serves as a mutator
 
 ### Mu phage
-- Mu phage was discovered in late 1950s. It inserts into bacterial genome randomly, which resembles the "controlling elements" of maize more closely than any other bacterial episome
-- On rare cases, it will excise itself from the genome to restore orginal function of the operon at that inserting site. However, it also copies itselft and inserted into a new site without leaving its original location. (It is worth to see if our lysogens have mutiple DMS3 prophages) Therefore, it is a transposible phages using the replicative transposition strategy. 
+- Mu phage was discovered in the late 1950s. It inserts into the bacterial genome randomly, which resembles the "controlling elements" of maize more closely than any other bacterial episome
+- In rare cases, it will excise itself from the genome to restore the original function of the operon at that inserting site. However, it also copies itself and is inserted into a new site without leaving its original location. (It is worth seeing if our lysogens have mutiple DMS3 prophages) Therefore, it is a transposable phage using the replicative transposition strategy. 
 - The very early identified transposition mechanisms for Mu is known as Shapiro model, which is the first example of non-homologous, strands joining, yet somewhat site-specific recombination. It has been 30 years after this first model, and many more mechanisms of transposition have been revealed. 
 
 ## Professors in phage study 
