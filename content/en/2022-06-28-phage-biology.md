@@ -176,7 +176,7 @@ I analyzed all phage genomes curated by NCBI-RefSeq and found virulent phages ha
 
 ![across_genus](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/31c7902a-ffbe-45b2-bb6f-4d5e0ba755fe)
 
-The dataset used to generate the figure above is [.from PhageAI](app.phage.ai)
+The dataset used to generate the figure above is from [PhageAI](https://phage.ai/)
 
 ### Ecological dynamics of microbiome and bacteriophage
 
