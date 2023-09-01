@@ -164,7 +164,12 @@ This method was first applied in the mid 1980s, and read more [here.](https://do
 
 The bacteriophage that can integrated into the host bacterial chromosome, is pretty much like the prokaryote's version of retrovirus that transcribes integrase and inserts into the host chromosomes. Insertion sites of viral DNA are critical in that integration into transcriptionally active regions may favor viral gene expression, thus facilitating viral production, while integration into transcriptionally repressed chromatin/regions may disfavor viral gene expression, thus possibly facilitating viral latency. In bacteria, random insertion is equally critical because it will foster the evolution of the bacterial host by selecting the mutant with higher fitness. Therefore, if a phage is inserted randomly, it basically is a transposable mutagen that can "jump" across strains. This is also known as insertional mutagenesis. Second, compared to lytic phages, we hypothesize that temperate phages might also serve as a "fast data transfer shuttle". We need to measure what is the "speed" and "size" of the shuttle during an infection event. The strategy of using phages as storage hubs could also be genus/species dependent. 
 
+**What are the potential factors that affect a donor DNA's insertion**
 
+1. Chromatin accessibility; This can be easily proved not to be the major factor because different retroviruses differ in favored integration sites. Researchers have compared mapped HIV and MLV integration sites with mapped DNase I hypersensitive sites, which are used as a surrogate marker for accessible chromatin, and are enriched in the 5′ ends of transcription units and CpG islands. It was shown that MLV (Murine Leukemia virus) integrated preferentially in 2kb intervals flanking DNase I hypersensitive sites whereas HIV integration favored the transcription units. 
+2. the cell cycle model; This model cannot explain HIV's preferred integration in transcription units. Gammaretroviruses can integrate only into dividing cells as they require the disruption of the nuclear membrane occurring during mitosis to contact the host genome. Unlike other retroviruses, HIV can transport its genetic material, in the form of the large nucleoprotein pre-integration complex (PIC), into the nucleus through the intact nuclear envelope (NE). This enables HIV to infect non-dividing cells such as macrophages and microglial cells.
+
+3. tethering mechanism 
 **Insert at a specific site**
 Phages typically rely on their integrase to mediate a recombination event between an identical sequence shared between the circular form of the prophage genome (*attP*) and the bacterial chromosome (*attB*), and the recognition of these DNA sequences is inherent in a given integrase protein. 
 **Insert at random site**
@@ -206,8 +211,8 @@ The dataset used to generate the figure above is from [PhageAI](https://phage.ai
 ## Ideas of my own project
 
 1. When does a lysogen decide to lyse or to main the status quo? Or, I guess, it is more appropriate that we think this question from the perspective of phage; when does the prophage promote induction? 
-- when the surrouding nutrition is low - bacterial host is starving. How??
-- when there is target-rich environment. How??
+- when the surrounding nutrition is low - bacterial host is starving. How??
+- when there is a target-rich environment. How??
 
 2. What are the molecular mechanisms underlying such delicate regulations of lytic and lysogenic pathways? 
 3. Pf phages are recently repored to directly impede mammalian phagocytosis by targeting both neutrophils and macrophages ([SWEERE et al., 2019](https://www.science.org/doi/full/10.1126/science.aat9691)), allowing its bacterial host to survive. Understanding the mechanisms of phage-mediated mammalian immune system is critical for the advance in phage therapy. 
@@ -224,7 +229,7 @@ The dataset used to generate the figure above is from [PhageAI](https://phage.ai
 ### 2. Transposable element 
 - I feel like TEs is basically temperate phages which lost structure genes?
 
-### 3. Plamid-dependent phages, Sian Owan 
+### 3. Plasmid-dependent phages, Sian Owan 
 
 ### 4. Phage regulatory switch (phage-RS) system: Both DNA and protein sequences suggest they are remnants of temperate phages 
 
