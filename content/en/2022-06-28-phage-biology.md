@@ -87,27 +87,27 @@ We can broardly divide bacterial defense mechanisms into two aspects. One is con
 
 **Some phages suppress host QS-mediated defense**
 
-1. Phage DMS3 encodes a quorum-sensing anti-activator protein, Aqs1, that inhibits LasR ([Shah et al., 2021](https://doi.org/10.1016/j.molcel.2020.12.011)). The supressed QS allows higher rates of lysogenization. 
-2. Other than host defense mechanism, a prophage can produce superinfection exclusion protein to prevent being replaced by same or closely related phages. 
+1. Phage DMS3 encodes a quorum-sensing anti-activator protein, Aqs1, that inhibits LasR ([Shah et al., 2021](https://doi.org/10.1016/j.molcel.2020.12.011)). The suppressed QS allows higher rates of lysogenization. 
+2. Other than the host defense mechanism, a prophage can produce a superinfection exclusion protein to prevent being replaced by the same or closely related phages. 
 
 
 
 **Factors affect phage-mediated cell fate ([Zheng et al., 2011](https://doi.org/10.1016/j.cell.2010.03.034))** 
 
-1. The presence of absence of prophage. The lysogeny is immune to the phage infection. 
+1. The presence or absence of prophage. The lysogeny is immune to the phage infection. 
 2. Cell size 
 3. MOI (multiplicity of infection, the number of phages infecting an individual cell. A high level of MOI (>10) or API (average phage input) can result in 100% lysogens. However, it is phage-dependent. 
-4. Location (pole, mid-cell, which contains key protein such as ManY for DNA injection)
+4. Location (pole, mid-cell, which contains key proteins such as ManY for DNA injection)
 5. Lysogeny requires that all infecting phages choose lysogeny. The logic of the cellular decision can be thought of as a simple “AND” gate, such that only if all inputs are “1” (i.e., lysogeny) will this be the cellular output.
 
-The reason for the inadequacy of single-cell resolution is that the cell-fate decision is achieved through a hierarchy of decisions at the sub-cellular level. *Bacillus subtillis* SPβ phage (strain phi3T) encodes AimP, which processed into six amoni acids (aa) peptides for downstreading decision of either lysogenic or lytic cycle. This 6-aa communication system is also known as arbitrium system first described by Dr. Rotem Sorek at Weizmann institute, which is essential for phage to communicate and decide to "break" the cell or "hide" in the cell. For example, if the abundance of 6-aa is too high, the phages would interpret that they are running low on uninfected cells and thus the circuit will regulate phage from lytic to lysogenic cycle. Therefore, bacterial hosts will not be completely depleted.  
+The reason for the inadequacy of single-cell resolution is that the cell-fate decision is achieved through a hierarchy of decisions at the sub-cellular level. *Bacillus subtillis* SPβ phage (strain phi3T) encodes AimP, which processed into six amino acids (aa) peptides for downstreading decision of either lysogenic or lytic cycle. This 6-aa communication system is also known as arbitrium system first described by Dr. Rotem Sorek at Weizmann Institute, which is essential for phage to communicate and decide to "break" the cell or "hide" in the cell. For example, if the abundance of 6-aa is too high, the phages would interpret that they are running low on uninfected cells and thus the circuit will regulate the phage from lytic to lysogenic cycle. Therefore, bacterial hosts will not be completely depleted.  
 
 **Teachniques of determining whether cells are going through lysis or lysogenic process.([Trinh et al., 2017](https://doi.org/10.1038/ncomms14341))**
 
 
-1. Label phage with YFP by fusing YFP with wild-type head-stabilization protein gpD located at viral capsid (gpD-YFP). Therefore, if cells are lysed, we will see yellow fluoresence under a microscope. On the other hand, the lysogenic pathway is indicated by the production of mCherry fused with P<sub>RE</sub> promoter. Lytic pathway does not exhibit P<sub>RE</sub> activity. Likewise, there are certain host genes participate in lytic pathway. For example, lambda replication is severely inhibited in dnaJ mutants of *E. coli*. 
+1. Label phage with YFP by fusing YFP with wild-type head-stabilization protein gpD located at viral capsid (gpD-YFP). Therefore, if cells are lysed, we will see yellow fluoresence under a microscope. On the other hand, the lysogenic pathway is indicated by the production of mCherry fused with P<sub>RE</sub> promoter. Lytic pathway does not exhibit P<sub>RE</sub> activity. Likewise, there are certain host genes that participate in the lytic pathway. For example, lambda replication is severely inhibited in dnaJ mutants of *E. coli*. 
 2. Additionally, lysogenic reporters can be constructed by transcriptionally fusing mKO2 (yellow) and mKate2 (red) to the phage lytic repressor gene, cI. 
-During lysis process, phages compete resources for DNA replication. During lysogenic process, phages cooperate to propagate for integration. 
+During the lysis process, phages compete for resources for DNA replication. During the lysogenic process, phages cooperate to propagate for integration. 
  
 
 ### Experimental techniques in bacteriophage study 
@@ -118,19 +118,19 @@ To isolate phages from the culture, the bacterial cells from the overnight cultu
 **Plaquing assay**
 To assess the sensitivity of bacteria to various phages, serial dilutions of phages were spotted onto lawns of bacteria in the plaquing assay. To create a lawn of bacteria, 150 uL of overnight bacterial culture was added to 3 mL of 0.7% molten top agar and poured atop 1.5% LB agar plates. Both the top agar and bottom plate were supplemented with 10 mM MgSO4 and 50 mg/ml of gentamicin and 0.1% L-arabinose where required. 2mL of 10-fold serial dilutions of phages were spotted on to the bacterial lawns, and the plates were incubated at 30C overnight (Shah et al., 2021).
   
-- temperal phage will form turbid plaque on the bacterial lawn. 
-- lytic phage will form clear plaque on the bacterial lawm. 
+- Temperal phage will form turbid plaque on the bacterial lawn. 
+- lytic phage will form clear plaque on the bacterial lawn. 
 
 **Why?** There is a good question and answers in this [Researchgate thread](https://www.researchgate.net/post/How-to-explain-the-turbid-and-halo-plaques-formed-by-some-bacteriophages#:~:text=Turbid%20plaques%20are%20usually%20produced,plaque%20will%20look%20'turbid'.). 
 
-**Question:** For the clear plaques, I can understand it's a complete lysis, no bacteria are growing in that aera any more. But how to explain the turbid plaques? Is it the phage lysed some of the bacteria, but the rest got resistant to the phage, which led to a incomplete lysis? And how about the halo plaques?
-And why the plaques have certain size, but cannot enlarge limitless?
+**Question:** For the clear plaques, I can understand it's complete lysis, no bacteria are growing in that area any more. But how to explain the turbid plaques? Is it the phage lysed some of the bacteria, but the rest got resistant to the phage, which led to an incomplete lysis? And how about the halo plaques?
+And why do the plaques have a certain size, but cannot enlarge limitlessly?
 
 **Answer** by Alejandro Martin: It depends a bit on the life cycle of the specific phage you are dealing with. Turbid plaques are usually produced by lysogenic phage such as lambda. In some of the cells the phage may lysogenize instead of continuing the lytic cycle, and if this happens with high enough frequency the plaque will look 'turbid'. Other times (I am guessing this is what you call 'halo plaques') phage replication does not lyse the cell, but slows their growth noticeably enough that you can distinguish a plaque in solid medium; a typical example are filamentous phages. As for why phage plaques do not grow to lyse the entire plate, one of the reasons is that most phages cannot productively infect stationary phase cells, so once the bacterial lawn reaches that stage it's game over for the phage.
 
 **Check if the bacterium is a lysogen**. Isolate cells (by limiting dilution, streaking or whatever) from the turbid area of the plaque and check them for 1)resistance to infection by cross-steaking assay ;2) check the presence of phage in the lysate; 3) check integrated phage genome by PCR. A lysogen is immune to the same phage so that the phage will not form plaques. 
  
-*Apart from using morphology to roughly determine if the phage is lytic or lysogenic (temperal), how does sequencing work?*
+*Apart from using morphology to roughly determine if the phage is lytic or lysogenic (temperate), how does sequencing work?*
 
 - We can design phage primers to run a PCR. Need to re-streak a few times and to make sure you don't have any contaminating phage along for the ride that would also give you PCR product.
 - But if we do not know the phage sequence or want to know where does it insert at the beginning, we can do a whole genome sequencing. 
@@ -157,18 +157,21 @@ This method was first applied in the mid 1980s, and read more [here.](https://do
 **Phages are involved in the bacterial immune system to host-induced stress**
 
 1. The Gifsy-2 Salmonella prophage encodes the superoxide dismutase (SOD) that protects the bacterium against free radicals generated by the mammalian immune system
-2. Some phage genes antagonize host serum killing, degrade host antibidies (IgG), disrupt host immune reaction chain, and are thus ineffective in clearing the bacterial infection. 
+2. Some phage genes antagonize host serum killing, degrade host antibodies (IgG), disrupt the host immune reaction chain, and are thus ineffective in clearing the bacterial infection. 
 3. Some phages help the bacteria evade host cell recognition by acetylating the O-antigen of bacterial lipopolysaccharide. 
 
-## Phage insertion site
+## Phage insertion sites
+
+The bacteriophage that can integrated into the host bacterial chromosome, is pretty much like the prokaryote's version of retrovirus that transcribes integrase and inserts into the host chromosomes. Insertion sites of viral DNA are critical in that integration into transcriptionally active regions may favor viral gene expression, thus facilitating viral production, while integration into transcriptionally repressed chromatin/regions may disfavor viral gene expression, thus possibly facilitating viral latency. In bacteria, random insertion is equally critical because it will foster the evolution of the bacterial host by selecting the mutant with higher fitness. Therefore, if a phage is inserted randomly, it basically is a transposable mutagen that can "jump" across strains. This is also known as insertional mutagenesis. Second, compared to lytic phages, we hypothesize that temperate phages might also serve as a "fast data transfer shuttle". We need to measure what is the "speed" and "size" of the shuttle during an infection event. The strategy of using phages as storage hubs could also be genus/species dependent. 
+
 
 **Insert at a specific site**
-Phages typically reply on their integrase to mediate a recombination event between an identical sequence shared between the circular form of the prophage genome (*attP*) and the bacterial chromosome (*attB*), and the recognition of these DNA sequences is inherent in a given integrase protein. 
+Phages typically rely on their integrase to mediate a recombination event between an identical sequence shared between the circular form of the prophage genome (*attP*) and the bacterial chromosome (*attB*), and the recognition of these DNA sequences is inherent in a given integrase protein. 
 **Insert at random site**
 
 ## Phages genome size and their lifestyle
 
-Do temperate phages tend to have a smaller genome as they have to streamline their genome as they integrated into the bacterial chromosome, in contrast to lytic (virulent) phages? On the other hand, we conceptualize temperate phages as USB drivers, that transfer information between bacterial kin. Therefore, one can argue, temperate phages should have a larger genome size than lytic phages. Let's take a look into some public datasets and dig this out!  
+Do temperate phages tend to have a smaller genome as they have to streamline their genome as they integrate into the bacterial chromosome, in contrast to lytic (virulent) phages? On the other hand, we conceptualize temperate phages as USB drivers, that transfer information between bacterial kin. Therefore, one can argue, temperate phages should have a larger genome size than lytic phages. Let's take a look into some public datasets and dig this out!  
 
 ![Refseq_phages](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/9d62b771-0e48-4757-a04b-b1c6b9b03fe7)
 I analyzed all phage genomes curated by NCBI-RefSeq and found virulent phages have a medium size of ~80kbp, followed by 53kb of temperate phages. Finally, chronic phages such as Pseudomonas filamentous phage pf5, recently characterized as a standalone lifestyle differ from lytic/lysis as these "chronic phages" replicate in host cells and extrude out without causing cell lysis. 
