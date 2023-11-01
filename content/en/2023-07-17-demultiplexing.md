@@ -24,13 +24,20 @@ The sequencing company first demultiple your "ONE sample" from others, and send 
 I used cutadapt in this process. I am using Mac M2. The annoying part is that the new macbook is built on the Apple Silicon chip, which uses AArch64 (aka. ARM64) architecture, in contrast to the macbook before 2021 build on intel 64-bit CPU and therefore x86_64 architecture. In conda, you can see cutadapt is only supports osx-64. 
 <img width="521" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/f295a028-d2aa-4829-b145-08f89b415416">
 
-So you may want to create a new conda environment with osx-64 plateform. After a lot of husle, I finally managed to install cutadapt 4.4 through miniforge. 
+So you may want to create a new conda environment with osx-64 plateform. After a lot of husle, I finally managed to install cutadapt 4.4 through miniforge. Download miniforge first: https://github.com/conda-forge/miniforge; After this, my miniconda will automatically replaced by miniforge, and all old conda envs are hidden. I need to find ways to re-activate my old miniconda...
+
+<img width="459" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/42ecefcf-602c-4531-b989-96daff6b4047">
 
 ```
   conda create -n intel_env
   conda activate intel_env
   conda config --env --set subdir osx-64
-  conda install python
+  conda install python=3.9
+```
+
+```
+conda install -c bioconda cutadapt
+## this will be downloaded from conda-forge
 ```
 
 ### Sort out the barcoded samples 
