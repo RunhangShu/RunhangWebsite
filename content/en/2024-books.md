@@ -20,12 +20,10 @@ author: Runhang
 
 
 4. 经典费曼 - Rate: 10/10. This book vividly revealed the personalities of this great American physicist, artist, and mathematician Dr. Feynman. Interesting and amazing personal stories and unique life experiences all made this person well-rounded in many aspects such as **building the atomic bomb in the Manhattan Project, playing drums in Brazil during his one-year sabbatical, sketching live nude models in Pasadena, winning a Nobel prize, inspecting NASA's 1986 *Space shuttle Challenger* accident, picking up Las Vegas showgirls**...
-Anyhow, his life cannot be copied. I believe it is a kind of life that many people would envy while he probably created many enemies on the road of finding the truth (the NASA disaster case).
-
-He said that "nature cannot be fooled". He thinks "being-unknowing is better than knowing a wrong answer" because scientific knowledge has different levels of certainty. Some are uncertain, some are largely certain, but nothing is completely certain. 
+Anyhow, his life cannot be copied. I believe it is a kind of life that many people would envy while he probably created many enemies on the road of finding the truth (the NASA disaster case). He said that "nature cannot be fooled". He thinks "being-unknowing is better than knowing a wrong answer" because scientific knowledge has different levels of certainty. Some are uncertain, some are largely certain, but nothing is completely certain. 
 Again, when I was reading this book I was often surprised by how wide were his interests and how acute was his intellect.
 
    <img width="610" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/4431461b-003b-4597-b70b-f1155d9899f3">
 
-
+5. 
    
