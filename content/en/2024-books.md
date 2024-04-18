@@ -25,5 +25,7 @@ Again, when I was reading this book I was often surprised by how wide were his i
 
    <img width="610" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/4431461b-003b-4597-b70b-f1155d9899f3">
 
-5. 
+5. 新药的故事 - Rate: 8/10. 像是一本默沙东（Merck）的中国宣传书。读到默沙东无私的把乙肝疫苗技术转让给中国这个乙肝大国时，我还是挺感动的，讲好了默沙东的“中国故事”。When we talk about big pharmaceutical companies, there are so many negative impressions for their overpriced drugs, corruption (bribery and kickbacks), availability, side effects/drug addiction, and so on. However, in this book, I learned that Merck did some non-profitable actions for the world, especially for developing countries. When big pharma cares not only about competition and revenue but also about making a healthier world, it is playing an irreplaceably positive role in this world.
+   ![image](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/47d9ea57-2e6e-4b36-b527-979f3b3997ee)
+
    
