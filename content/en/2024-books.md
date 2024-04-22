@@ -1,4 +1,3 @@
-![image](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/02faea4e-b3ec-4e5d-ad50-296425d960df)---
 title: Books read in 2024
 date: 2024-04-04
 author: Runhang 
