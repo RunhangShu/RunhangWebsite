@@ -1,4 +1,4 @@
----
+![image](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/02faea4e-b3ec-4e5d-ad50-296425d960df)---
 title: Books read in 2024
 date: 2024-04-04
 author: Runhang 
@@ -25,7 +25,11 @@ Again, when I was reading this book I was often surprised by how wide were his i
 
    <img width="610" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/4431461b-003b-4597-b70b-f1155d9899f3">
 
-5. 新药的故事 - Rate: 8/10. 像是一本默沙东（Merck）的中国宣传书。读到默沙东无私的把乙肝疫苗技术转让给中国这个乙肝大国时，我还是挺感动的，讲好了默沙东的“中国故事”。When we talk about big pharmaceutical companies, there are so many negative impressions of their overpriced drugs, corruption (bribery and kickbacks), availability, side effects/drug addiction, and so on. However, in this book, I learned that Merck was almost a charity during the early times. In the 40th, Merck (led by George W. Merck) kindly released all the patents for producing streptomycin after discussing with Rutgers and Waksman, which means it gave up its monopoly over streptomycin. In 1987, the later Merck CEO (P. Roy Vagalos) continued Merck's spirits and donated Mectizan to anyone who needed it across the world. The donation was estimated worth 3.7B USD. That is the golden age when scientists felt proud to be in big pharma. When big pharma cares not only about competition and revenue but also about making a healthier world, it is playing an irreplaceably positive role in this world. Unfortunately, the old-time is gone because of out-of-control capitalism and I hope the old mode can return back. 
+5. 新药的故事 - 梁贵柏. Rate: 8/10. 像是一本默沙东（Merck）的中国宣传书。读到默沙东无私的把乙肝疫苗技术转让给中国这个乙肝大国时，我还是挺感动的，讲好了默沙东的“中国故事”。When we talk about big pharmaceutical companies, there are so many negative impressions of their overpriced drugs, corruption (bribery and kickbacks), availability, side effects/drug addiction, and so on. However, in this book, I learned that Merck was almost a charity during the early times. In the 40th, Merck (led by George W. Merck) kindly released all the patents for producing streptomycin after discussing with Rutgers and Waksman, which means it gave up its monopoly over streptomycin. In 1987, the later Merck CEO (P. Roy Vagalos) continued Merck's spirits and donated Mectizan to anyone who needed it across the world. The donation was estimated worth 3.7B USD. That is the golden age when scientists felt proud to be in big pharma. When big pharma cares not only about competition and revenue but also about making a healthier world, it is playing an irreplaceably positive role in this world. Unfortunately, the old-time is gone because of out-of-control capitalism and I hope the old mode can be resumed. 
    ![image](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/47d9ea57-2e6e-4b36-b527-979f3b3997ee)
+
+6. Model of my life - Herbert Simon. I found it hard to focus on this book. Maybe it is because I have not read any of Dr. Simon's scientific thesis or papers. 
+
+   ![image](https://github.com/RunhangShu/RunhangWebsite/assets/45881840/9fc45d4b-9590-4caf-9419-c8b73edffc5f)
 
    
