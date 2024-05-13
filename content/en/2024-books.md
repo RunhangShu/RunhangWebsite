@@ -41,4 +41,5 @@ Again, when I was reading this book I was often surprised by how wide were his i
 
    10. 你不可不知的人性2 - 刘墉. Rate: 9/10. 就冲这本书名，我是起初是非常不情愿去看的。反思自己怎么会也掉入这样的俗套，开始“入世”了起来。确实，就想刘老师书里说的，只有做到“入世”才能“出世”。这本书并不是一碗碗冷冰冰的鸡汤不带勺子，丢给你。它更像是一个老爷爷给你讲一个个非常真实的小故事，然后领悟出为人处事之基本原理，即commonsense。
    
-   11. 不安之书 - 费尔南多·佩索阿. 
+   11. 不安之书 - 费尔南多·佩索阿.
+   12. Getting to Yes - Roger Fisher and William Ury. 
