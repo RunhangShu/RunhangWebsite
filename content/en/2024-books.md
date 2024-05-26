@@ -9,7 +9,8 @@ author: Runhang
 
 <img width="667" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/71211a53-a305-471d-a266-374a2fe2018f">
 
-- 读了四分之一，由于时间有限和不想阅读pdf，再加上其实我读到的部分仅仅是对苏格兰近代史的一个详细记载，以及它与英格兰的爱恨情仇。最后弃之。
+
+- 《苏格兰》读了四分之一，由于时间有限和不想阅读pdf，再加上其实我读到的部分仅仅是对苏格兰近代史的一个详细记载，以及它与英格兰的爱恨情仇。最后弃之。
 
 <img width="671" alt="image" src="https://github.com/RunhangShu/RunhangWebsite/assets/45881840/cb07f222-0fd3-40b1-ba3e-d4663c29b4a1">
 
