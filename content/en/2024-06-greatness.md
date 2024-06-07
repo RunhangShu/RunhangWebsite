@@ -5,7 +5,7 @@ data: 2024-06-07
 
 ---
 
-The greatness of human beings is not that we show love to others.
+The greatness of human beings is not that we show love to random people like a delivery person.
 
 The greatness of human beings is that we show love to others despite they we are also living at the hardest time of our life. 
 
