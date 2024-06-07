@@ -1,7 +1,7 @@
 ---
 title: Greatness 
 author: Runhang
-data: 2024-06-07
+date: 2024-06-07
 
 ---
 
