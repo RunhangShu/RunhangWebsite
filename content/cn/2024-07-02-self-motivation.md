@@ -2,7 +2,6 @@
 title: 自我激励的人
 author: Runhang
 date: 2024-07-02
-
 ---
 
 我经常看到有的科研团队在招聘的时候喜欢写，“looking for self-motivated researchers/graduate stuents”。我其实最开始还认为这句话是极好的。它仿佛能在一定程度上的挑出更优秀的候选人。
