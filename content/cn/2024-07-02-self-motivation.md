@@ -1,7 +1,7 @@
 ---
 title: 自我激励的人
-author:Runhang
-date:2024-07-02
+author: Runhang
+date: 2024-07-02
 
 ---
 
