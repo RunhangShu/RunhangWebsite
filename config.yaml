@@ -74,8 +74,8 @@ menu:
       weight: 6
 
 params:
-  description: "Personal website of Runhang Shu; 舒润航的个人网站"
-  footer: "&copy; [Runhang Shu](/) 2019 - 2023"
+  description: "Personal website of Runhang Shu; 个人博客"
+  footer: "&copy; [Runhang Shu](/) 2019 - 2024"
   disqusURL: "https://www.runhangshu.com"
   customJS:
     - "js/fix-toc.js"
