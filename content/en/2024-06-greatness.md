@@ -5,13 +5,15 @@ date: 2024-06-07
 
 ---
 
-The greatness of human beings is not that we show love to random people like a delivery person.
+The greatness of human beings is not just that we show love to random people.
 
-The greatness of human beings is that we show love to random people despite the fact that they we are also living in the hardest times of our lifes. But we still smile to the world. 
+The greatness of human beings is that we show love to random people although we also live in the hardest times of our lives. But, we smile to the world. 
 
 这就是世界对我残酷不公，我却温柔面向世界。因为仁者，是无敌的。 
 
-Struggles can be opportunities; so I told myself, like many other anxious PhD students, the sufferings are what makes your strong, smart, and resilient. 
+Opportunities are hiding in struggles; thus, suffering makes you stronger, wiser, and more resilient. 
+
+Struggles are perpetual, joy is short-lived; Joy comes from a temporary break from struggles. 
 
 
 
