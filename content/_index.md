@@ -7,6 +7,7 @@ disable_highlight: true
 <script async src="https://cse.google.com/cse.js?cx=f74588befb8a640c7">
 </script>
 <div class="gcse-searchbox"></div>
+<div class="gcse-searchresults"></div>
 
 # Recent publications:
 
