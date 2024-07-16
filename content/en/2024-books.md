@@ -70,3 +70,5 @@ Anyhow, his life cannot be copied. I believe it is a kind of life that many peop
 - 资本论
 
 - 忏悔录 - 奥古斯汀（古罗马, 400AD）
+
+- Hillbilly Elegy (乡下人的悲歌) - J.D. Vance. 
