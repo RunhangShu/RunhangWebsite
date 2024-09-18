@@ -6,8 +6,7 @@ slug: "cn/about"
 Hey！🔥Welcome to Runhang's base🔥
 
 \
-   I obtained my M.S. focusing #insect#microbe#nutrtion#behavior at the Univ. of Florida at [Wong
-lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/) Now, I am a 1st-year Ph.D student at [UCI CMB program.](https://cmb.uci.edu/) I was co-advised by Katrine Whiteson and Charles Glabe for the rotation during Fall 2021. I later rotaed in Albert Siryaporn lab and joined the lab! Currently, I am focusing on Pseudomonas phages and lysogen competition. 
+   I obtained my Master's degree focusing on host-microbe interactions at the Univ. of Florida at [Wong lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/). In Sep. 2021, I was admitted to the [UCI CMB program.](https://cmb.uci.edu/), a PhD gateway program. I rotated in three labs and became a PhD candidate in Sep. 2024. Currently, I am focusing on phage transposition. 
 
 
 **Research interests**
@@ -57,7 +56,7 @@ Microbe and human share very similar langugae in the epigenetic modifications. B
 
 -   "Science not communicated is science not done" - Mellisa Marshall
 
-We all love science and cherish that this is the greatest time to do
+We all love science and cherish the fact that this is the greatest time to do
 science. Importantly, we should also TALK about science, SHARE ideas,
 and keep CRITICIZing.
 
