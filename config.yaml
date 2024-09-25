@@ -22,7 +22,7 @@ menu:
       url: "/en/"
       weight: 2
     - name: "CV"
-      url : "https://drive.google.com/file/d/1885DrU8fQZnSb9uf82ewrWqfI6KPm9Xu/view?usp=drive_link" 
+      url : "https://drive.google.com/file/d/1Y8wVyhH84EJ5rM4ttg-oc73Y58ICRaxa/view?usp=sharing" 
       weight: 3
     - name : "Lab notebook"
       url  : "/notebook/"
@@ -39,7 +39,7 @@ menu:
       url: "/en/"
       weight: 2
     - name: "CV"
-      url : "https://drive.google.com/file/d/1885DrU8fQZnSb9uf82ewrWqfI6KPm9Xu/view?usp=drive_link" 
+      url : "https://drive.google.com/file/d/1Y8wVyhH84EJ5rM4ttg-oc73Y58ICRaxa/view?usp=sharing" 
       weight: 3
     - name : "Lab notebook"
       url  : "/notebook/"
@@ -55,7 +55,7 @@ menu:
       url: "/en/"
       weight: 2
     - name: "CV"
-      url : "https://drive.google.com/file/d/1885DrU8fQZnSb9uf82ewrWqfI6KPm9Xu/view?usp=drive_link" 
+      url : "https://drive.google.com/file/d/1Y8wVyhH84EJ5rM4ttg-oc73Y58ICRaxa/view?usp=sharing" 
       weight: 3
     - name : "Lab notebook"
       url  : "/notebook/"
