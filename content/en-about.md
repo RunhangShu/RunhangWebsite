@@ -6,45 +6,26 @@ slug: "cn/about"
 Hey！🔥Welcome to Runhang's base🔥
 
 \
-   I obtained my Master's degree focusing on host-microbe interactions at the Univ. of Florida at [Wong lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/). In Sep. 2021, I was admitted to the [UCI CMB program.](https://cmb.uci.edu/), a PhD gateway program. I rotated in three labs and became a PhD candidate in Sep. 2024. Currently, I am focusing on phage transposition. 
+   In 2021, I earned my Master's degree focusing on host-microbe interactions at the Univ. of Florida at [Wong lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/). Then, I was admitted to the [UCI CMB program.](https://cmb.uci.edu/), a PhD gateway program. I rotated in three labs and became a PhD candidate in Sep. 2024. In Albert Siryaporn's lab, I am studying bacteriophages associated with *Pseudomonas aeruginosa*, a key pathogen causing chronic lung infection. 
 
 
 **Research interests**
 
-***Do microbe modulate our behavior?*** 
-We are living a microbial world where all animals are intimately
+***Do microbes modulate our behavior?*** 
+We are living in a microbial world where all animals are intimately
 associated with microbes. The animal hosts have co-evolved with the
-microbes inhabiting in their body (i.e. gut). While human genome is hard
+microbes inhabiting their body (i.e. gut). While the human genome is hard
 to edit, the gut microbial community and its collective genetic
 materials are easy to amend through diet (prebiotics) and probiotics
-(dietary beneficial microbes), providing novel tactcics to improve human
+(dietary beneficial microbes), providing novel tactics to improve human
 health. Given the epidemic of obesity worldwide and high sugar
-diet-shaped gut microbiome that could alter our feeding behavior, my
-goal is to use *Drosophila* model to illunimate the underlying
+the diet-shaped gut microbiome that could alter our feeding behavior, my
+goal is to use *Drosophila* model to illuminate the underlying
 mechanisms of microbiome-mediated host physiology (e.g. nutritional
 state and appetite).
 
-***Microbiome ecology.*** 
-To translate the study of experimental models into clinical practice
-(Lactobacillus represents a good example), we have to study microbiome
-ecology! Our understanding of microbiome ecology is extremely limited
-such as gut microbial community is composed of \>1000 bacterial taxa
-(some fungi&virus). It remains largely unknown whether the interactions
-of such an intricated network are highly personalized or universal
-across human. Furthermore, despite the gut microbiome intrapersonal
-variation is smaller than that of interpersonal variation, two sets of
-microbiome could exert similar functions, as known as functional
-redundancy of microbiome. The functional redundancy of the gut
-microbiome adds another layer of complexity to gut microbiome ecology.
-There is an urgent call for multi-disciplinary collaborations in
-microbiome study across different systems (soil, ocean, plant, animals).
-On top of continuous efforts in sequencing, bacteria genome editing, and
-clinic trails, I believe, mathematical modeling and simulation can
-provide great insights about designing a personalized microbial cocktail
-for human health.
-
 ***Microbiome and host epigenome.*** 
-Microbe and human share very similar langugae in the epigenetic modifications. Besides, many of microbiome-derived metabolites are involved in the biological process of epigenetic programming. The role of the cross-kingdom communication in driving many diseases including cancer has been unfolding. My goal is to apply computational tools to identify microbiome-associated links between epigenetic markers and diseases. These epigenetic markers and microbiome signature provide both cancer early diagosis and potential microbiome-based treatments. 
+Microbes and humans share very similar language in epigenetic modifications. Besides, many microbiome-derived metabolites are involved in the biological process of epigenetic programming. The role of cross-kingdom communication in driving many diseases including cancer has been unfolding. My goal is to apply computational tools to identify microbiome-associated links between epigenetic markers and diseases. These epigenetic markers and microbiome signature provide both cancer early diagosis and potential microbiome-based treatments. 
 
 **Advocation**
 
@@ -61,7 +42,7 @@ science. Importantly, we should also TALK about science, SHARE ideas,
 and keep CRITICIZing.
 
 \
-  Here, I will log my thoughts on general science and my research field. The website will witness my personal progress and the development of my own research philosophy and life philosophy.
+  Here, I will log my thoughts on general science and my research field. The website will witness my progress and the development of my research philosophy and life philosophy.
 
 \
 \
