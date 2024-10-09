@@ -83,4 +83,4 @@ Anyhow, his life cannot be copied. I believe it is a kind of life that many peop
 
 - 社会契约论 - 卢梭
 
-- 
+- What is life - Erwin Schrödinger. Rate: 8/10. The Nobel-prize winners Crick and Watson, who revealed DNA structure to be double-helix, both credited this book with presenting physical theory to biology, an inspiration to how genetic information could be stored in chemical bonds. Some critics argue that Schrödinger's ideas were from Delbrück, the one of earliest scientists switched from physics to biology. Two essential ideas from this book 1) The second law of thermodynamics states that in any natural process, the total entropy (disorder or randomness) of an isolated system tends to increase over time. He believed that we as humans need to do everything to counter the increase of entropy. 2) he also introduced the idea of an "aperiodic solid" that contained genetic information in its configuration of covalent chemical bonds.
