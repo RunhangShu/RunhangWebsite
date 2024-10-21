@@ -87,4 +87,6 @@ Anyhow, his life cannot be copied. I believe it is a kind of life that many peop
 
 - Why we sleep - Matthew Walker. Rate: 9/10. A book that reiterates the function of sleep that I did not appreciate enough before such as fortifying our memory, reducing mental illness, and improving sports performance (Dr. Walker's sleep study on the NBA player Andre Iguodala). So many eye-opening sleep studies cited by this book, all point to one fact - sleep at least 7-8 hours per day is priceless. He also recommends an afternoon nap.
 
-- One two three...infinite - George Gamow. Rate: 8.5/10. Gamow is an early advocate and developer of Georges Lemaître's Big Bang theory. First published in 1947, 77 years from now. One of the most classic popular science books and is worth reading even today because many theories in this book are still correct. 
+- One two three...infinite - George Gamow. Rate: 8.5/10. Gamow is an early advocate and developer of Georges Lemaître's Big Bang theory. First published in 1947, 77 years from now. One of the most classic popular science books and is worth reading even today because many theories in this book are still correct.
+
+- 三生万物 - 宁高宁. Rate: 8/10. 或许是文化认同，写的要比其他老总的自传（比如，沃尔玛老总写的的富甲美国）要好很多。一生二，而生三，三生万物。凡事以三个故事娓娓道来，文字大气，格局开阔。三同样也是衔接了宁家三兄弟，宁的哥哥宁守诚斯坦福教授，弟弟宁光是中国工程院院士丝毫也不逊色于他。
