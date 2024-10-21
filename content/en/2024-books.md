@@ -89,4 +89,4 @@ Anyhow, his life cannot be copied. I believe it is a kind of life that many peop
 
 - One two three...infinite - George Gamow. Rate: 8.5/10. Gamow is an early advocate and developer of Georges Lemaître's Big Bang theory. First published in 1947, 77 years from now. One of the most classic popular science books and is worth reading even today because many theories in this book are still correct.
 
-- 三生万物 - 宁高宁. Rate: 8/10. 或许是文化认同，写的要比其他老总的自传（比如，沃尔玛老总写的的富甲美国）要好很多。一生二，而生三，三生万物。凡事以三个故事娓娓道来，文字大气，格局开阔。三同样也是衔接了宁家三兄弟，宁的哥哥宁守诚斯坦福教授，弟弟宁光是中国工程院院士丝毫也不逊色于他。
+- 三生万物 - 宁高宁. Rate: 8/10. 宁先生今年8月发行的新书，或许是文化认同，写的要比其他老总的自传（比如，沃尔玛老总写的的富甲美国）要好很多。一生二，而生三，三生万物。凡事以三个故事娓娓道来，文字大气，格局开阔。三同样也是衔接了宁家三兄弟，宁的哥哥宁守诚斯坦福教授，弟弟宁光是中国工程院院士丝毫也不逊色于他。
