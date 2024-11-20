@@ -95,4 +95,6 @@ Anyhow, his life cannot be copied. I believe it is a kind of life that many peop
 
 - 自我突围 - 施一公.
 
+- The world I see - Fei-Fei Li. 在美国，身边逆袭的例子真的不多，阶级固化太严重。不像中国北上广，个个都是“奋一代”。李教授的经历很多奔赴美国，异国他乡在科研圈挣扎的人点燃了一丝希望。这本书的内容和美国即将上任的副总统J.D. Vance的那本乡下人的悲歌有点类似：都是一副不太好打的牌，硬生生被主人公逆天改命了。
+
 - 
