@@ -57,7 +57,7 @@ menu:
 
 params:
   description: "Personal website of Runhang Shu; 个人博客"
-  footer: "&copy; [Runhang Shu](/) 2019 - 2024"
+  footer: "&copy; [Runhang Shu](/) 2019 - 2025"
   disqusURL: "https://www.runhangshu.com"
   customJS:
     - "js/fix-toc.js"
