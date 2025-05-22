@@ -24,9 +24,6 @@ menu:
     - name: "CV"
       url : "https://drive.google.com/file/d/1Y8wVyhH84EJ5rM4ttg-oc73Y58ICRaxa/view?usp=sharing" 
       weight: 3
-    - name : "Lab notebook"
-      url  : "/notebook/"
-      weight: 4
     - name: "严肃扯谈"
       url: "/cn/"
       weight: 5
@@ -41,9 +38,6 @@ menu:
     - name: "CV"
       url : "https://drive.google.com/file/d/1Y8wVyhH84EJ5rM4ttg-oc73Y58ICRaxa/view?usp=sharing" 
       weight: 3
-    - name : "Lab notebook"
-      url  : "/notebook/"
-      weight: 4
     - name: "严肃扯谈"
       url: "/cn/"
       weight: 5
@@ -57,9 +51,6 @@ menu:
     - name: "CV"
       url : "https://drive.google.com/file/d/1Y8wVyhH84EJ5rM4ttg-oc73Y58ICRaxa/view?usp=sharing" 
       weight: 3
-    - name : "Lab notebook"
-      url  : "/notebook/"
-      weight: 4
     - name: "严肃扯谈"
       url: "/cn/"
       weight: 5
