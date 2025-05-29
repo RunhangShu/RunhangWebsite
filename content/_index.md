@@ -9,7 +9,7 @@ disable_highlight: true
 <div class="gcse-searchbox"></div>
 <div class="gcse-searchresults"></div>
 
-# Recent publications:
+# Publications:
 
 # 2021
 
@@ -43,6 +43,6 @@ disable_highlight: true
  
 *The soft and supple will prevail.*
  
-*—LAO TZU*
+*—LAO TZU* (500s BC)
 </font>
 </center>
