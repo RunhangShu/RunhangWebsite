@@ -6,7 +6,6 @@ slug: "cn/about"
 Welcome to my blog. 
 
 \
-
 I earned a Master's degree focusing on host-microbe interactions at the Univ. of Florida at [Wong lab.](http://entnemdept.ufl.edu/people-directory/adam-cn-wong/) in 2021. Then, I was admitted to the [UCI CMB program](https://cmb.uci.edu/), a PhD gateway program. I rotated in three labs and became a PhD candidate in Sep. 2024. In Dr. Albert Siryaporn's lab, I am studying bacteriophages associated with *Pseudomonas aeruginosa*, a bacterial pathogen that causes chronic lung infection. My PhD thesis committee includes Dr. Katrine Whiteson, Dr. Travis Wiles, and Dr. Chang Liu. 
 
 
