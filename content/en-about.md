@@ -11,11 +11,14 @@ I earned a Master's degree focusing on host-microbe interactions at the Univ. of
 
 **Research interests**
 
-***Microbiome and host epigenome.*** 
+***Microbiome and host epigenome*** 
 Microbes and humans share very similar language in epigenetic modifications. Besides, many microbiome-derived metabolites are involved in the biological process of epigenetic programming. The role of cross-kingdom communication in driving many diseases including cancer has been unfolding. I am interested in apply computational tools to identify microbiome-associated links between epigenetic markers and diseases. These epigenetic markers and microbiome signatures provide early cancer diagnosis and potential microbiome-based treatments. 
 
 ***Gut-brain axis?*** 
 Have you heard about "We are what we eat?". I believe increasing consciousness about gut microbiome health among the public has been established thanks to the Human Microbiome Project in the early 2010s. Science has shown that what we eat is shaping the little creatures inhabiting our gut. But can these microbes modulate our nutrient preference in return? While dietary preference is dominantly driven by culture and habits, ample evidence shows that gut microbes can change food decisions in fruit flies (Adam Wong lab). I am interested in studying how certain microbes drive animals' craving for sugar, with the ultimate goal to help humans have less of a resistance to eating healthy. 
+
+***Phage DNA packaging***
+Phages must package their DNA into procapsids to produce new progeny. But how is this process accomplished with such precision, where the phage "knows" which DNA is its own and avoids packaging the wrong sequences?
 
 **Advocation**
 
