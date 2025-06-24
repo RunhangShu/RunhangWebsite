@@ -2,6 +2,7 @@
 title: "DNA Sequence Analyzer"
 date: 2025-06-23
 slug: dna-analyzer
+markup: html
 ---
 
 <link rel="stylesheet" href="/css/dna-tool.css">
@@ -10,6 +11,7 @@ slug: dna-analyzer
 
 This interactive tool helps you analyze DNA sequences with various functions including flanking sequence extraction, reverse complement calculation, and GC content analysis.
 
+{{< rawhtml >}}
 <div class="dna-tool">
     <div class="tool-section">
         <h3>Input Sequence</h3>
@@ -76,6 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script src="/js/dna-analyzer.js"></script>
+{{< /rawhtml >}}
 
 ## How to Use
 
