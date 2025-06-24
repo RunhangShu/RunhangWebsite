@@ -18,7 +18,8 @@ This interactive tool helps you analyze DNA sequences with various functions inc
             <textarea id="sequence-input" placeholder="Enter your DNA sequence here... (A, T, G, C, N allowed)
                 
 Example: ATCGATCGATCGATCGTAGCTAGCTAGC"></textarea>
-        </div>
+
+</div>
         
         <div class="input-group">
             <label>Analysis Type:</label>
