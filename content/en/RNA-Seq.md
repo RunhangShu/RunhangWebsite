@@ -2,8 +2,6 @@
 title: "RNA-seq analysis"
 author: "Runhang"
 date: "2019-12-31"
-from_Rmd: yes
-abstract: \singlespacing 
 ---
 &emsp;&emsp;今天是二零一九年的最后一天，留学时光匆匆而过，研究生生涯已经过去四分之一。在这里，我把这个学期学了的转录组测序方法总结了一下，放在这里供同行参考讨论。
 
