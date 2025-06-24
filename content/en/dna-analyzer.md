@@ -10,6 +10,7 @@ slug: dna-analyzer
 
 This interactive tool helps you analyze DNA sequences with various functions including flanking sequence extraction, reverse complement calculation, and GC content analysis.
 
+{{< rawhtml >}}
 <div class="dna-tool">
     <div class="tool-section">
         <h3>Input Sequence</h3>
