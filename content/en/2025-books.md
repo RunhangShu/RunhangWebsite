@@ -48,4 +48,28 @@ date: 2025-07-01
 
 16. 苏菲的世界
 
-17. 夜航西飞
+17. 夜航西飞 - 伟大而且勇敢的女性，通过文字我认为很难想象她是如何做到在非洲完全没灯灯夜空开飞机的。
+
+18. 万物的签名 - Elizabeth Gilbert. 爱不释手的一本书，如果你问我一位博学家，上知天文航海，下知真菌草菇苔藓，能写出什么作品？应该就是这样的作品了吧？作者对达尔文进化论的无限崇拜和耐心的补充。深得我心，和我胃口，这本书非常像我以后可能会写出来的书的样子。
+
+<img width="317" height="482" alt="image" src="https://github.com/user-attachments/assets/5e58fc31-7e14-48f1-9e09-d745193e1f1c" />
+
+19. 天工开物
+
+20. 产业与文明（复杂社会的兴衰）
+
+21. 少有人走的路
+
+22. 大染坊
+
+23. 逃避自由
+
+24. 可能性的艺术 （比较政治学）- 刘瑜。
+
+25. 打开一颗心（Fragile lives）- Stephen Westaby. 研究性博士可以从此书窥见一瞥医学手术博士的伟大！救人一命，胜造七级浮屠。这本书和美国作家Paul Kalanithi写的When Breath Becomes Air一样都属于医生写的书，如果以后有小孩立志要读Medical school我认为属于必看书籍，但是我感觉英国绅士老头的文风明显更加风趣幽默。
+
+<img width="220" height="329" alt="image" src="https://github.com/user-attachments/assets/10b906a1-8e90-4c23-80d6-3b6bcb75b566" />
+
+
+
+
