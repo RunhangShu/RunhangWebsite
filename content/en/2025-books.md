@@ -72,6 +72,6 @@ date: 2025-07-01
 
 26. 漫长的等待 - 白菜。这应该今年下半年看过最精彩的小说了。六天，每天半小时就读完了。真实得不能再真实，现实得不能再深刻，一个老之将至垂死的淋巴癌患者，如何在回忆爱与被爱的一生。对于人的身老病死，人情冷暖，亲情淡薄，世态炎凉，都值得深思。
 
-27. Breath: the new science of lost art - Jamses Nestor. 
+27. Breath: the new science of lost art - James Nestor. 
 
 
