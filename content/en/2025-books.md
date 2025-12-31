@@ -79,7 +79,7 @@ date: 2025-07-01
 30. Dopamine Nation - Anna Lembke - 小登龙拿给我这本书。作者认为我们深受内分泌激素调控，我们不是抑郁，也不是不自律，只是活在一个“多巴胺被过度供应”的时代。当你每天反复用高刺激（美食、刷剧、短视频）去“拉高多巴胺”，大脑为了维持平衡，会主动把快乐阈值调高，结果是：多巴胺还在分泌，但你已经“感觉不到快乐”了。因此要在痛苦和快乐中寻求一个平衡。应该没人在长跑的过程中感到很开心吧，但是跑完5K的痛苦过后，给人的一种“runner's high”正是身体对多巴胺极度敏感后起到的结果。Lembke称此过程为多巴胺重置（dopamine fast/reset）。但是也要警惕，这种“高级”的快乐也容易上瘾，我认识有类人一天不蹬自行车，腿就痒痒哈哈，他们的多巴胺阈值被拉得很高，一骑就是50公里+这样子。
 31. 寄生虫星球 (Parasite Rex) - Carl Zimmer
 
-<img width="661" height="1000" alt="image" src="https://github.com/user-attachments/assets/b6f49df3-3e0c-4ace-bd72-6cb208b9c200" />
+<img width="220" height="330" alt="image" src="https://github.com/user-attachments/assets/b6f49df3-3e0c-4ace-bd72-6cb208b9c200" />
 
 
 
