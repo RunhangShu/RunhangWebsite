@@ -5,9 +5,9 @@ date: 2026-3-10
 
 ---
 
-<img width="1278" height="1284" alt="image" src="https://github.com/user-attachments/assets/f767fef6-ae49-4343-9c0f-39ddb44fee62" />
+<img width="631" height="385" alt="image" src="https://github.com/user-attachments/assets/f767fef6-ae49-4343-9c0f-39ddb44fee62" />
 
-<img width="1194" height="1412" alt="image" src="https://github.com/user-attachments/assets/65b215b1-2a69-469d-ba06-dc93ce7cdf6c" />
+<img width="631" height="385" alt="image" src="https://github.com/user-attachments/assets/65b215b1-2a69-469d-ba06-dc93ce7cdf6c" />
 
 <img width="631" height="385" alt="image" src="https://github.com/user-attachments/assets/e6e2c8dc-5ce5-4a7c-9731-800c0e7b9884" />
 
