@@ -1,8 +1,7 @@
 ---
 title: Student's lab report
 author: Runhang 
-date: 2026-3-10
-
+date: 2026-03-10
 ---
 
 <img width="631" height="685" alt="image" src="https://github.com/user-attachments/assets/f767fef6-ae49-4343-9c0f-39ddb44fee62" />
