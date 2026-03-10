@@ -2,6 +2,7 @@
 title: Knowledge anxiety 
 author: AI+Runhang
 date: 2026-2-8
+
 ---
 
 Knowledge anxiety people will usually think: there are over 160 million books out there. If I read 30 books per year, I will need over 5 million years to completly reading all of them. Actually, I will never finish reading as there are ~4 million books published each year. 
