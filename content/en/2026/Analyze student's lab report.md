@@ -1,4 +1,4 @@
-<img width="103" height="81" alt="image" src="https://github.com/user-attachments/assets/7478adb5-66bd-49e9-a501-8048debb50a0" />---
+---
 title: Student's lab report
 author: Runhang 
 date: 2026-3-10
