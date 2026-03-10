@@ -34,13 +34,16 @@ date: 2026-3-10
 
 4. **Tetracycline**, similar to Gentamicin, is a broad spectrum drug that targets on the 30S ribosomal subunit. Highly effective on both G- and G+ bacteria.
 
-5. **Polymyxin B** is unique as it directly targets the cell membrane but acts as a detergent, form pore on the outer/inner membrane. Students did not report any case of E.coli's resistance to Polymycin B, although it is not as effective as Ciprofloxacin, Piperacillin, and Gentamicin.
+5. **Polymyxin B** is unique as it directly targets the cell membrane but acts as a detergent, forming pores on the outer/inner membrane. Students did not report any case of E.coli's resistance to Polymycin B, although it is not as effective as Ciprofloxacin, Piperacillin, and Gentamicin.
 
-6. Most of students the E.coli is susceptible to Azithromycin (Macrolide), a very large molecule that targets on the 50S ribosome subunit.
+6. Most students had their E.coli being susceptible to **Azithromycin** (Macrolide), which is a very large molecule that targets the 50S ribosome subunit.  
+
+
 
 **Mixed results and unclear**
+The greatest variations among students were seen in two drugs, Amoxicillin and Cephalothin, both of which are classified as beta-lactam drug. Just like Penicillin and Pi[eracillin, they bind to penicillin-binding proteins (PBPs) to interfe cell wall synthesis. 
 
-1. Students have varied results on Amoxicillin and Cephalothin. **Amoxicillin** is a third-generation (broad-spectrum penicillin) aminopenicillin, which is a semi-synthetic derivative of natural penicillin. It is relatively more effective than Penicillin but not as effective as Piperacillin (which is 4th generation). However, some students reported intermediate resistance towards Amoxicillin
+1. Students have varied results on Amoxicillin and Cephalothin. **Amoxicillin** is a third-generation beta-lactam drug. Its usage is paired with a beta-lactamase inhibitor, clavulanic acid, which should slow down degradation by the cell's enzymes. Not surprisingly, it is relatively more effective than Penicillin (0 inhibition) but not as effective as Piperacillin (which is 4th generation). However, some students reported intermediate resistance towards Amoxicillin. 
 
-2. **Cephalothin** acts as a bactericidal agent by binding to penicillin-binding proteins (PBPs), which weakens the bacterial cell wall and leads to cell lysis. It designed to work for G+ cells, and has moderate effects on G- cells. It is highly effective against beta-lactamase-producing staphylococci because it is a different class of cell wall targeting drug. Not super effective on G-, many students reported intermediate resistance in their *E.coli*. 
+2. **Cephalothin** acts as a bactericidal agent by binding to penicillin-binding proteins (PBPs), which weakens the bacterial cell wall and leads to cell lysis. It is designed to work for G+ cells, and has moderate effects on G- cells. Cephalothin is highly effective against beta-lactamase-producing staphylococci because it differ from penicillins by having this 6-membered ring instead of a 5-membered thiazolidine ring, providing greater stability against beta-lactamases. Not super effective on G-, many students reported intermediate resistance in their *E.coli* compared with some reported susceptibility.
 
