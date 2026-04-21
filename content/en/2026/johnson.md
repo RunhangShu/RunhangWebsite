@@ -1,7 +1,7 @@
 ---
 title: J&J MedTech Site Visit
 author: Runhang Shu
-date: 2026-4-20
+date: 2026-04-20
 ---
 
 I visited the Johnson & Johnson site in Irvine today. The parking was huge with multiple buildings. I was told that the site at Irvine is mainly focusing on Medtech, especially medical devices for heart disease or vision care. As a graduate student at UC Irvine, I am grateful for this opportunity provided by the GPS-STEM, which prepares STEM scientists for a variety of careers within the STEM workforce, and empowers us to become not only skilled scientists but also polished professionals. A few events I attended previously include an AbbVie coffee chat and a J&J fireside chat. I can say GPS-STEM of UCI organizes great events. 
